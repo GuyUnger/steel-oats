@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Toaster" itemID="6600df88-00000133" lastModified="1711334544">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Toaster" itemID="6600df88-00000133" lastModified="1712203589">
   <timeline>
     <DOMTimeline name="Toaster" layerDepthEnabled="true">
       <layers>
@@ -6,17 +6,197 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
-                <script><![CDATA[addEventListener(Event.ENTER_FRAME, enterFrame)
+                <script><![CDATA[import flash.events.KeyboardEvent;
+import flash.geom.Point;
+import flash.display.MovieClip;
 
-var delta = 0
-var lastTime = 0
+stage.addEventListener(KeyboardEvent.KEY_DOWN, keyDown)
+stage.addEventListener(KeyboardEvent.KEY_UP, keyUp)
+addEventListener(Event.ENTER_FRAME, enterFrame)
+
+var keyLeftPressed = false
+var keyRightPressed = false
+var keyUpPressed = false
+var keyDownPressed = false
+var keyAPressed = false
+var keyDPressed = false
+var keyWPressed = false
+var keySPressed = false
+var keySpacePressed = false
+
+var velocity: Point = new Point()
+var velocityTo: Point = new Point()
+
+var level: MovieClip = MovieClip(parent)
+
+var bread = level.bread
+var sinceLaunched = 0
 
 function enterFrame(e) {
-	var time = getTimer()
-	var delta = (time - lastTime) / 1000.0
-	x += delta
-	trace(delta, time)
-	lastTime = time
+	var delta = 1 / 60
+	velocityTo.x = 0
+
+	var accelDuration = 0.5
+	
+	var speed: Number = 400
+	
+	if (bread.launched) {
+		x = lerp(x, bread.x, Math.min(sinceLaunched, 1))
+		sinceLaunched += delta
+		if (sinceLaunched > 0.2 && pointsDistance(x, y, bread.x, bread.y) < 50) {
+			bread.unlaunch()
+			velocity.x = 0
+		}
+	} else {
+		if (keyLeftPressed || keyAPressed) {
+			velocityTo.x -= 1
+		}
+		if (keyRightPressed || keyDPressed) {
+			velocityTo.x += 1
+		}
+		bread.x = x + Math.cos(rotation / 180 * Math.PI - Math.PI * 0.5) * 70
+		bread.y = y + Math.sin(rotation / 180 * Math.PI - Math.PI * 0.5) * 70
+		bread.rotation = rotation
+		velocityTo.x *= speed
+	
+		if (Math.abs(velocityTo.x) > 0){
+			accelDuration = 0.3
+		}
+		
+		velocity.x = moveToward(velocity.x, velocityTo.x, speed / accelDuration * delta)
+	}
+	
+	x += velocity.x * delta
+	
+	var floorLeft = rayFloor(-20)
+	var floorRight = rayFloor(20)
+	
+	y = lerp(y, ((floorLeft + floorRight) / 2), 0.5)
+	
+	if (Math.abs(floorLeft - floorRight) < 40) {
+		rotation = pointsAngle(-20, floorLeft, 20, floorRight) * 10.0
+	} else {
+		rotation = 0
+	}
+}
+
+function launch() {
+	if (bread.launched)
+		return
+	bread.launch()
+	sinceLaunched = 0
+}
+
+function rayFloor(offset) {
+	var checkingX = x + offset
+	var checkingY = y
+	var checkingDistance = 30
+	var spotted = false
+	for(var i = 0; i < 1000; i += 1) {
+		if(level.ground.hitTestPoint(checkingX, checkingY, true)){
+			spotted = true
+			checkingDistance *= 0.5
+			checkingY -= checkingDistance
+			if (checkingDistance < 0.25) {
+				return checkingY
+			}
+		} else {
+			if (spotted) {
+				checkingDistance *= 0.5
+			}
+			checkingY += checkingDistance
+		}
+	}
+	return checkingY
+}
+
+function keyDown(e: KeyboardEvent) {
+	switch(e.keyCode) {
+		case 37:
+			keyLeftPressed = true
+			break
+		case 39:
+			keyRightPressed = true
+			break
+		case 38:
+			keyUpPressed = true
+			break
+		case 40:
+			keyDownPressed = true
+			break
+		case 65:
+			keyAPressed = true
+			break
+		case 68:
+			keyDPressed = true
+			break
+		case 87:
+			keyWPressed = true
+			break
+		case 83:
+			keySPressed = true
+			break
+		case 32:
+			if (!keySpacePressed) {
+				keySpacePressed = true
+				launch()
+			}
+			break
+	}
+}
+
+function keyUp(e: KeyboardEvent) {
+	switch(e.keyCode) {
+		case 37:
+			keyLeftPressed = false
+			break
+		case 39:
+			keyRightPressed = false
+			break
+		case 38:
+			keyUpPressed = false
+			break
+		case 40:
+			keyDownPressed = false
+			break
+		case 65:
+			keyAPressed = false
+			break
+		case 68:
+			keyDPressed = false
+			break
+		case 87:
+			keyWPressed = false
+			break
+		case 83:
+			keySPressed = false
+			break
+		case 32:
+			keySpacePressed = false
+			break
+	}
+}
+
+function lerp(from, to, t) {
+	return from + (to - from) * t
+}
+
+function moveToward(from, to, delta) {
+	if (from < to) {
+		return Math.min(from + delta, to)
+	} else {
+		return Math.max(from - delta, to)
+	}
+}
+
+function pointsAngle(fromX, fromY, toX, toY) {
+	return (Math.atan2(fromY - toY, fromX - fromY) + Math.PI) / Math.PI * 180.0
+}
+
+function pointsDistance(fromX, fromY, toX, toY) {
+	var dx:Number = toX - fromX;
+	var dy:Number = toY - fromY;
+	return Math.sqrt(dx * dx + dy * dy);
 }]]></script>
               </Actionscript>
               <elements/>
@@ -29,12 +209,12 @@ function enterFrame(e) {
               <elements>
                 <DOMGroup>
                   <matrix>
-                    <Matrix tx="-265" ty="-459.35"/>
+                    <Matrix tx="-265" ty="-496"/>
                   </matrix>
                   <members>
                     <DOMShape>
                       <matrix>
-                        <Matrix tx="-265" ty="-459.35"/>
+                        <Matrix tx="-265" ty="-496"/>
                       </matrix>
                       <fills>
                         <FillStyle index="1">
@@ -45,14 +225,14 @@ function enterFrame(e) {
                         </FillStyle>
                       </fills>
                       <edges>
-                        <Edge fillStyle1="1" edges="!5503.5 8309S2[#1586.B4 #2070.8D 5520 8303!5520 8303[#159D.E9 #206D.9 5545.5 8308!5545.5 8308[#15F7.F8 8307 5744 8307!5744 8307|6432 8311!6432 8311[6488 8313 6506 8332!6506 8332[6523 8350 6525 8396!6525 8396[6549 8817 6554 9284!6554 9284
+                        <Edge fillStyle1="1" edges="!5503.5 8309[#1586.B4 #2070.8D 5520 8303!5520 8303[#159D.E9 #206D.9 5545.5 8308!5545.5 8308[#15F7.F8 8307 5744 8307!5744 8307|6432 8311!6432 8311[6488 8313 6506 8332!6506 8332[6523 8350 6525 8396!6525 8396[6549 8817 6554 9284!6554 9284
 [6554 9407 6538 9466!6538 9466[6536 9475 6524 9512!6524 9512[6515 9540 6512 9559!6512 9559[6509 9577 6510 9640!6510 9640[6511 9691 6500 9719!6500 9719[6481 9770 6420 9803!6420 9803[6380 9825 6303 9845!6303 9845|5798 9975!5798 9975[#16A2.CE
  #26F7.D8 5791.5 9976.5!5791.5 9976.5[#169C.C9 #2701.6E 5785 9993!5785 9993[5770 10020 5746 10020!5746 10020[5732 10020 5720 10010!5720 10010[#1650.F7 #2714.BA 5708.5 9997.5"/>
                         <Edge fillStyle0="2" fillStyle1="1" edges="
-!5708.5 9997.5S3[#1649.12 #2708.CB 5703 9987!5703 9987[5695 9967 5697 9929!5697 9929[5699 9881 5703 9833!5703 9833[5703 9829 5715 9709!5715 9709[5722 9622 5728 9452!5728 9452[5731 9348 5729 9296!5729 9296[5726 9210 5709 9143!5709 9143
-[5697 9094 5661 9000!5661 9000[5588 8810 5555 8704!5555 8704[5502 8538 5481 8399!5481 8399[5475 8363 5481 8342!5481 8342[#156F.36 #207E.89 5503.5 8309"/>
+!5708.5 9997.5[#1649.12 #2708.CB 5703 9987!5703 9987[5695 9967 5697 9929!5697 9929[5699 9881 5703 9833!5703 9833[5703 9829 5715 9709!5715 9709[5722 9622 5728 9452!5728 9452[5731 9348 5729 9296!5729 9296[5726 9210 5709 9143!5709 9143[5697
+ 9094 5661 9000!5661 9000[5588 8810 5555 8704!5555 8704[5502 8538 5481 8399!5481 8399[5475 8363 5481 8342!5481 8342[#156F.36 #207E.89 5503.5 8309"/>
                         <Edge fillStyle1="2" edges="
-!5708.5 9997.5S2[#1589.74 #273D.E4 5393 10059!5393 10059[5299 10069 5111 10071!5111 10071[4947 10073 4865 10071!4865 10071[4728 10068 4619 10055!4619 10055[#1127.36 #272B.1C 4221.5 9949!4221.5 9949[#1079.5C #26DC.DF 4213 9948!4213 9948
+!5708.5 9997.5[#1589.74 #273D.E4 5393 10059!5393 10059[5299 10069 5111 10071!5111 10071[4947 10073 4865 10071!4865 10071[4728 10068 4619 10055!4619 10055[#1127.36 #272B.1C 4221.5 9949!4221.5 9949[#1079.5C #26DC.DF 4213 9948!4213 9948
 [4199 9945 4183 9933!4183 9933[#1052.1B #26C9.BD 4176.5 9926.5!4176.5 9926.5[#1032.12 #26B4.24 4136 9888!4136 9888[4124 9865 4128 9811!4128 9811[4137 9702 4125 9594!4125 9594[4120 9552 4089 9381!4089 9381[4038 9100 4047 8812!4047 8812
 [4051 8695 4081 8638!4081 8638[4125 8552 4251 8497!4251 8497[4332 8461 4439 8438!4439 8438[4510 8422 4635 8405!4635 8405|5061 8348!5061 8348[5302 8318 5443 8311!5443 8311[#155A.EB #2075.CE 5503.5 8309"/>
                         <Edge cubics="!4136 9888(;4124,9865 4126,9837 4128,9811q4136 9888Q4124 9865q4128 9811);"/>
@@ -104,12 +284,12 @@ function enterFrame(e) {
                     </DOMShape>
                     <DOMGroup>
                       <matrix>
-                        <Matrix tx="-265" ty="-459.35"/>
+                        <Matrix tx="-265" ty="-496"/>
                       </matrix>
                       <members>
                         <DOMShape>
                           <matrix>
-                            <Matrix tx="-265" ty="-459.35"/>
+                            <Matrix tx="-265" ty="-496"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
