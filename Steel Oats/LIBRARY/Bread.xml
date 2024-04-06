@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Bread" itemID="6600df7e-00000130" lastModified="1712205049">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Bread" itemID="6600df7e-00000130" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Bread" lastModified="1712378848">
   <timeline>
     <DOMTimeline name="Bread" layerDepthEnabled="true">
       <layers>
@@ -6,91 +6,165 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
-                <script><![CDATA[import flash.events.KeyboardEvent;
-import flash.geom.Point;
+                <script><![CDATA[import flash.geom.Point;
 import flash.display.MovieClip;
-
-stage.addEventListener(KeyboardEvent.KEY_DOWN, keyDown)
-stage.addEventListener(KeyboardEvent.KEY_UP, keyUp)
-addEventListener(Event.ENTER_FRAME, enterFrame)
+import flash.events.MouseEvent;
 
 var speed: Number = 400
 
-var keyLeftPressed = false
-var keyRightPressed = false
-var keyUpPressed = false
-var keyDownPressed = false
-var keyAPressed = false
-var keyDPressed = false
-var keyWPressed = false
-var keySPressed = false
-var keySpacePressed = false
+var shootPressed = false
 
 var velocity: Point = new Point()
 var velocityTo: Point = new Point()
 
-var level: MovieClip = MovieClip(parent)
 
 var launched = false
 
 var shootT = 0.1
 
-var sinceJump = 0.0
+var sinceJump = 99.0
 
 var jumpHolding = false
 
-stop()
+var state = 0
+var attacking = false
 
-function enterFrame(e) {
+var aimX = 0
+var aimY = 0
+var aimAngle = 0
+
+var sinceReturning = 0
+
+var returningSpin = false
+
+stop()
+Game.bread = this
+
+function update() {
 	if (launched)
 		processAir()
+	else {
+		
+		x = Game.toaster.x + Math.cos(Game.toaster.rotation / toDegrees - Math.PI * 0.5) * 70
+		y = Game.toaster.y + Math.sin(Game.toaster.rotation / toDegrees - Math.PI * 0.5) * 70
+		model.scaleX = Game.toaster.model.scaleX
+		rotation = Game.toaster.rotation
+	}
 }
 
 
 function processAir() {
-	if (sinceJump > 0.1 && jumpHolding) {
-		Game.speed = moveToward(Game.speed, 0.1, 0.05)
-	} else {
-		Game.speed = moveToward(Game.speed, 1.0, 0.05)
+	if (!attacking && sinceJump > 0.05 && jumpHolding) {
+		setAttacking(true)
 	}
+	if (attacking && !jumpHolding && sinceReturning > 0.2) {
+		setAttacking(false)
+		
+	}
+	if (attacking) {
+		Game.speed = moveToward(Game.speed, 0.4, 0.1)
+	} else {
+		Game.speed = moveToward(Game.speed, 1.0, 0.01)
+	}
+	
 	var delta = 1 / 60 * Game.speed
 	sinceJump += 1 / 60
+	
+	if (jumpHolding && velocity.y > 1000) {
+		jumpHolding = false
+	}
 	
 	velocityTo.x = 0
 	
 	var accelDuration = 2.0
 
-	if (keyLeftPressed || keyAPressed) {
+	if (Game.keyAPressed) {
 		velocityTo.x -= 1
 	}
-	if (keyRightPressed || keyDPressed) {
+	if (Game.keyDPressed) {
 		velocityTo.x += 1
 	}
-	
 	velocityTo.x *= speed
 	
 	if (Math.abs(velocityTo.x) > 0){
 		accelDuration = 0.2
 	}
 	
-	velocity.x = moveToward(velocity.x, velocityTo.x, speed / accelDuration * delta)
+	if (jumpHolding) {
+		if (Game.keySpaceJustReleased ) {
+			jumpHolding = false
+			returningSpin = true
+			if (!attacking) {
+				Game.bars.gotoAndPlay("close")
+			}
+		}
+	} else {
+		sinceReturning += delta / 0.2
+	}
+	
+	
+	if (jumpHolding || attacking) {
+		if (Game.mouseJustPressed) {
+			shootPressed = true
+		}
+		velocity.x = moveToward(velocity.x, velocityTo.x, speed / accelDuration * delta)
+		velocity.y += (Math.abs(velocity.y * 3) + 600) * delta
+	} else {
+		if (returningSpin) {
+			
+			if (sinceReturning < 0.2) {
+				rotation += 360 * 8 * delta * (velocity.x > 0 ? 1 : -1)
+				delta *= 0.2
+			}
+		}
+		
+		var angleToToaster = pointsAngle(x, y, Game.toaster.x, Game.toaster.y)
+		var speed = 1000 * delta * Math.min(sinceReturning, 4)
+		x += Math.cos(angleToToaster) * speed
+		y += Math.sin(angleToToaster) * speed
+		
+		rotation += sinceReturning * 10.0
+		
+		velocity.x -= velocity.x * delta * 5.0
+		velocity.y -= velocity.y * delta * 5.0
+		//velocity.y += 4000 * delta
+		if (pointsDistance(x, y, Game.toaster.x, Game.toaster.y) < 50) {
+			unlaunch()
+		}
+	}
+	
 	x += velocity.x * delta
 	y += velocity.y * delta
 	
 	model.rotation += velocity.x * delta * 2.0
 	
-	if (jumpHolding) {
-		velocity.y += (Math.abs(velocity.y * 3) + 600) * delta
-	} else {
-		velocity.y += 4000 * delta
+	shootT -= 1 / 60
+	if (shootT <= 0 && jumpHolding && shootPressed) {
+		shootT += 0.2
+		shootBullet(0)
+		shootPressed = false
+		Game.speed = 1.0
 	}
 	
-	shootT -= delta
-	if (shootT < 0) {
-		shootT += 0.01
-		shootBullet(0)
-		//shootBullet(180)
-	}
+	aimAngle = pointAngle(mouseX, mouseY)
+	
+	aimX = Math.cos(aimAngle)
+	aimY = Math.sin(aimAngle)
+	
+	gun.x = aimX * 60
+	gun.y = aimY * 60
+	gun.rotation = aimAngle * toDegrees
+	gun.scaleY = aimX < 0 ? -1 : 1
+	
+}
+
+function setAttacking(value) {
+	if (attacking == value)
+		return
+	attacking = value
+	gun.visible = value
+	if (!value)
+		Game.bars.gotoAndPlay("close")
 }
 
 function launch() {
@@ -104,30 +178,36 @@ function launch() {
 	shootT = 0.2
 	jumpHolding = true
 	sinceJump = 0.0
+	sinceReturning = 0.0
+	shootPressed = false
+	Game.bars.gotoAndPlay("open")
 }
 
 function shootBullet(angleOffset) {
 	var bullet = new Bullet()
-	level.addChild(bullet)
+	Game.level.addChild(bullet)
 	
-	var angle = pointAngle(mouseX, mouseY)
-	var dirX = Math.cos(angle + Math.PI)
-	var dirY = Math.sin(angle + Math.PI)
-	
-	bullet.x = x + dirX * 50
-	bullet.y = y + dirY * 50
+	bullet.x = x + aimX * 60
+	bullet.y = y + aimY * 60
 	var speed = 1500
 	bullet.init(
-			dirX * speed,
-			dirY * speed
+			aimX * speed,
+			aimY * speed
 	)
-	bullet.rotation = angle * toDegrees + 180
+	velocity.x -= aimX * 150
+	velocity.y -= aimY * 60
+	bullet.rotation = aimAngle * toDegrees
 }
 
 function unlaunch() {
+	setAttacking(false)
+	model.rotation = 0
 	launched = false
 	model.gotoAndStop(1)
 	Game.speed = 1
+	gun.visible = false
+	if (Game.bars.currentFrame > 1 && Game.bars.currentFrame < 7)
+		Game.bars.gotoAndPlay("close")
 }
 
 function rayFloor(offset) {
@@ -136,7 +216,7 @@ function rayFloor(offset) {
 	var checkingDistance = 30
 	var spotted = false
 	for(var i = 0; i < 1000; i += 1) {
-		if(level.ground.hitTestPoint(checkingX, checkingY, true)){
+		if(Game.level.ground.hitTestPoint(checkingX, checkingY, true)){
 			spotted = true
 			checkingDistance *= 0.5
 			checkingY -= checkingDistance
@@ -152,101 +232,7 @@ function rayFloor(offset) {
 	}
 	return checkingY
 }
-
-function keyDown(e: KeyboardEvent) {
-	switch(e.keyCode) {
-		case 37:
-			keyLeftPressed = true
-			break
-		case 39:
-			keyRightPressed = true
-			break
-		case 38:
-			keyUpPressed = true
-			break
-		case 40:
-			keyDownPressed = true
-			break
-		case 65:
-			keyAPressed = true
-			break
-		case 68:
-			keyDPressed = true
-			break
-		case 87:
-			keyWPressed = true
-			break
-		case 83:
-			keySPressed = true
-			break
-		case 32:
-			if (!keySpacePressed) {
-				keySpacePressed = true
-				launch()
-			}
-			break
-	}
-}
-
-function keyUp(e: KeyboardEvent) {
-	switch(e.keyCode) {
-		case 37:
-			keyLeftPressed = false
-			break
-		case 39:
-			keyRightPressed = false
-			break
-		case 38:
-			keyUpPressed = false
-			break
-		case 40:
-			keyDownPressed = false
-			break
-		case 65:
-			keyAPressed = false
-			break
-		case 68:
-			keyDPressed = false
-			break
-		case 87:
-			keyWPressed = false
-			break
-		case 83:
-			keySPressed = false
-			break
-		case 32:
-			keySpacePressed = false
-			if (jumpHolding) {
-				jumpHolding = false
-				Game.speed = 1.0
-			}
-			break
-	}
-}
-
-function lerp(from, to, t) {
-	return from + (to - from) * t
-}
-
-function moveToward(from, to, delta) {
-	if (from < to) {
-		return Math.min(from + delta, to)
-	} else {
-		return Math.max(from - delta, to)
-	}
-}
-
-function pointAngle(fromX, fromY, toX = 0, toY = 0) {
-	return (Math.atan2(fromY - toY, fromX - fromY) + Math.PI)
-}
-
-var toDegrees = 180.0 / Math.PI
-
-function pointsDistance(fromX, fromY, toX, toY) {
-	var dx:Number = toX - fromX;
-	var dy:Number = toY - fromY;
-	return Math.sqrt(dx * dx + dy * dy);
-}]]></script>
+]]></script>
               </Actionscript>
               <elements/>
             </DOMFrame>
@@ -256,9 +242,17 @@ function pointsDistance(fromX, fromY, toX, toY) {
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="BreadFrames" name="model">
+                <DOMSymbolInstance libraryItemName="BreadModel" name="model">
                   <matrix>
                     <Matrix tx="0.05" ty="-0.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Gun" name="gun">
+                  <matrix>
+                    <Matrix tx="47.3" ty="-0.95"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>

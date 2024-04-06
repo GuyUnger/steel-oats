@@ -43,8 +43,8 @@
     <AlternateFilename>Steel Oats_alternate.html</AlternateFilename>
     <UsingOwnAlternateFile>0</UsingOwnAlternateFile>
     <OwnAlternateFilename></OwnAlternateFilename>
-    <Width>950</Width>
-    <Height>650</Height>
+    <Width>1100</Width>
+    <Height>700</Height>
     <Align>0</Align>
     <Units>0</Units>
     <Loop>1</Loop>
@@ -117,8 +117,8 @@
     <TelemetryPassword></TelemetryPassword>
   </PublishFlashProperties>
   <PublishJpegProperties enabled="true">
-    <Width>950</Width>
-    <Height>650</Height>
+    <Width>1100</Width>
+    <Height>700</Height>
     <Progressive>0</Progressive>
     <DPI>4718592</DPI>
     <Size>0</Size>
@@ -126,8 +126,8 @@
     <MatchMovieDim>1</MatchMovieDim>
   </PublishJpegProperties>
   <PublishGifProperties enabled="true">
-    <Width>950</Width>
-    <Height>650</Height>
+    <Width>1100</Width>
+    <Height>700</Height>
     <Animated>0</Animated>
     <MatchMovieDim>1</MatchMovieDim>
     <Loop>1</Loop>
@@ -136,16 +136,16 @@
     <MaxColors>255</MaxColors>
   </PublishGifProperties>
   <PublishPNGProperties enabled="true">
-    <Width>950</Width>
-    <Height>650</Height>
+    <Width>1100</Width>
+    <Height>700</Height>
     <MatchMovieDim>1</MatchMovieDim>
     <Smooth>1</Smooth>
     <BitDepth>24-bit with Alpha</BitDepth>
     <MaxColors>255</MaxColors>
   </PublishPNGProperties>
   <PublishOamProperties enabled="true">
-    <Width>950</Width>
-    <Height>650</Height>
+    <Width>1100</Width>
+    <Height>700</Height>
     <CurrentFramePNG>1</CurrentFramePNG>
     <CustomPNG>0</CustomPNG>
     <PNGFilePath></PNGFilePath>

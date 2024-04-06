@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Toaster" itemID="6600df88-00000133" lastModified="1712203589">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Toaster" itemID="6600df88-00000133" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Toaster" lastModified="1712417911">
   <timeline>
     <DOMTimeline name="Toaster" layerDepthEnabled="true">
       <layers>
@@ -10,194 +10,143 @@
 import flash.geom.Point;
 import flash.display.MovieClip;
 
-stage.addEventListener(KeyboardEvent.KEY_DOWN, keyDown)
-stage.addEventListener(KeyboardEvent.KEY_UP, keyUp)
-addEventListener(Event.ENTER_FRAME, enterFrame)
-
-var keyLeftPressed = false
-var keyRightPressed = false
-var keyUpPressed = false
-var keyDownPressed = false
-var keyAPressed = false
-var keyDPressed = false
-var keyWPressed = false
-var keySPressed = false
-var keySpacePressed = false
 
 var velocity: Point = new Point()
 var velocityTo: Point = new Point()
 
-var level: MovieClip = MovieClip(parent)
 
-var bread = level.bread
-var sinceLaunched = 0
+var sinceLaunched = 0.0
 
-function enterFrame(e) {
+var isOnFloor = false
+
+var dashT = 0
+var dashDirectionX = 0
+var dashDirectionY = 0
+
+Game.toaster = this
+
+function update() {
 	var delta = 1 / 60
+	delta *= Game.speed
 	velocityTo.x = 0
 
 	var accelDuration = 0.5
 	
-	var speed: Number = 400
+	var speed: Number = 800
 	
-	if (bread.launched) {
-		x = lerp(x, bread.x, Math.min(sinceLaunched, 1))
+	if (Game.bread.launched && Game.bread.jumpHolding) {
 		sinceLaunched += delta
-		if (sinceLaunched > 0.2 && pointsDistance(x, y, bread.x, bread.y) < 50) {
-			bread.unlaunch()
-			velocity.x = 0
-		}
+		velocity.x -= velocity.x * 0.1
+		//velocity.x = bread.x < x ? -1 : 1
+		//x = lerp(x, bread.x, Math.min(sinceLaunched / 10.0, 0.05))
 	} else {
-		if (keyLeftPressed || keyAPressed) {
+		if (Game.keyAPressed) {
 			velocityTo.x -= 1
 		}
-		if (keyRightPressed || keyDPressed) {
+		if (Game.keyDPressed) {
 			velocityTo.x += 1
 		}
-		bread.x = x + Math.cos(rotation / 180 * Math.PI - Math.PI * 0.5) * 70
-		bread.y = y + Math.sin(rotation / 180 * Math.PI - Math.PI * 0.5) * 70
-		bread.rotation = rotation
 		velocityTo.x *= speed
-	
+		
 		if (Math.abs(velocityTo.x) > 0){
-			accelDuration = 0.3
+			if (Math.abs(velocity.x) < speed * 0.3) {
+				accelDuration = 0.1
+			} else {
+				accelDuration = 1.0
+			}
 		}
 		
 		velocity.x = moveToward(velocity.x, velocityTo.x, speed / accelDuration * delta)
 	}
 	
 	x += velocity.x * delta
+	x += Math.abs(velocity.x) * rotation * delta * 0.01
 	
-	var floorLeft = rayFloor(-20)
-	var floorRight = rayFloor(20)
+	var floorLeft = rayFloor(-40)
+	var floorRight = rayFloor(40)
 	
-	y = lerp(y, ((floorLeft + floorRight) / 2), 0.5)
-	
-	if (Math.abs(floorLeft - floorRight) < 40) {
-		rotation = pointsAngle(-20, floorLeft, 20, floorRight) * 10.0
-	} else {
-		rotation = 0
+	if (Math.abs(floorLeft - floorRight) > 60) {
+		floorLeft = Math.min(floorLeft, floorRight)
+		floorRight = floorLeft
 	}
+	var floorY = (floorLeft + floorRight) / 2
+	
+	
+	if (!isOnFloor && y > floorY) {
+		isOnFloor = true
+	}
+	if (isOnFloor && floorY > y + 30) {
+		isOnFloor = false
+	}
+	
+	if (isOnFloor) {
+		y = floorY//lerp(y, floorY, 0.8)
+		
+		
+		rotation = pointsAngle(-40, floorLeft, 40, floorRight) * toDegrees * 0.8
+		
+		if (Game.sinceSpacePressed < 0.1) {
+			Game.sinceSpacePressed = 999
+			isOnFloor = false
+			y -= 10
+			velocity.y = -1000
+		}
+	} else {
+		
+		if (Game.sinceSpacePressed < 0.1) {
+			Game.sinceSpacePressed = 999
+			launch()
+		}
+		velocity.y += delta * 2500.0
+		y += velocity.y * delta
+		rotation -= rotation * delta * 5.0
+	}
+	
+	if (velocity.x > 0) {
+		model.scaleX = 1
+	} else {
+		model.scaleX = -1
+	}
+	
+	
 }
 
 function launch() {
-	if (bread.launched)
+	if (Game.bread.launched)
 		return
-	bread.launch()
+	Game.bread.launch()
 	sinceLaunched = 0
+	velocity.y += 500.0
 }
 
+var checking = new Point()
 function rayFloor(offset) {
-	var checkingX = x + offset
-	var checkingY = y
+	checking.x = x + offset
+	checking.y = y - 100
+	
+	checking = Game.level.localToGlobal(checking)	
+	
+	//checking = level.ground.globalToLocal(checking)
 	var checkingDistance = 30
 	var spotted = false
 	for(var i = 0; i < 1000; i += 1) {
-		if(level.ground.hitTestPoint(checkingX, checkingY, true)){
+		if(Game.level.ground.hitTestPoint(checking.x, checking.y, true)){
 			spotted = true
 			checkingDistance *= 0.5
-			checkingY -= checkingDistance
+			checking.y -= checkingDistance
 			if (checkingDistance < 0.25) {
-				return checkingY
+				return Game.level.globalToLocal(checking).y
 			}
 		} else {
 			if (spotted) {
 				checkingDistance *= 0.5
 			}
-			checkingY += checkingDistance
+			checking.y += checkingDistance
 		}
 	}
-	return checkingY
+	return Game.level.globalToLocal(checking).y
 }
-
-function keyDown(e: KeyboardEvent) {
-	switch(e.keyCode) {
-		case 37:
-			keyLeftPressed = true
-			break
-		case 39:
-			keyRightPressed = true
-			break
-		case 38:
-			keyUpPressed = true
-			break
-		case 40:
-			keyDownPressed = true
-			break
-		case 65:
-			keyAPressed = true
-			break
-		case 68:
-			keyDPressed = true
-			break
-		case 87:
-			keyWPressed = true
-			break
-		case 83:
-			keySPressed = true
-			break
-		case 32:
-			if (!keySpacePressed) {
-				keySpacePressed = true
-				launch()
-			}
-			break
-	}
-}
-
-function keyUp(e: KeyboardEvent) {
-	switch(e.keyCode) {
-		case 37:
-			keyLeftPressed = false
-			break
-		case 39:
-			keyRightPressed = false
-			break
-		case 38:
-			keyUpPressed = false
-			break
-		case 40:
-			keyDownPressed = false
-			break
-		case 65:
-			keyAPressed = false
-			break
-		case 68:
-			keyDPressed = false
-			break
-		case 87:
-			keyWPressed = false
-			break
-		case 83:
-			keySPressed = false
-			break
-		case 32:
-			keySpacePressed = false
-			break
-	}
-}
-
-function lerp(from, to, t) {
-	return from + (to - from) * t
-}
-
-function moveToward(from, to, delta) {
-	if (from < to) {
-		return Math.min(from + delta, to)
-	} else {
-		return Math.max(from - delta, to)
-	}
-}
-
-function pointsAngle(fromX, fromY, toX, toY) {
-	return (Math.atan2(fromY - toY, fromX - fromY) + Math.PI) / Math.PI * 180.0
-}
-
-function pointsDistance(fromX, fromY, toX, toY) {
-	var dx:Number = toX - fromX;
-	var dy:Number = toY - fromY;
-	return Math.sqrt(dx * dx + dy * dy);
-}]]></script>
+]]></script>
               </Actionscript>
               <elements/>
             </DOMFrame>
@@ -207,135 +156,14 @@ function pointsDistance(fromX, fromY, toX, toY) {
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMGroup>
+                <DOMSymbolInstance libraryItemName="ToasterModel" name="model">
                   <matrix>
-                    <Matrix tx="-265" ty="-496"/>
+                    <Matrix ty="-36.6"/>
                   </matrix>
-                  <members>
-                    <DOMShape>
-                      <matrix>
-                        <Matrix tx="-265" ty="-496"/>
-                      </matrix>
-                      <fills>
-                        <FillStyle index="1">
-                          <SolidColor color="#D3C9C6"/>
-                        </FillStyle>
-                        <FillStyle index="2">
-                          <SolidColor color="#8A7E7B"/>
-                        </FillStyle>
-                      </fills>
-                      <edges>
-                        <Edge fillStyle1="1" edges="!5503.5 8309[#1586.B4 #2070.8D 5520 8303!5520 8303[#159D.E9 #206D.9 5545.5 8308!5545.5 8308[#15F7.F8 8307 5744 8307!5744 8307|6432 8311!6432 8311[6488 8313 6506 8332!6506 8332[6523 8350 6525 8396!6525 8396[6549 8817 6554 9284!6554 9284
-[6554 9407 6538 9466!6538 9466[6536 9475 6524 9512!6524 9512[6515 9540 6512 9559!6512 9559[6509 9577 6510 9640!6510 9640[6511 9691 6500 9719!6500 9719[6481 9770 6420 9803!6420 9803[6380 9825 6303 9845!6303 9845|5798 9975!5798 9975[#16A2.CE
- #26F7.D8 5791.5 9976.5!5791.5 9976.5[#169C.C9 #2701.6E 5785 9993!5785 9993[5770 10020 5746 10020!5746 10020[5732 10020 5720 10010!5720 10010[#1650.F7 #2714.BA 5708.5 9997.5"/>
-                        <Edge fillStyle0="2" fillStyle1="1" edges="
-!5708.5 9997.5[#1649.12 #2708.CB 5703 9987!5703 9987[5695 9967 5697 9929!5697 9929[5699 9881 5703 9833!5703 9833[5703 9829 5715 9709!5715 9709[5722 9622 5728 9452!5728 9452[5731 9348 5729 9296!5729 9296[5726 9210 5709 9143!5709 9143[5697
- 9094 5661 9000!5661 9000[5588 8810 5555 8704!5555 8704[5502 8538 5481 8399!5481 8399[5475 8363 5481 8342!5481 8342[#156F.36 #207E.89 5503.5 8309"/>
-                        <Edge fillStyle1="2" edges="
-!5708.5 9997.5[#1589.74 #273D.E4 5393 10059!5393 10059[5299 10069 5111 10071!5111 10071[4947 10073 4865 10071!4865 10071[4728 10068 4619 10055!4619 10055[#1127.36 #272B.1C 4221.5 9949!4221.5 9949[#1079.5C #26DC.DF 4213 9948!4213 9948
-[4199 9945 4183 9933!4183 9933[#1052.1B #26C9.BD 4176.5 9926.5!4176.5 9926.5[#1032.12 #26B4.24 4136 9888!4136 9888[4124 9865 4128 9811!4128 9811[4137 9702 4125 9594!4125 9594[4120 9552 4089 9381!4089 9381[4038 9100 4047 8812!4047 8812
-[4051 8695 4081 8638!4081 8638[4125 8552 4251 8497!4251 8497[4332 8461 4439 8438!4439 8438[4510 8422 4635 8405!4635 8405|5061 8348!5061 8348[5302 8318 5443 8311!5443 8311[#155A.EB #2075.CE 5503.5 8309"/>
-                        <Edge cubics="!4136 9888(;4124,9865 4126,9837 4128,9811q4136 9888Q4124 9865q4128 9811);"/>
-                        <Edge cubics="!4128 9811(;4134,9739 4133,9666 4125,9594q4128 9811Q4137 9702q4125 9594);"/>
-                        <Edge cubics="!4125 9594(;4117,9522 4102,9452 4089,9381q4125 9594Q4120 9552q4089 9381);"/>
-                        <Edge cubics="!4089 9381(;4055,9194 4041,9003 4047,8812q4089 9381Q4038 9100q4047 8812);"/>
-                        <Edge cubics="!4047 8812(;4049,8753 4053,8691 4081,8638q4047 8812Q4051 8695q4081 8638);"/>
-                        <Edge cubics="!4081 8638(;4115,8571 4182,8527 4251,8497q4081 8638Q4125 8552q4251 8497);"/>
-                        <Edge cubics="!4251 8497(;4372,8443 4504,8423 4635,8405q4251 8497Q4332 8461q4439 8438Q4510 8422q4635 8405);"/>
-                        <Edge cubics="!4635 8405(;4777,8385 4919,8366 5061,8348q4635 8405 5061 8348);"/>
-                        <Edge cubics="!5061 8348(;5188,8332 5315,8317 5443,8311q5061 8348Q5302 8318q5443 8311);"/>
-                        <Edge cubics="!5443 8311(;5463,8310 5484,8309 5504,8309q5443 8311 5504 8309);"/>
-                        <Edge cubics="!5546 8308(;5612,8306 5678,8307 5744,8307q5546 8308 5744 8307);"/>
-                        <Edge cubics="!5744 8307(;5973,8309 6203,8310 6432,8311q5744 8307 6432 8311);"/>
-                        <Edge cubics="!6432 8311(;6459,8312 6488,8313 6506,8332q6432 8311Q6488 8313q6506 8332);"/>
-                        <Edge cubics="!6506 8332(;6522,8349 6524,8373 6525,8396q6506 8332Q6523 8350q6525 8396);"/>
-                        <Edge cubics="!6525 8396(;6542,8691 6551,8987 6554,9284q6525 8396Q6549 8817q6554 9284);"/>
-                        <Edge cubics="!6554 9284(;6554,9345 6554,9407 6538,9466q6554 9284Q6554 9407q6538 9466);"/>
-                        <Edge cubics="!6538 9466(;6530,9497 6517,9527 6512,9559q6538 9466Q6536 9475q6524 9512Q6515 9540q6512 9559);"/>
-                        <Edge cubics="!6512 9559(;6504,9612 6519,9669 6500,9719q6512 9559Q6509 9577q6510 9640Q6511 9691q6500 9719);"/>
-                        <Edge cubics="!6500 9719(;6471,9795 6382,9824 6303,9845q6500 9719Q6481 9770q6420 9803Q6380 9825q6303 9845);"/>
-                        <Edge cubics="!6303 9845(;6135,9888 5967,9932 5798,9975q6303 9845 5798 9975);"/>
-                        <Edge cubics="!5393 10059(;5299,10069 5205,10070 5111,10071q5393 10059Q5299 10069q5111 10071);"/>
-                        <Edge cubics="!5111 10071(;4947,10073 4782,10075 4619,10055q5111 10071Q4947 10073q4865 10071Q4728 10068q4619 10055);"/>
-                        <Edge cubics="!4213 9948(;4202,9946 4192,9940 4183,9933q4213 9948Q4199 9945q4183 9933);"/>
-                        <Edge cubics="!5703 9987(;5696,9969 5696,9949 5697,9929q5703 9987Q5695 9967q5697 9929);"/>
-                        <Edge cubics="!5697 9929(;5698,9897 5700,9865 5703,9833q5697 9929Q5699 9881q5703 9833);"/>
-                        <Edge cubics="!5703 9833(;5706,9791 5711,9750 5715,9709q5703 9833Q5703 9829q5715 9709);"/>
-                        <Edge cubics="!5715 9709(;5722,9623 5725,9538 5728,9452q5715 9709Q5722 9622q5728 9452);"/>
-                        <Edge cubics="!5728 9452(;5731,9348 5734,9243 5709,9143q5728 9452Q5731 9348q5729 9296Q5726 9210q5709 9143);"/>
-                        <Edge cubics="!5709 9143(;5697,9094 5679,9047 5661,9000q5709 9143Q5697 9094q5661 9000);"/>
-                        <Edge cubics="!5661 9000(;5586,8804 5512,8606 5481,8399q5661 9000Q5588 8810q5555 8704Q5502 8538q5481 8399);"/>
-                        <Edge cubics="!5481 8399(;5478,8380 5476,8361 5481,8342q5481 8399Q5475 8363q5481 8342);"/>
-                        <Edge cubics="!5504 8309(;5509,8306 5514,8304 5520,8303q5504 8309Q5511 8305q5520 8303);"/>
-                        <Edge cubics="!5481 8342(;5485,8327 5493,8316 5504,8309q5481 8342Q5487 8319q5504 8309);"/>
-                        <Edge cubics="!5520 8303(;5529,8302 5538,8304 5546,8308q5520 8303Q5534 8302q5546 8308);"/>
-                        <Edge cubics="!4619 10055(;4467,10036 4335,10001 4222,9949q4619 10055Q4391 10027q4222 9949);"/>
-                        <Edge cubics="!4183 9933(;4180,9931 4178,9929 4177,9927q4183 9933Q4178 9930q4177 9927);"/>
-                        <Edge cubics="!4222 9949(;4219,9949 4216,9949 4213,9948q4222 9949Q4217 9949q4213 9948);"/>
-                        <Edge cubics="!5785 9993(;5775,10011 5762,10020 5746,10020q5785 9993Q5770 10020q5746 10020);"/>
-                        <Edge cubics="!5746 10020(;5737,10020 5728,10017 5720,10010q5746 10020Q5732 10020q5720 10010);"/>
-                        <Edge cubics="!5709 9998(;5706,9995 5704,9991 5703,9987q5709 9998Q5705 9993q5703 9987);"/>
-                        <Edge cubics="!5720 10010(;5715,10007 5712,10003 5709,9998q5720 10010Q5713 10005q5709 9998);"/>
-                        <Edge cubics="!5792 9977(;5790,9982 5788,9988 5785,9993q5792 9977Q5789 9985q5785 9993);"/>
-                        <Edge cubics="!5798 9975(;5796,9976 5794,9976 5792,9977q5798 9975Q5795 9976q5792 9977);"/>
-                        <Edge cubics="!5709 9998(;5578,10030 5473,10050 5393,10059q5709 9998Q5513 10046q5393 10059);"/>
-                        <Edge cubics="!4177 9927(;4156,9914 4143,9901 4136,9888q4177 9927Q4146 9908q4136 9888);"/>
-                      </edges>
-                    </DOMShape>
-                    <DOMGroup>
-                      <matrix>
-                        <Matrix tx="-265" ty="-496"/>
-                      </matrix>
-                      <members>
-                        <DOMShape>
-                          <matrix>
-                            <Matrix tx="-265" ty="-496"/>
-                          </matrix>
-                          <fills>
-                            <FillStyle index="1">
-                              <SolidColor color="#2D2B22"/>
-                            </FillStyle>
-                          </fills>
-                          <edges>
-                            <Edge fillStyle1="1" edges="
-!6355 8883[6362 8873 6371 8868!6371 8868[6380 8863 6393 8861!6393 8861|6398 8860!6398 8860[6414 8860 6427 8871!6427 8871[6440 8882 6444 8897!6444 8897[6448 8913 6441 8928!6441 8928[6434 8944 6420 8952!6420 8952[6407 8960 6390 8957!6390
- 8957[6373 8954 6362 8943!6362 8943[6351 8931 6349 8914!6349 8914[6347 8897 6355 8883!6318 9462[6287 9507 6239 9524!6239 9524[6185 9543 6141 9517!6141 9517[6130 9511 6111 9495!6111 9495[6093 9479 6082 9473!6082 9473[6052 9459 6038 9451
-!6038 9451[6012 9438 6003 9420!6003 9420[5994 9403 6002 9383!6002 9383[6009 9362 6027 9354!6027 9354[6054 9344 6092 9361!6092 9361[6147 9384 6190 9424!6190 9424[6226 9424 6246 9377!6246 9377[6260 9327 6275 9305!6275 9305[6292 9282 6316
- 9276!6316 9276[6346 9271 6362 9291!6362 9291[6383 9315 6361 9373!6361 9373[6337 9435 6318 9462!5765 9143[5772 9133 5781 9128!5781 9128[5790 9123 5803 9121!5803 9121|5808 9120!5808 9120[5824 9120 5837 9131!5837 9131[5850 9142 5854 9157
-!5854 9157[5858 9173 5851 9188!5851 9188[5844 9204 5830 9212!5830 9212[5817 9220 5800 9217!5800 9217[5783 9214 5772 9203!5772 9203[5761 9191 5759 9174!5759 9174[5757 9157 5765 9143"/>
-                            <Edge cubics="!6318 9462(;6299,9490 6271,9513 6239,9524q6318 9462Q6287 9507q6239 9524);"/>
-                            <Edge cubics="!6239 9524(;6207,9535 6170,9534 6141,9517q6239 9524Q6185 9543q6141 9517);"/>
-                            <Edge cubics="!6141 9517(;6119,9504 6103,9485 6082,9473q6141 9517Q6130 9511q6111 9495Q6093 9479q6082 9473);"/>
-                            <Edge cubics="!6082 9473(;6055,9456 6017,9449 6003,9420q6082 9473Q6052 9459q6038 9451Q6012 9438q6003 9420);"/>
-                            <Edge cubics="!6003 9420(;5991,9397 6003,9365 6027,9354q6003 9420Q5994 9403q6002 9383Q6009 9362q6027 9354);"/>
-                            <Edge cubics="!6027 9354(;6048,9346 6072,9352 6092,9361q6027 9354Q6054 9344q6092 9361);"/>
-                            <Edge cubics="!6092 9361(;6128,9376 6161,9397 6190,9424q6092 9361Q6147 9384q6190 9424);"/>
-                            <Edge cubics="!6190 9424(;6216,9424 6236,9401 6246,9377q6190 9424Q6226 9424q6246 9377);"/>
-                            <Edge cubics="!6246 9377(;6256,9353 6260,9327 6275,9305q6246 9377Q6260 9327q6275 9305);"/>
-                            <Edge cubics="!6275 9305(;6285,9291 6299,9280 6316,9276q6275 9305Q6292 9282q6316 9276);"/>
-                            <Edge cubics="!6316 9276(;6333,9273 6352,9278 6362,9291q6316 9276Q6346 9271q6362 9291);"/>
-                            <Edge cubics="!6362 9291(;6381,9313 6371,9346 6361,9373q6362 9291Q6383 9315q6361 9373);"/>
-                            <Edge cubics="!6361 9373(;6349,9404 6337,9435 6318,9462q6361 9373Q6337 9435q6318 9462);"/>
-                            <Edge cubics="!5765 9143(;5769,9137 5775,9131 5781,9128q5765 9143Q5772 9133q5781 9128);"/>
-                            <Edge cubics="!5781 9128(;5788,9124 5796,9122 5803,9121q5781 9128Q5790 9123q5803 9121);"/>
-                            <Edge cubics="!5803 9121(;5805,9121 5807,9120 5808,9120q5803 9121 5808 9120);"/>
-                            <Edge cubics="!5808 9120(;5829,9120 5849,9137 5854,9157q5808 9120Q5824 9120q5837 9131Q5850 9142q5854 9157);"/>
-                            <Edge cubics="!5854 9157(;5859,9178 5849,9201 5830,9212q5854 9157Q5858 9173q5851 9188Q5844 9204q5830 9212);"/>
-                            <Edge cubics="!5830 9212(;5812,9222 5786,9218 5772,9203q5830 9212Q5817 9220q5800 9217Q5783 9214q5772 9203);"/>
-                            <Edge cubics="!5772 9203(;5757,9187 5754,9162 5765,9143q5772 9203Q5761 9191q5759 9174Q5757 9157q5765 9143);"/>
-                            <Edge cubics="!6355 8883(;6359,8877 6365,8871 6371,8868q6355 8883Q6362 8873q6371 8868);"/>
-                            <Edge cubics="!6371 8868(;6378,8864 6386,8862 6393,8861q6371 8868Q6380 8863q6393 8861);"/>
-                            <Edge cubics="!6393 8861(;6395,8861 6397,8860 6398,8860q6393 8861 6398 8860);"/>
-                            <Edge cubics="!6398 8860(;6419,8860 6439,8877 6444,8897q6398 8860Q6414 8860q6427 8871Q6440 8882q6444 8897);"/>
-                            <Edge cubics="!6444 8897(;6449,8918 6439,8941 6420,8952q6444 8897Q6448 8913q6441 8928Q6434 8944q6420 8952);"/>
-                            <Edge cubics="!6420 8952(;6402,8962 6376,8958 6362,8943q6420 8952Q6407 8960q6390 8957Q6373 8954q6362 8943);"/>
-                            <Edge cubics="!6362 8943(;6347,8927 6344,8902 6355,8883q6362 8943Q6351 8931q6349 8914Q6347 8897q6355 8883);"/>
-                          </edges>
-                        </DOMShape>
-                      </members>
-                    </DOMGroup>
-                  </members>
-                </DOMGroup>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

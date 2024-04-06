@@ -1,10 +1,16 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="950" height="650" frameRate="60" currentTimeline="1" xflVersion="2.981" creatorInfo="Adobe Animate" platform="Windows" versionInfo="Saved by Animate Windows 21.0 build 41649" majorVersion="21" buildNumber="41649" viewAngle3D="83.9213020996183" vanishingPoint3DX="475" vanishingPoint3DY="325" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F" fileGUID="06A01D0B259E2548AB5A7F539C23E4B0">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#FF6600" width="1100" height="700" frameRate="60" currentTimeline="1" xflVersion="2.981" creatorInfo="Adobe Animate" platform="Windows" versionInfo="Saved by Animate Windows 21.0 build 41649" majorVersion="21" buildNumber="41649" viewAngle3D="92.3090013472118" vanishingPoint3DX="550" vanishingPoint3DY="350" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F" fileGUID="06A01D0B259E2548AB5A7F539C23E4B0">
      <symbols>
-          <Include href="Bread.xml" loadImmediate="false" itemID="6600df7e-00000130" lastModified="1712205049"/>
-          <Include href="BreadFrames.xml" loadImmediate="false" itemID="660e2c42-00000247" lastModified="1712204869"/>
-          <Include href="Bullet.xml" itemID="6600fbe0-0000013e" lastModified="1712204502"/>
-          <Include href="ground.xml" loadImmediate="false" itemID="6600ebf4-00000138" lastModified="1711339251"/>
-          <Include href="Toaster.xml" loadImmediate="false" itemID="6600df88-00000133" lastModified="1712203589"/>
+          <Include href="Bars.xml" loadImmediate="false" itemID="660ef682-00000272" lastModified="1712256913"/>
+          <Include href="Bread.xml" itemID="6600df7e-00000130" lastModified="1712378848"/>
+          <Include href="BreadModel.xml" loadImmediate="false" itemID="660ef52f-0000026e" lastModified="1712256303"/>
+          <Include href="Bullet.xml" itemID="6600fbe0-0000013e" lastModified="1712206167"/>
+          <Include href="ground.xml" loadImmediate="false" itemID="6600ebf4-00000138" lastModified="1712375488"/>
+          <Include href="Gun.xml" loadImmediate="false" itemID="660e2fdc-00000250" lastModified="1712205788"/>
+          <Include href="Level.xml" loadImmediate="false" itemID="66109ff6-0000012b" lastModified="1712377646"/>
+          <Include href="LevelContainer.xml" loadImmediate="false" itemID="6610ceff-00000136" lastModified="1712378915"/>
+          <Include href="Symbol 1.xml" loadImmediate="false" itemID="660e30eb-00000254" lastModified="1712206060"/>
+          <Include href="Toaster.xml" itemID="6600df88-00000133" lastModified="1712417911"/>
+          <Include href="ToasterModel.xml" loadImmediate="false" itemID="660ef52c-0000026d" lastModified="1712256300"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1" layerDepthEnabled="true">
@@ -12,33 +18,62 @@
                     <DOMLayer name="Layer_2" color="#9933CC">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.events.Event;
+
+var centerX = 1100 * 0.5
+var centerY = 900 * 0.5
+
+Game.bars = letterbox
+
+var zoom = 1.0
+
+function processCamera(delta) {	
+	var targetT = bread.attacking ? 0.7 : 0.1
+	var toX = lerp(toaster.x, bread.x, targetT) + 100
+	var toY = lerp(toaster.y, bread.y, targetT)
+	
+	if (bread.attacking) {
+		zoom = lerp(zoom, 0.6, delta)
+	} else {
+		toY -= 50
+		zoom = lerp(zoom, 0.8, delta)
+	}
+	
+	levelContainer.scaleX = zoom
+	levelContainer.scaleY = zoom
+	
+	level.x = lerp(level.x, -toX, 0.1)
+	level.y = lerp(level.y, -toY, 0.1)
+}]]></script>
+                                   </Actionscript>
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+                    <DOMLayer name="Layer_3" color="#FF800A" current="true" isSelected="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Bread" name="bread" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Bars" name="letterbox">
                                              <matrix>
-                                                  <Matrix tx="740.1" ty="122.6"/>
+                                                  <Matrix d="0.803878784179688" tx="545.15" ty="349.9"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Toaster" name="toaster">
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer_1" color="#00FFFF">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="LevelContainer" name="levelContainer">
                                              <matrix>
-                                                  <Matrix tx="740.1" ty="223.3"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="ground" name="ground">
-                                             <matrix>
-                                                  <Matrix tx="468.55" ty="584.75"/>
+                                                  <Matrix tx="526.2" ty="358.55"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
@@ -317,25 +352,25 @@
      </swatchLists>
      <PrinterSettings/>
      <publishHistory>
-          <PublishItem publishSize="4802" publishTime="1712205031"/>
-          <PublishItem publishSize="4799" publishTime="1712205022"/>
-          <PublishItem publishSize="4799" publishTime="1712205014"/>
-          <PublishItem publishSize="4799" publishTime="1712205008"/>
-          <PublishItem publishSize="4796" publishTime="1712204983"/>
-          <PublishItem publishSize="4806" publishTime="1712204969"/>
-          <PublishItem publishSize="4806" publishTime="1712204950"/>
-          <PublishItem publishSize="4807" publishTime="1712204940"/>
-          <PublishItem publishSize="4800" publishTime="1712204817"/>
-          <PublishItem publishSize="4785" publishTime="1712204804"/>
-          <PublishItem publishSize="4785" publishTime="1712204801"/>
-          <PublishItem publishSize="4782" publishTime="1712204776"/>
-          <PublishItem publishSize="4792" publishTime="1712204704"/>
-          <PublishItem publishSize="4792" publishTime="1712204655"/>
-          <PublishItem publishSize="4777" publishTime="1712204604"/>
-          <PublishItem publishSize="4784" publishTime="1712204553"/>
-          <PublishItem publishSize="4785" publishTime="1712204520"/>
-          <PublishItem publishSize="4782" publishTime="1712204504"/>
-          <PublishItem publishSize="4368" publishTime="1712204437"/>
-          <PublishItem publishSize="4366" publishTime="1712204426"/>
+          <PublishItem publishSize="6607" publishTime="1712417855"/>
+          <PublishItem publishSize="6607" publishTime="1712417841"/>
+          <PublishItem publishSize="6608" publishTime="1712417831"/>
+          <PublishItem publishSize="6607" publishTime="1712417808"/>
+          <PublishItem publishSize="6583" publishTime="1712417734"/>
+          <PublishItem publishSize="6589" publishTime="1712417695"/>
+          <PublishItem publishSize="6587" publishTime="1712417680"/>
+          <PublishItem publishSize="6589" publishTime="1712417672"/>
+          <PublishItem publishSize="6588" publishTime="1712417639"/>
+          <PublishItem publishSize="6587" publishTime="1712417626"/>
+          <PublishItem publishSize="6580" publishTime="1712381337"/>
+          <PublishItem publishSize="6579" publishTime="1712381291"/>
+          <PublishItem publishSize="6574" publishTime="1712381158"/>
+          <PublishItem publishSize="6574" publishTime="1712378932"/>
+          <PublishItem publishSize="6568" publishTime="1712378850"/>
+          <PublishItem publishSize="6573" publishTime="1712378819"/>
+          <PublishItem publishSize="2085" publishTime="1712378796"/>
+          <PublishItem publishSize="6450" publishTime="1712378660"/>
+          <PublishItem publishSize="6452" publishTime="1712378648"/>
+          <PublishItem publishSize="6432" publishTime="1712378510"/>
      </publishHistory>
 </DOMDocument>

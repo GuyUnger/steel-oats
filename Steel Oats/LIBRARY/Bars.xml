@@ -1,0 +1,127 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Bars" itemID="660ef682-00000272" lastModified="1712256913">
+  <timeline>
+    <DOMTimeline name="Bars" currentFrame="6" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop()]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="4" name="open" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="5" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop()]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="5" name="close" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF">
+          <frames>
+            <DOMFrame index="0" duration="5" tweenType="shape" keyMode="17922">
+              <MorphShape>
+                <morphSegments>
+                  <MorphSegment startPointA="#FFFFD3.B2, #FFFFDB.A9" startPointB="#FFFFD3.B2, #FFFFDB.D2" strokeIndex1="0" strokeIndex2="0" fillIndex1="0" fillIndex2="0">
+                    <MorphCurves controlPointA="#FFFFFE.39, #FFFFDB.A9" anchorPointA="#28.BF, #FFFFDB.A9" controlPointB="#0.01, #FFFFDB.D2" anchorPointB="#2C.4F, #FFFFDB.D2"/>
+                    <MorphCurves controlPointA="#2A.87, #FFFFDB.A9" anchorPointA="#2C.4F, #FFFFDB.A9" controlPointB="#2C.4F, #FFFFDD.AE" anchorPointB="#2C.4F, #FFFFDF.8A"/>
+                    <MorphCurves controlPointA="#2C.4F, #FFFFDC.0D" anchorPointA="#2C.4F, #FFFFDC.71" controlPointB="#2C.4F, #FFFFDF.F2" anchorPointB="#2C.4F, #FFFFE0.5A"/>
+                    <MorphCurves controlPointA="#2C.4E, #FFFFDC.71" anchorPointA="#2C.4D, #FFFFDC.71" controlPointB="#2C.4F, #FFFFE0.5A" anchorPointB="#2C.4F, #FFFFE0.5A"/>
+                    <MorphCurves controlPointA="#1.C8, #FFFFDC.71" anchorPointA="#FFFFD7.42, #FFFFDC.71" controlPointB="#0.01, #FFFFE0.5A" anchorPointB="#FFFFD3.B2, #FFFFE0.5A"/>
+                    <MorphCurves controlPointA="#FFFFD5.7A, #FFFFDC.71" anchorPointA="#FFFFD3.B2, #FFFFDC.71" controlPointB="#FFFFD3.B2, #FFFFDE.7F" anchorPointB="#FFFFD3.B2, -35.359375"/>
+                    <MorphCurves controlPointA="#FFFFD3.B2, #FFFFDC.0D" anchorPointA="#FFFFD3.B2, #FFFFDB.A9" controlPointB="#FFFFD3.B2, #FFFFDC.3B" anchorPointB="#FFFFD3.B2, #FFFFDB.D2"/>
+                  </MorphSegment>
+                  <MorphSegment startPointA="#FFFFD3.B2, #23.8E" startPointB="#FFFFD3.B2, #1E.66" strokeIndex1="0" strokeIndex2="0" fillIndex1="0" fillIndex2="0">
+                    <MorphCurves controlPointA="#FFFFFE.C1, #23.8E" anchorPointA="#29.D, #23.8E" controlPointB="#0.01, #1E.66" anchorPointB="#2C.4F, #1E.66"/>
+                    <MorphCurves controlPointA="#2B.1, #23.8E" anchorPointA="#2C.4F, #23.8E" controlPointB="#2C.4F, #1F.AF" anchorPointB="#2C.4F, #20.F8"/>
+                    <MorphCurves controlPointA="#2C.4F, #23.DE" anchorPointA="#2C.4F, #24.2E" controlPointB="#2C.4F, #21.4B" anchorPointB="#2C.4F, #21.9E"/>
+                    <MorphCurves controlPointA="#2B.1, #24.2E" anchorPointA="#29.D1, #24.2E" controlPointB="#2C.4F, #22.E6" anchorPointB="#2C.4F, #24.2E"/>
+                    <MorphCurves controlPointA="-1.2421875, #24.2E" anchorPointA="#FFFFD3.B2, #24.2E" controlPointB="#0.01, #24.2E" anchorPointB="#FFFFD3.B2, #24.2E"/>
+                    <MorphCurves controlPointA="#FFFFD3.B2, #23.DE" anchorPointA="#FFFFD3.B2, #23.8E" controlPointB="#FFFFD3.B2, #21.4A" anchorPointB="#FFFFD3.B2, #1E.66"/>
+                  </MorphSegment>
+                </morphSegments>
+                <morphHintsList/>
+              </MorphShape>
+              <morphHintsList>
+                <MorphHint startPoint="#FFFFD3.B2, #24.2E" endPoint="#FFFFD3.B2, #24.2E" key="0"/>
+                <MorphHint startPoint="#FFFFD3.B2, #FFFFDB.A9" endPoint="#FFFFD3.B2, #FFFFDB.D2" key="0"/>
+              </morphHintsList>
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-11342 -9303|11343 -9303!11343 -9303|11343 -9103!11343 -9103|-11342 -9103!-11342 -9103|-11342 -9303!-11342 9102|11343 9102!11343 9102|11343 9262!11343 9262|-11342 9262!-11342 9262|-11342 9102"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" duration="5" tweenType="shape" keyMode="17922">
+              <MorphShape>
+                <morphSegments>
+                  <MorphSegment startPointA="#FFFFD3.B2, #FFFFDB.D2" startPointB="#FFFFD3.B2, #FFFFDB.A9" strokeIndex1="0" strokeIndex2="0" fillIndex1="0" fillIndex2="0">
+                    <MorphCurves controlPointA="#0.01, #FFFFDB.D2" anchorPointA="#2C.4F, #FFFFDB.D2" controlPointB="#0.01, #FFFFDB.A9" anchorPointB="#2C.4F, #FFFFDB.A9"/>
+                    <MorphCurves controlPointA="#2C.4F, #FFFFDC.3F" anchorPointA="#2C.4F, -35.328125" controlPointB="#2C.4F, #FFFFDC.0D" anchorPointB="#2C.4F, #FFFFDC.71"/>
+                    <MorphCurves controlPointA="#2C.4F, #FFFFDE.83" anchorPointA="#2C.4F, #FFFFE0.5A" controlPointB="#2A.9C, #FFFFDC.71" anchorPointB="#28.E9, #FFFFDC.71"/>
+                    <MorphCurves controlPointA="#0.01, #FFFFE0.5A" anchorPointA="#FFFFD3.B2, #FFFFE0.5A" controlPointB="#0.02, #FFFFDC.71" anchorPointB="#FFFFD7.1A, #FFFFDC.71"/>
+                    <MorphCurves controlPointA="#FFFFD3.B2, #FFFFDE.83" anchorPointA="#FFFFD3.B2, -35.328125" controlPointB="#FFFFD5.66, #FFFFDC.71" anchorPointB="#FFFFD3.B2, #FFFFDC.71"/>
+                    <MorphCurves controlPointA="#FFFFD3.B2, #FFFFDC.3F" anchorPointA="#FFFFD3.B2, #FFFFDB.D2" controlPointB="#FFFFD3.B2, #FFFFDC.0D" anchorPointB="#FFFFD3.B2, #FFFFDB.A9"/>
+                  </MorphSegment>
+                  <MorphSegment startPointA="#FFFFD3.B2, #1E.66" startPointB="#FFFFD3.B2, #23.8E" strokeIndex1="0" strokeIndex2="0" fillIndex1="0" fillIndex2="0">
+                    <MorphCurves controlPointA="#0.01, #1E.66" anchorPointA="#2C.4F, #1E.66" controlPointB="-2.4140625, #23.8E" anchorPointB="#27.79, #23.8E"/>
+                    <MorphCurves controlPointA="#2C.4F, #20.F6" anchorPointA="#2C.4F, #23.86" controlPointB="#29.E4, #23.8E" anchorPointB="#2C.4F, #23.8E"/>
+                    <MorphCurves controlPointA="#2C.4F, #23.DA" anchorPointA="#2C.4F, #24.2E" controlPointB="#2C.4F, #23.DE" anchorPointB="#2C.4F, #24.2E"/>
+                    <MorphCurves controlPointA="#0.01, #24.2E" anchorPointA="#FFFFD3.B2, #24.2E" controlPointB="#2.6D, #24.2E" anchorPointB="#FFFFD8.8A, #24.2E"/>
+                    <MorphCurves controlPointA="#FFFFD3.B2, #21.9F" anchorPointA="#FFFFD3.B2, #1F.1" controlPointB="#FFFFD6.1E, #24.2E" anchorPointB="#FFFFD3.B2, #24.2E"/>
+                    <MorphCurves controlPointA="#FFFFD3.B2, #1E.BB" anchorPointA="#FFFFD3.B2, #1E.66" controlPointB="#FFFFD3.B2, #23.DE" anchorPointB="#FFFFD3.B2, #23.8E"/>
+                  </MorphSegment>
+                </morphSegments>
+                <morphHintsList/>
+              </MorphShape>
+              <morphHintsList>
+                <MorphHint startPoint="#2C.4F, #FFFFDB.D2" endPoint="#2C.4F, #FFFFDB.A9" key="0"/>
+                <MorphHint startPoint="#2C.4F, #24.2E" endPoint="#2C.4F, #24.2E" key="0"/>
+              </morphHintsList>
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-11342 -9262|11343 -9262!11343 -9262|11343 -8102!11343 -8102|-11342 -8102!-11342 -8102|-11342 -9262!-11342 7782|11343 7782!11343 7782|11343 9262!11343 9262|-11342 9262!-11342 9262|-11342 7782"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" tweenType="shape" keyMode="17922">
+              <elements>
+                <DOMShape selected="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-11342 -9303|11343 -9303!11343 -9303|11343 -9103!11343 -9103|-11342 -9103!-11342 -9103|-11342 -9303!-11342 9102|11343 9102!11343 9102|11343 9262!11343 9262|-11342 9262!-11342 9262|-11342 9102"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
