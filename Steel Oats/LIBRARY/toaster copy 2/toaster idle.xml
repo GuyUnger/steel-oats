@@ -216,7 +216,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="body" color="#4FFF4F" autoNamed="false">
+        <DOMLayer name="body" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <elements>
@@ -413,7 +413,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="tail" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="tail" color="#4FFFFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <elements>

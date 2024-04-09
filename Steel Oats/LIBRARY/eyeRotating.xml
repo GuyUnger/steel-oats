@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="eyeRotating" itemID="6614b8fa-00000252" lastModified="1712634106">
+  <timeline>
+    <DOMTimeline name="eyeRotating" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy/eye" name="eyeL" selected="true">
+                  <matrix>
+                    <Matrix a="0.627182006835938" d="0.627182006835938" tx="-10.95" ty="-10.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.6" y="16.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

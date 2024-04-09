@@ -2,7 +2,7 @@
   <timeline>
     <DOMTimeline name="toaster body" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="Capa_1" color="#4FFF4F" current="true" isSelected="true">
+        <DOMLayer name="Capa_1" color="#4FFF4F">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -56,7 +56,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="switch_idn" color="#9933CC" autoNamed="false">
+        <DOMLayer name="switch_idn" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -67,8 +67,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="
-!4912 782[4912 811 4883 835!4883 835[4858 855 4837 855!4837 855|4117 855!4117 855[4069 823 4060 815!4060 815[4042 800 4042 785!4042 785[4042 772 4058 750!4058 750[4080 719 4117 705!4117 705|4837 705!4837 705[4881 718 4900 745!4900 745
+                    <Edge fillStyle1="1" edges="!4912 782S2[4912 811 4883 835!4883 835[4858 855 4837 855!4837 855|4117 855!4117 855[4069 823 4060 815!4060 815[4042 800 4042 785!4042 785[4042 772 4058 750!4058 750[4080 719 4117 705!4117 705|4837 705!4837 705[4881 718 4900 745!4900 745
 [4912 763 4912 782"/>
                     <Edge cubics="!4117 705(4117,705;4117,705 4837,705 4837,705q4117 705 4837 705);"/>
                     <Edge cubics="!4837 705(4837,705;4905,725 4912,767 4912,782q4837 705Q4881 718q4900 745Q4912 763q4912 782);"/>

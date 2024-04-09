@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Toaster" itemID="6600df88-00000133" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Toaster" lastModified="1712632574">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Toaster" itemID="6600df88-00000133" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Toaster" lastModified="1712634375">
   <timeline>
     <DOMTimeline name="Toaster" layerDepthEnabled="true">
       <layers>
@@ -117,6 +117,15 @@ function update() {
 	if (isOnFloor) {
 		if (Game.bread.launched) {
 			playAnimation("idle_solo")
+			var angle = pointsAngle(x, y, Game.bread.x, Game.bread.y)
+			model.eyeL.rotation = angle * toDegrees - rotation
+			model.eyeR.rotation = angle * toDegrees - rotation
+			if (model.scaleX < 0) {
+				model.eyeL.rotation *= -1
+				model.eyeR.rotation *= -1
+				model.eyeL.rotation += 180
+				model.eyeR.rotation += 180
+			}
 		} else
 		if (Math.abs(velocity.x) > 10) {
 			if (velocity.x * velocityTo.x < 0) {

@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ToasterModel" itemID="660ef52c-0000026d" lastModified="1712632593" lastUniqueIdentifier="11">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ToasterModel" itemID="660ef52c-0000026d" lastModified="1712634424" lastUniqueIdentifier="12">
   <timeline>
-    <DOMTimeline name="ToasterModel" currentFrame="68" layerDepthEnabled="true">
+    <DOMTimeline name="ToasterModel" currentFrame="34" layerDepthEnabled="true">
       <layers>
         <DOMLayer name="Layer_3" color="#FF800A">
           <frames>
@@ -164,14 +164,74 @@
             </DOMFrame>
             <DOMFrame index="34" duration="33" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="toaster copy 2/toaster idle" symbolType="graphic" firstFrame="7" loop="loop">
+                <DOMSymbolInstance libraryItemName="toaster copy 2/tail" symbolType="graphic" centerPoint3DX="-74.7" centerPoint3DY="19.6" loop="loop">
                   <matrix>
-                    <Matrix a="0.627182006835938" d="0.627182006835938" tx="-73.3" ty="-47.3"/>
+                    <Matrix a="0.62738037109375" b="0.0132293701171875" d="0.627182006835938" tx="-108.75" ty="8.45"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="113.2" y="60.5"/>
+                    <Point x="59.2" y="16.15"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 5" symbolType="graphic" centerPoint3DX="10.75" centerPoint3DY="30.6" loop="loop">
+                  <matrix>
+                    <Matrix a="0.627182006835938" d="0.627182006835938" tx="10.7" ty="30.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.1" y="0.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/toaster body" selected="true" symbolType="graphic" centerPoint3DX="3.7" centerPoint3DY="-8.4" loop="loop">
+                  <matrix>
+                    <Matrix a="0.627182006835938" d="0.627182006835938" tx="-73.3" ty="-46.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="113.3" y="60.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 3" symbolType="graphic" centerPoint3DX="-17.3" centerPoint3DY="31.9" loop="loop">
+                  <matrix>
+                    <Matrix a="0.627182006835938" d="0.627182006835938" tx="-17.3" ty="31.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" weight="2.5">
+                            <fill>
+                              <SolidColor/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!527 -34S4[586 9 611 19!611 19[636 29 683 29!683 29[733 29 742 25!742 25[750 20 817 -46"/>
+                        <Edge cubics="!527 -34(527,-34;605,23 620,29 683,29q527 -34Q586 9q611 19Q636 29q683 29);"/>
+                        <Edge cubics="!683 29(683,29;750,29 728,41 817,-46q683 29Q733 29q742 25Q750 20q817 -46);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMSymbolInstance libraryItemName="eyeRotating" name="eyeL" selected="true">
+                      <matrix>
+                        <Matrix tx="11.45" ty="-16.4"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="eyeRotating" name="eyeR" selected="true">
+                      <matrix>
+                        <Matrix tx="52.6" ty="-17.95"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
               </elements>
             </DOMFrame>
             <DOMFrame index="67" keyMode="9728">

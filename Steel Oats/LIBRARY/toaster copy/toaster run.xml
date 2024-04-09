@@ -1,6 +1,6 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="toaster copy/toaster run" itemID="66142b0a-000002fb" lastModified="1712626318" lastUniqueIdentifier="41">
   <timeline>
-    <DOMTimeline name="toaster run" currentFrame="22" layerDepthEnabled="true">
+    <DOMTimeline name="toaster run" layerDepthEnabled="true">
       <layers>
         <DOMLayer name="Layer_3" color="#FF800A">
           <frames>
