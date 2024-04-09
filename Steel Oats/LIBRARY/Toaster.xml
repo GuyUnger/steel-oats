@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Toaster" itemID="6600df88-00000133" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Toaster" lastModified="1712634375">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Toaster" itemID="6600df88-00000133" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Toaster" lastModified="1712644827">
   <timeline>
     <DOMTimeline name="Toaster" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="Layer_2" color="#9933CC">
+        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
@@ -94,6 +94,7 @@ function update() {
 			isOnFloor = false
 			y -= 10
 			velocity.y = -1000
+			Game.audios.jump.play()
 		}
 	} else {
 		
@@ -166,6 +167,7 @@ function launch() {
 	Game.bread.velocity.x += velocity.x
 	sinceLaunched = 0
 	velocity.y += 500.0
+	Game.audios.launch.play()
 }
 
 var checking = new Point()
@@ -201,11 +203,11 @@ function rayFloor(offset) {
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+        <DOMLayer name="Layer_1" color="#00FFFF">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="ToasterModel" name="model" selected="true">
+                <DOMSymbolInstance libraryItemName="ToasterModel" name="model">
                   <matrix>
                     <Matrix ty="-38.1"/>
                   </matrix>

@@ -26,6 +26,7 @@
 		public static var toaster: MovieClip
 		public static var level: MovieClip
 		public static var bars: MovieClip
+		public static var audios: MovieClip
 		
 		
 		public function Game() {
