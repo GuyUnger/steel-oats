@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Level" name="level" centerPoint3DY="-100.6">
+                <DOMSymbolInstance libraryItemName="Level" name="level" selected="true" centerPoint3DY="-100.6">
                   <matrix>
                     <Matrix d="0.999984741210938" ty="-100.5"/>
                   </matrix>

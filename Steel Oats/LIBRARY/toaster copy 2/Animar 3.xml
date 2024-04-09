@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="toaster copy 2/Animar 3" itemID="661429bf-000002b7" symbolType="graphic" lastModified="1712597439">
+  <timeline>
+    <DOMTimeline name="Animar 3" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Capa_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/toaster leg" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-62.75" ty="-23"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.5" y="18.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/toaster leg" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="30.25" ty="-22.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.5" y="18.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

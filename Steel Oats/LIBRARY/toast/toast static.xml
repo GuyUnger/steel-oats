@@ -1,0 +1,126 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="toast/toast static" itemID="66142ee9-0000036c" lastModified="1712613668" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="toast static" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="hat" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" tweenType="motion" motionTweenSnap="true" hasCustomEase="true" keyMode="22017">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.4573"/>
+                  <Point x="0.8679" y="0.4795"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="face" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" tweenType="motion" motionTweenSnap="true" hasCustomEase="true" keyMode="22017">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.470916034233026" y="0.209375493205325"/>
+                  <Point x="0.845003617680186" y="0.593965721507533"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/face" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421493530273438" d="0.421493530273438" tx="-16.7" ty="-33.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.5" y="26.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="body" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" tweenType="motion" motionTweenSnap="true" hasCustomEase="true" keyMode="22017">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.469021632268903" y="0.15541686848652"/>
+                  <Point x="0.854755009419912" y="0.564229309006344"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/body" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421493530273438" d="0.421493530273438" tx="-53" ty="-75.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128.85" y="102.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="legs" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" tweenType="motion" motionTweenSnap="true" hasCustomEase="true" keyMode="22017">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.470916034233026" y="0.209375493205325"/>
+                  <Point x="0.845003617680186" y="0.593965721507533"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/Animar 1" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="9.75" ty="11.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="gun" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" tweenType="motion" motionTweenSnap="true" hasCustomEase="true" keyMode="22017">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.4573"/>
+                  <Point x="0.8679" y="0.4795"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.38568115234375" b="-0.169921875" c="0.169921875" d="0.38568115234375" tx="22.2" ty="-40.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="83.05" y="53.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Capa_2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

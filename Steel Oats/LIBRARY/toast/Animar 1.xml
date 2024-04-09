@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="toast/Animar 1" itemID="66142627-0000027b" symbolType="graphic" lastModified="1712596519" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="Animar 1" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Capa_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/leg" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421493530273438" d="0.421493530273438" tx="5.9" ty="-15.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="49" y="37.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="toast/leg" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421493530273438" d="0.421493530273438" tx="-44.25" ty="-15.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="49" y="37.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

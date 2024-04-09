@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level" itemID="66109ff6-0000012b" lastModified="1712377646">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level" itemID="66109ff6-0000012b" lastModified="1712625860">
   <timeline>
     <DOMTimeline name="Level" layerDepthEnabled="true">
       <layers>
@@ -11,13 +11,13 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Bread" name="bread">
                   <matrix>
-                    <Matrix tx="288.1" ty="-85.7"/>
+                    <Matrix tx="288.1" ty="-155.7"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Toaster" name="toaster">
+                <DOMSymbolInstance libraryItemName="Toaster" name="toaster" selected="true">
                   <matrix>
                     <Matrix tx="288.1" ty="15"/>
                   </matrix>

@@ -31,5 +31,9 @@
 			var dy:Number = toY - fromY;
 			return Math.sqrt(dx * dx + dy * dy);
 		}
+		
+		function sign(value) {
+			return value < 0 ? -1 : 1
+		}
 	}
 }

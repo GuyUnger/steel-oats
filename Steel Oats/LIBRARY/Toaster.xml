@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Toaster" itemID="6600df88-00000133" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Toaster" lastModified="1712417911">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Toaster" itemID="6600df88-00000133" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Toaster" lastModified="1712632574">
   <timeline>
     <DOMTimeline name="Toaster" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
+        <DOMLayer name="Layer_2" color="#9933CC">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
@@ -24,6 +24,8 @@ var dashDirectionX = 0
 var dashDirectionY = 0
 
 Game.toaster = this
+
+var _rotation: Number = 0.0
 
 function update() {
 	var delta = 1 / 60
@@ -83,9 +85,11 @@ function update() {
 		y = floorY//lerp(y, floorY, 0.8)
 		
 		
-		rotation = pointsAngle(-40, floorLeft, 40, floorRight) * toDegrees * 0.8
+		_rotation = pointsAngle(-40, floorLeft, 40, floorRight) * toDegrees * 0.8
+		rotation = Math.round(_rotation / 10) * 10
+		model.rotation = 0
 		
-		if (Game.sinceSpacePressed < 0.1) {
+		if (Game.sinceSpacePressed < 0.3) {
 			Game.sinceSpacePressed = 999
 			isOnFloor = false
 			y -= 10
@@ -93,28 +97,64 @@ function update() {
 		}
 	} else {
 		
-		if (Game.sinceSpacePressed < 0.1) {
+		if (Game.sinceSpacePressed < 0.1 && y < floorY - 100) {
 			Game.sinceSpacePressed = 999
 			launch()
 		}
 		velocity.y += delta * 2500.0
 		y += velocity.y * delta
-		rotation -= rotation * delta * 5.0
+		_rotation -= _rotation * delta * 5.0
+		model.rotation = velocity.y * 0.02 * model.scaleX
+		rotation = 0
 	}
 	
-	if (velocity.x > 0) {
+	if (velocity.x > 10) {
 		model.scaleX = 1
-	} else {
+	} else if (velocity.x < -10) {
 		model.scaleX = -1
 	}
 	
-	
+	if (isOnFloor) {
+		if (Game.bread.launched) {
+			playAnimation("idle_solo")
+		} else
+		if (Math.abs(velocity.x) > 10) {
+			if (velocity.x * velocityTo.x < 0) {
+				playAnimation("turn")
+			} else {
+				playAnimation("run")
+			}
+		} else { 
+			playAnimation("idle")
+		}
+	} else {
+		if (Game.bread.launched) {
+			if(velocity.y < 0){
+				playAnimation("jump_up_solo")
+			} else {
+				playAnimation("jump_down_solo")
+			}
+		} else {
+			if(velocity.y < 0){
+				playAnimation("jump_up")
+			} else {
+				playAnimation("jump_down")
+			}
+		}
+	}
+}
+
+function playAnimation(animation) {
+	if (model.currentLabel != animation) {
+		model.gotoAndPlay(animation)
+	}
 }
 
 function launch() {
 	if (Game.bread.launched)
 		return
 	Game.bread.launch()
+	Game.bread.velocity.x += velocity.x
 	sinceLaunched = 0
 	velocity.y += 500.0
 }
@@ -152,13 +192,13 @@ function rayFloor(offset) {
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_1" color="#00FFFF">
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="ToasterModel" name="model">
+                <DOMSymbolInstance libraryItemName="ToasterModel" name="model" selected="true">
                   <matrix>
-                    <Matrix ty="-36.6"/>
+                    <Matrix ty="-38.1"/>
                   </matrix>
                   <transformationPoint>
                     <Point y="-0.05"/>

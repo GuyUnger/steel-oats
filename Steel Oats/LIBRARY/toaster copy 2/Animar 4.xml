@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="toaster copy 2/Animar 4" itemID="661429bf-000002b9" symbolType="graphic" lastModified="1712597439" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="Animar 4" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Capa_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="4">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!-341 375[-183 443 -116 459!-116 459[-48 475 79 475!79 475[214 475 237 468!237 468[259 460 439 355"/>
+                    <Edge cubics="!-341 375(-341,375;-131,465 -91,475 79,475q-341 375Q-183 443q-116 459Q-48 475q79 475);"/>
+                    <Edge cubics="!79 475(79,475;259,475 199,495 439,355q79 475Q214 475q237 468Q259 460q439 355);"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="toaster copy/eye" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-50.3" ty="-21.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.5" y="16.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="toaster copy/eye" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="15.35" ty="-23.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.5" y="16.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="toaster copy/eye" itemID="66142289-00000242" symbolType="graphic" lastModified="1712595593">
+  <timeline>
+    <DOMTimeline name="eye" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Capa_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" fillStyle1="2" edges="!611 504.5[#222.77 560 460 560!460 560[361 560 290 487!290 487[220 414 220 310!220 310[220 206 290 133!290 133[361 60 460 60!460 60[#1F5.25 60 537.5 72.5"/>
+                    <Edge fillStyle1="2" edges="!537.5 72.5[#24C.17 #5A.57 629 133!629 133[700 206 700 310!700 310[700 414 629 487!629 487[#26C.23 #1F0.3E 611 504.5"/>
+                    <Edge fillStyle1="1" edges="!611 504.5[#24E.EE #217.5C 563 563!563 563[467 660 330 660!330 660[193 660 96 563!96 563[0 467 0 330!0 330[0 193 96 96!96 96[193 0 330 0!330 0[#1C1.25 0 537.5 72.5"/>
+                    <Edge cubics="!563 96(563,96;628,161 660,239 660,330q563 96Q660 193q660 330);"/>
+                    <Edge cubics="!330 0(;421,0 499,32 563,96q330 0Q467 0q563 96);"/>
+                    <Edge cubics="!96 96(96,96;161,32 239,0 330,0q96 96Q193 0q330 0);"/>
+                    <Edge cubics="!0 330(0,330;0,239 32,161 96,96q0 330Q0 193q96 96);"/>
+                    <Edge cubics="!96 563(96,563;32,499 0,421 0,330q96 563Q0 467q0 330);"/>
+                    <Edge cubics="!330 660(330,660;239,660 161,628 96,563q330 660Q193 660q96 563);"/>
+                    <Edge cubics="!563 563(563,563;499,628 421,660 330,660q563 563Q467 660q330 660);"/>
+                    <Edge cubics="!660 330(660,330;660,395 643,454 611,505q660 330Q660 428q611 505);"/>
+                    <Edge cubics="!611 505(;597,526 581,545 563,563q611 505 563 563);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

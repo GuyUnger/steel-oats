@@ -1,16 +1,41 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#FF6600" width="1100" height="700" frameRate="60" currentTimeline="1" xflVersion="2.981" creatorInfo="Adobe Animate" platform="Windows" versionInfo="Saved by Animate Windows 21.0 build 41649" majorVersion="21" buildNumber="41649" viewAngle3D="92.3090013472118" vanishingPoint3DX="550" vanishingPoint3DY="350" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F" fileGUID="06A01D0B259E2548AB5A7F539C23E4B0">
+     <folders>
+          <DOMFolderItem name="toast" itemID="661430c6-000003f7"/>
+          <DOMFolderItem name="toaster copy" itemID="66146a8b-000001f8"/>
+          <DOMFolderItem name="toaster copy 2" itemID="66146af6-0000020e"/>
+     </folders>
+     <media>
+          <DOMSoundItem name="ToasterRun.wav" itemID="6611e192-00000143" sourceExternalFilepath="../Steel Oats/LIBRARY/ToasterRun.wav" sourceLastImported="1712625796" externalFileSize="49304" href="ToasterRun.wav" soundDataHRef="M 1 1712447890.dat" format="44kHz 16bit Stereo" sampleCount="12315" dataLength="49260"/>
+     </media>
      <symbols>
           <Include href="Bars.xml" loadImmediate="false" itemID="660ef682-00000272" lastModified="1712256913"/>
-          <Include href="Bread.xml" itemID="6600df7e-00000130" lastModified="1712378848"/>
-          <Include href="BreadModel.xml" loadImmediate="false" itemID="660ef52f-0000026e" lastModified="1712256303"/>
+          <Include href="Bread.xml" itemID="6600df7e-00000130" lastModified="1712632396"/>
+          <Include href="BreadModel.xml" loadImmediate="false" itemID="660ef52f-0000026e" lastModified="1712614925"/>
           <Include href="Bullet.xml" itemID="6600fbe0-0000013e" lastModified="1712206167"/>
-          <Include href="ground.xml" loadImmediate="false" itemID="6600ebf4-00000138" lastModified="1712375488"/>
-          <Include href="Gun.xml" loadImmediate="false" itemID="660e2fdc-00000250" lastModified="1712205788"/>
-          <Include href="Level.xml" loadImmediate="false" itemID="66109ff6-0000012b" lastModified="1712377646"/>
+          <Include href="ground.xml" loadImmediate="false" itemID="6600ebf4-00000138" lastModified="1712614958"/>
+          <Include href="Gun.xml" loadImmediate="false" itemID="660e2fdc-00000250" lastModified="1712614552"/>
+          <Include href="Level.xml" loadImmediate="false" itemID="66109ff6-0000012b" lastModified="1712625860"/>
           <Include href="LevelContainer.xml" loadImmediate="false" itemID="6610ceff-00000136" lastModified="1712378915"/>
           <Include href="Symbol 1.xml" loadImmediate="false" itemID="660e30eb-00000254" lastModified="1712206060"/>
-          <Include href="Toaster.xml" itemID="6600df88-00000133" lastModified="1712417911"/>
-          <Include href="ToasterModel.xml" loadImmediate="false" itemID="660ef52c-0000026d" lastModified="1712256300"/>
+          <Include href="toast/Animar 1.xml" itemIcon="1" loadImmediate="false" itemID="66142627-0000027b" lastModified="1712596519"/>
+          <Include href="toast/body.xml" itemIcon="1" loadImmediate="false" itemID="66141e7b-0000020a" lastModified="1712594555"/>
+          <Include href="toast/face.xml" itemIcon="1" loadImmediate="false" itemID="66141e75-00000206" lastModified="1712595927"/>
+          <Include href="toast/gun.xml" itemIcon="1" loadImmediate="false" itemID="66141f1c-00000211" lastModified="1712594854"/>
+          <Include href="toast/hat.xml" itemIcon="1" loadImmediate="false" itemID="66141e65-00000204" lastModified="1712594539"/>
+          <Include href="toast/leg.xml" itemIcon="1" loadImmediate="false" itemID="66141de3-000001fe" lastModified="1712594896"/>
+          <Include href="toast/toast idle.xml" loadImmediate="false" itemID="6614259c-00000270" lastModified="1712614201"/>
+          <Include href="toast/toast static.xml" loadImmediate="false" itemID="66142ee9-0000036c" lastModified="1712613668"/>
+          <Include href="Toaster.xml" itemID="6600df88-00000133" lastModified="1712632574"/>
+          <Include href="toaster copy 2/Animar 3.xml" itemIcon="1" loadImmediate="false" itemID="661429bf-000002b7" lastModified="1712597439"/>
+          <Include href="toaster copy 2/Animar 4.xml" itemIcon="1" loadImmediate="false" itemID="661429bf-000002b9" lastModified="1712597439"/>
+          <Include href="toaster copy 2/Animar 5.xml" itemIcon="1" loadImmediate="false" itemID="661429bf-000002bb" lastModified="1712597439"/>
+          <Include href="toaster copy 2/tail.xml" itemIcon="1" loadImmediate="false" itemID="66142b2d-000002fd" lastModified="1712597805"/>
+          <Include href="toaster copy 2/toaster body.xml" itemIcon="1" loadImmediate="false" itemID="661421a5-00000232" lastModified="1712595840"/>
+          <Include href="toaster copy 2/toaster idle.xml" loadImmediate="false" itemID="66142b21-000002fc" lastModified="1712614187"/>
+          <Include href="toaster copy 2/toaster leg.xml" itemIcon="1" loadImmediate="false" itemID="6614218e-00000228" lastModified="1712595630"/>
+          <Include href="toaster copy/eye.xml" itemIcon="1" loadImmediate="false" itemID="66142289-00000242" lastModified="1712595593"/>
+          <Include href="toaster copy/toaster run.xml" loadImmediate="false" itemID="66142b0a-000002fb" lastModified="1712626318"/>
+          <Include href="ToasterModel.xml" loadImmediate="false" itemID="660ef52c-0000026d" lastModified="1712632593"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1" layerDepthEnabled="true">
@@ -51,7 +76,7 @@ function processCamera(delta) {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer_3" color="#FF800A" current="true" isSelected="true">
+                    <DOMLayer name="Layer_3" color="#FF800A">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -67,11 +92,11 @@ function processCamera(delta) {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer_1" color="#00FFFF">
+                    <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="LevelContainer" name="levelContainer">
+                                        <DOMSymbolInstance libraryItemName="LevelContainer" name="levelContainer" selected="true">
                                              <matrix>
                                                   <Matrix tx="526.2" ty="358.55"/>
                                              </matrix>
@@ -79,6 +104,21 @@ function processCamera(delta) {
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
+                                        <DOMGroup>
+                                             <members>
+                                                  <DOMShape>
+                                                       <fills>
+                                                            <FillStyle index="1">
+                                                                 <SolidColor/>
+                                                            </FillStyle>
+                                                       </fills>
+                                                       <edges>
+                                                            <Edge fillStyle0="1" edges="!1 -1|22001 -1!22001 -1|22001 13999!22001 13999|1 13999!1 13999|1 -1"/>
+                                                            <Edge fillStyle1="1" edges="!-42566 -27089|64568 -27089!64568 -27089|64568 41088!64568 41088|-42566 41088!-42566 41088|-42566 -27089"/>
+                                                       </edges>
+                                                  </DOMShape>
+                                             </members>
+                                        </DOMGroup>
                                    </elements>
                               </DOMFrame>
                          </frames>
@@ -352,25 +392,25 @@ function processCamera(delta) {
      </swatchLists>
      <PrinterSettings/>
      <publishHistory>
-          <PublishItem publishSize="6607" publishTime="1712417855"/>
-          <PublishItem publishSize="6607" publishTime="1712417841"/>
-          <PublishItem publishSize="6608" publishTime="1712417831"/>
-          <PublishItem publishSize="6607" publishTime="1712417808"/>
-          <PublishItem publishSize="6583" publishTime="1712417734"/>
-          <PublishItem publishSize="6589" publishTime="1712417695"/>
-          <PublishItem publishSize="6587" publishTime="1712417680"/>
-          <PublishItem publishSize="6589" publishTime="1712417672"/>
-          <PublishItem publishSize="6588" publishTime="1712417639"/>
-          <PublishItem publishSize="6587" publishTime="1712417626"/>
-          <PublishItem publishSize="6580" publishTime="1712381337"/>
-          <PublishItem publishSize="6579" publishTime="1712381291"/>
-          <PublishItem publishSize="6574" publishTime="1712381158"/>
-          <PublishItem publishSize="6574" publishTime="1712378932"/>
-          <PublishItem publishSize="6568" publishTime="1712378850"/>
-          <PublishItem publishSize="6573" publishTime="1712378819"/>
-          <PublishItem publishSize="2085" publishTime="1712378796"/>
-          <PublishItem publishSize="6450" publishTime="1712378660"/>
-          <PublishItem publishSize="6452" publishTime="1712378648"/>
-          <PublishItem publishSize="6432" publishTime="1712378510"/>
+          <PublishItem publishSize="18570" publishTime="1712632966"/>
+          <PublishItem publishSize="18570" publishTime="1712632842"/>
+          <PublishItem publishSize="18570" publishTime="1712632797"/>
+          <PublishItem publishSize="18570" publishTime="1712632602"/>
+          <PublishItem publishSize="18615" publishTime="1712632555"/>
+          <PublishItem publishSize="18785" publishTime="1712632497"/>
+          <PublishItem publishSize="18601" publishTime="1712632398"/>
+          <PublishItem publishSize="18593" publishTime="1712632333"/>
+          <PublishItem publishSize="18595" publishTime="1712632314"/>
+          <PublishItem publishSize="18597" publishTime="1712632229"/>
+          <PublishItem publishSize="18616" publishTime="1712632182"/>
+          <PublishItem publishSize="18597" publishTime="1712632108"/>
+          <PublishItem publishSize="18597" publishTime="1712632069"/>
+          <PublishItem publishSize="18279" publishTime="1712631981"/>
+          <PublishItem publishSize="18469" publishTime="1712631403"/>
+          <PublishItem publishSize="18386" publishTime="1712631272"/>
+          <PublishItem publishSize="18387" publishTime="1712631242"/>
+          <PublishItem publishSize="18388" publishTime="1712631211"/>
+          <PublishItem publishSize="17715" publishTime="1712629749"/>
+          <PublishItem publishSize="12506" publishTime="1712629717"/>
      </publishHistory>
 </DOMDocument>

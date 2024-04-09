@@ -1,0 +1,536 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="toast/toast idle" itemID="6614259c-00000270" lastModified="1712614201" lastUniqueIdentifier="22">
+  <timeline>
+    <DOMTimeline name="toast idle" currentFrame="7" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="hat" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/hat" centerPoint3DX="0.1" centerPoint3DY="-95.75">
+                  <matrix>
+                    <Matrix a="0.421493530273438" d="0.421493530273438" tx="-47.75" ty="-114.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="113.9" y="45.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/hat" centerPoint3DX="0.25" centerPoint3DY="-94.65">
+                  <matrix>
+                    <Matrix a="0.421478271484375" b="-7.62939453125e-05" c="7.62939453125e-05" d="0.421478271484375" tx="-47.6" ty="-113.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="113.9" y="45.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/hat" centerPoint3DX="0.4" centerPoint3DY="-91.1">
+                  <matrix>
+                    <Matrix a="0.421478271484375" b="-0.000396728515625" c="0.000396728515625" d="0.421478271484375" tx="-47.45" ty="-109.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="113.85" y="45.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/hat" centerPoint3DX="0.9" centerPoint3DY="-84.05">
+                  <matrix>
+                    <Matrix a="0.421478271484375" b="-0.0009918212890625" c="0.0009918212890625" d="0.421478271484375" tx="-46.95" ty="-102.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="113.8" y="45.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/hat" centerPoint3DX="0.9" centerPoint3DY="-85.2">
+                  <matrix>
+                    <Matrix a="0.42144775390625" b="-0.00091552734375" c="0.00091552734375" d="0.42144775390625" tx="-46.95" ty="-103.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="113.65" y="45.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/hat" centerPoint3DX="0.45" centerPoint3DY="-91.15">
+                  <matrix>
+                    <Matrix a="0.421478271484375" b="-0.0004119873046875" c="0.0004119873046875" d="0.421478271484375" tx="-47.35" ty="-109.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="113.7" y="45.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/hat" centerPoint3DX="0.25" centerPoint3DY="-94.65">
+                  <matrix>
+                    <Matrix a="0.421478271484375" b="-0.0001068115234375" c="0.0001068115234375" d="0.421478271484375" tx="-47.55" ty="-113.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="113.75" y="45.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/hat" centerPoint3DX="0.1" centerPoint3DY="-95.75">
+                  <matrix>
+                    <Matrix a="0.421493530273438" d="0.421493530273438" tx="-47.75" ty="-114.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="113.9" y="45.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="face" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/face" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421493530273438" d="0.421493530273438" tx="-16.7" ty="-33.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.5" y="26.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/face" symbolType="graphic" centerPoint3DX="9.75" centerPoint3DY="-21.5" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421478271484375" d="0.421478271484375" tx="-16.6" ty="-30.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.35" y="26.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/face" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421493530273438" d="0.421493530273438" tx="-16.7" ty="-25.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.5" y="26.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/face" symbolType="graphic" centerPoint3DX="9.75" centerPoint3DY="-21.7" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421478271484375" d="0.421478271484375" tx="-16.6" ty="-31.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.35" y="26.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/face" symbolType="graphic" centerPoint3DX="9.75" centerPoint3DY="-24.1" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421478271484375" d="0.421478271484375" tx="-16.6" ty="-33.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.35" y="26.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/face" symbolType="graphic" centerPoint3DX="9.75" centerPoint3DY="-25.4" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421478271484375" d="0.421478271484375" tx="-16.6" ty="-34.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.35" y="26.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/face" symbolType="graphic" centerPoint3DX="9.75" centerPoint3DY="-25.45" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421478271484375" d="0.421478271484375" tx="-16.6" ty="-34.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.35" y="26.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/face" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421493530273438" d="0.421493530273438" tx="-16.7" ty="-33.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.5" y="26.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="body" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/body" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421493530273438" d="0.421493530273438" tx="-53" ty="-75.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128.85" y="102.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/body" symbolType="graphic" centerPoint3DX="1.35" centerPoint3DY="-31.3" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421478271484375" d="0.421478271484375" tx="-52.95" ty="-74.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128.7" y="102.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/body" symbolType="graphic" centerPoint3DX="1.35" centerPoint3DY="-28.45" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421478271484375" d="0.421478271484375" tx="-52.95" ty="-71.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128.7" y="102.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/body" symbolType="graphic" centerPoint3DX="1.35" centerPoint3DY="-28.8" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421478271484375" d="0.421478271484375" tx="-52.95" ty="-71.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128.7" y="102.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/body" symbolType="graphic" centerPoint3DX="1.35" centerPoint3DY="-31.25" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421478271484375" d="0.421478271484375" tx="-52.95" ty="-74.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128.7" y="102.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/body" symbolType="graphic" centerPoint3DX="1.35" centerPoint3DY="-32.6" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421478271484375" d="0.421478271484375" tx="-52.95" ty="-75.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128.7" y="102.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/body" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421493530273438" d="0.421493530273438" tx="-53" ty="-76.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128.85" y="102.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/body" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.421493530273438" d="0.421493530273438" tx="-53" ty="-75.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128.85" y="102.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="legs" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/Animar 1" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="9.75" ty="11.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/Animar 1" symbolType="graphic" centerPoint3DX="9.75" centerPoint3DY="11.05" loop="loop">
+                  <matrix>
+                    <Matrix tx="9.75" ty="11.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/Animar 1" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="9.75" ty="11.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/Animar 1" symbolType="graphic" centerPoint3DX="9.75" centerPoint3DY="11.05" loop="loop">
+                  <matrix>
+                    <Matrix tx="9.75" ty="11.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/Animar 1" symbolType="graphic" centerPoint3DX="9.75" centerPoint3DY="11.05" loop="loop">
+                  <matrix>
+                    <Matrix tx="9.75" ty="11.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/Animar 1" symbolType="graphic" centerPoint3DX="9.75" centerPoint3DY="11.05" loop="loop">
+                  <matrix>
+                    <Matrix tx="9.75" ty="11.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/Animar 1" symbolType="graphic" centerPoint3DX="9.75" centerPoint3DY="11.05" loop="loop">
+                  <matrix>
+                    <Matrix tx="9.75" ty="11.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/Animar 1" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="9.75" ty="11.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="gun" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.416641235351562" b="0.063629150390625" c="-0.063629150390625" d="0.416641235351562" tx="41.4" ty="-52.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="82.9" y="53.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" centerPoint3DX="72.55" centerPoint3DY="-24.75" loop="loop">
+                  <matrix>
+                    <Matrix a="0.416641235351562" b="0.063568115234375" c="-0.063568115234375" d="0.416641235351562" tx="41.3" ty="-52.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="83" y="53.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" centerPoint3DX="72.35" centerPoint3DY="-22.35" loop="loop">
+                  <matrix>
+                    <Matrix a="0.416641235351562" b="0.0633697509765625" c="-0.0633697509765625" d="0.416641235351562" tx="41.1" ty="-49.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="82.95" y="53.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" centerPoint3DX="71.85" centerPoint3DY="-17.6" loop="loop">
+                  <matrix>
+                    <Matrix a="0.416595458984375" b="0.06298828125" c="-0.06298828125" d="0.416595458984375" tx="40.6" ty="-44.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="82.9" y="53"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" centerPoint3DX="72" centerPoint3DY="-18.35" loop="loop">
+                  <matrix>
+                    <Matrix a="0.416595458984375" b="0.0630340576171875" c="-0.0630340576171875" d="0.416595458984375" tx="40.75" ty="-45.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="82.8" y="53"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" centerPoint3DX="72.35" centerPoint3DY="-22.35" loop="loop">
+                  <matrix>
+                    <Matrix a="0.416641235351562" b="0.0633544921875" c="-0.0633544921875" d="0.416641235351562" tx="41.15" ty="-49.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="82.7" y="52.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" centerPoint3DX="72.65" centerPoint3DY="-24.65" loop="loop">
+                  <matrix>
+                    <Matrix a="0.416641235351562" b="0.0635528564453125" c="-0.0635528564453125" d="0.416641235351562" tx="41.4" ty="-51.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="82.85" y="53"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.416641235351562" b="0.063629150390625" c="-0.063629150390625" d="0.416641235351562" tx="41.4" ty="-52.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="82.9" y="53.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Capa_2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="12" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="16" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="20" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="24" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="28" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

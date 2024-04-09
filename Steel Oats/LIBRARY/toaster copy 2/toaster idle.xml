@@ -1,0 +1,519 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="toaster copy 2/toaster idle" itemID="66142b21-000002fc" lastModified="1712614187" lastUniqueIdentifier="18">
+  <timeline>
+    <DOMTimeline name="toaster idle" currentFrame="6" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Capa_6" color="#808080">
+          <frames>
+            <DOMFrame index="0" duration="28" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="28" duration="4" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[gotoAndPlay(1);
+]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="front_legs" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 3" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="89.25" ty="126.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 3" symbolType="graphic" centerPoint3DX="89.25" centerPoint3DY="126.25" loop="loop">
+                  <matrix>
+                    <Matrix tx="89.25" ty="126.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 3" symbolType="graphic" centerPoint3DX="89.25" centerPoint3DY="126.25" loop="loop">
+                  <matrix>
+                    <Matrix tx="89.25" ty="126.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 3" symbolType="graphic" centerPoint3DX="89.25" centerPoint3DY="126.25" loop="loop">
+                  <matrix>
+                    <Matrix tx="89.25" ty="126.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 3" symbolType="graphic" centerPoint3DX="89.25" centerPoint3DY="126.25" loop="loop">
+                  <matrix>
+                    <Matrix tx="89.25" ty="126.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 3" symbolType="graphic" centerPoint3DX="89.25" centerPoint3DY="126.25" loop="loop">
+                  <matrix>
+                    <Matrix tx="89.25" ty="126.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 3" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="89.25" ty="126.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 3" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="89.25" ty="126.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="face" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 4" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="168.05" ty="69.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 4" symbolType="graphic" centerPoint3DX="168.05" centerPoint3DY="69.9" loop="loop">
+                  <matrix>
+                    <Matrix tx="168.05" ty="69.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 4" symbolType="graphic" centerPoint3DX="168.05" centerPoint3DY="71.8" loop="loop">
+                  <matrix>
+                    <Matrix tx="168.05" ty="71.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 4" symbolType="graphic" centerPoint3DX="168.1" centerPoint3DY="75.35" loop="loop">
+                  <matrix>
+                    <Matrix a="1.00163269042969" tx="168.1" ty="75.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 4" symbolType="graphic" centerPoint3DX="168.05" centerPoint3DY="75.45" loop="loop">
+                  <matrix>
+                    <Matrix tx="168.05" ty="75.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 4" symbolType="graphic" centerPoint3DX="168.05" centerPoint3DY="72.25" loop="loop">
+                  <matrix>
+                    <Matrix tx="168.05" ty="72.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 4" symbolType="graphic" centerPoint3DX="168.05" centerPoint3DY="70.15" loop="loop">
+                  <matrix>
+                    <Matrix tx="168.05" ty="70.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 4" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="168.05" ty="69.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="body" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/toaster body" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix ty="0.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="113.3" y="60.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/toaster body" symbolType="graphic" centerPoint3DX="122.8" centerPoint3DY="62.05" loop="loop">
+                  <matrix>
+                    <Matrix ty="1.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="113.3" y="60.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/toaster body" symbolType="graphic" centerPoint3DX="122.8" centerPoint3DY="64.3" loop="loop">
+                  <matrix>
+                    <Matrix ty="3.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="113.3" y="60.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/toaster body" symbolType="graphic" centerPoint3DX="122.8" centerPoint3DY="64.4" loop="loop">
+                  <matrix>
+                    <Matrix a="1.00163269042969" tx="-0.2" ty="3.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="113.3" y="60.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/toaster body" symbolType="graphic" centerPoint3DX="122.8" centerPoint3DY="62.35" loop="loop">
+                  <matrix>
+                    <Matrix ty="1.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="113.3" y="60.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/toaster body" symbolType="graphic" centerPoint3DX="122.8" centerPoint3DY="61.1" loop="loop">
+                  <matrix>
+                    <Matrix ty="0.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="113.3" y="60.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/toaster body" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point x="113.3" y="60.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/toaster body" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix ty="0.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="113.3" y="60.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="back_legs" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 5" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="134" ty="124.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 5" symbolType="graphic" centerPoint3DX="134" centerPoint3DY="124.2" loop="loop">
+                  <matrix>
+                    <Matrix tx="134" ty="124.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 5" symbolType="graphic" centerPoint3DX="134" centerPoint3DY="124.2" loop="loop">
+                  <matrix>
+                    <Matrix tx="134" ty="124.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 5" symbolType="graphic" centerPoint3DX="134" centerPoint3DY="124.2" loop="loop">
+                  <matrix>
+                    <Matrix tx="134" ty="124.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 5" symbolType="graphic" centerPoint3DX="134" centerPoint3DY="124.2" loop="loop">
+                  <matrix>
+                    <Matrix tx="134" ty="124.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 5" symbolType="graphic" centerPoint3DX="134" centerPoint3DY="124.2" loop="loop">
+                  <matrix>
+                    <Matrix tx="134" ty="124.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 5" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="134" ty="124.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/Animar 5" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="134" ty="124.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="tail" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/tail" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-56.6" ty="91.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="59.3" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/tail" symbolType="graphic" centerPoint3DX="-2.2" centerPoint3DY="106.65" loop="loop">
+                  <matrix>
+                    <Matrix a="1.00033569335938" b="0.0211029052734375" tx="-56.55" ty="88.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="59.25" y="16.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/tail" symbolType="graphic" centerPoint3DX="-2.2" centerPoint3DY="103.4" loop="loop">
+                  <matrix>
+                    <Matrix a="1.00021362304688" b="0.00555419921875" tx="-56.55" ty="91.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="59.2" y="16.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/tail" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-56.6" ty="96"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="59.3" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/tail" symbolType="graphic" centerPoint3DX="-2.2" centerPoint3DY="111.55" loop="loop">
+                  <matrix>
+                    <Matrix a="1.00006103515625" b="-0.020111083984375" tx="-56.55" ty="95.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="59.3" y="16.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/tail" symbolType="graphic" centerPoint3DX="-2.25" centerPoint3DY="108.9" loop="loop">
+                  <matrix>
+                    <Matrix b="-0.0293121337890625" tx="-56.6" ty="95.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="59.3" y="16.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/tail" symbolType="graphic" centerPoint3DX="-2.2" centerPoint3DY="106.55" loop="loop">
+                  <matrix>
+                    <Matrix a="1.00004577636719" b="-0.0043792724609375" tx="-56.55" ty="91.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="59.3" y="16.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toaster copy 2/tail" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-56.6" ty="91.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="59.3" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

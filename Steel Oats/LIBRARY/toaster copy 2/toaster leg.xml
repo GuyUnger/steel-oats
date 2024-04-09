@@ -1,0 +1,35 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="toaster copy 2/toaster leg" itemID="6614218e-00000228" symbolType="graphic" lastModified="1712595630">
+  <timeline>
+    <DOMTimeline name="toaster leg" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Capa_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!638 266[616 411 607 437!607 437[590 480 583 525!583 525[578 552 568 609!568 609[559 656 503 688!503 688[440 725 346 725!346 725[174 725 87 679!87 679[23 644 23 603!23 603|23 460!23 460[26 344 13 274!13 274[#0.B1 #CC.E1 0 177!0 177|651
+ 177!651 177[#285.DB #D6.3C 638 266"/>
+                    <Edge cubics="!651 177(651,177;638,275 615,413 607,437q651 177 638 266 607 437);"/>
+                    <Edge cubics="!607 437(;580,507 581,545 568,609q607 437Q590 480q583 525Q578 552q568 609)568,609;"/>
+                    <Edge cubics="!568 609(568,609;557,665 480,725 346,725q568 609Q559 656q503 688Q440 725q346 725);"/>
+                    <Edge cubics="!346 725(;85,725 23,642 23,603q346 725Q174 725q87 679Q23 644q23 603)23,603;"/>
+                    <Edge cubics="!23 603(;23,557 23,506 23,460q23 603 23 460)23,460;"/>
+                    <Edge cubics="!13 274(;5,228 1,196 0,177q13 274Q1 205q0 177)0,177;"/>
+                    <Edge cubics="!23 460(23,460;25,383 22,321 13,274q23 460Q26 344q13 274);"/>
+                    <Edge cubics="!651 177(;651,177 0,177 0,177q651 177 0 177)0,177;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
