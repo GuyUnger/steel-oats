@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Bread" itemID="6600df7e-00000130" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Bread" lastModified="1712642506">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Bread" itemID="6600df7e-00000130" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Bread" lastModified="1713536055">
   <timeline>
     <DOMTimeline name="Bread" layerDepthEnabled="true">
       <layers>
@@ -50,6 +50,13 @@ function update() {
 		model.scaleX = Game.toaster.model.scaleX
 		rotation = Game.toaster.rotation
 	}
+	
+	if (x < Game.level.start.x) {
+		x = Game.level.start.x
+	}
+	if (x > Game.level.end.x) {
+		x = Game.level.end.x
+	}
 }
 
 
@@ -70,7 +77,7 @@ function processAir() {
 	var delta = 1 / 60 * Game.speed
 	sinceJump += 1 / 60
 	
-	if (jumpHolding && velocity.y > 1000) {
+	if (jumpHolding && velocity.y > 1300) {
 		jumpHolding = false
 	}
 	
@@ -202,23 +209,6 @@ function launch() {
 	visible = true
 }
 
-function shootBullet(angleOffset) {
-	var bullet = new Bullet()
-	Game.level.addChild(bullet)
-	
-	bullet.x = x + aimX * 60
-	bullet.y = y + aimY * 60
-	var speed = 1500
-	bullet.init(
-			aimX * speed,
-			aimY * speed
-	)
-	velocity.x -= aimX * 150
-	velocity.y -= aimY * 60
-	bullet.rotation = aimAngle * toDegrees
-	gun.gotoAndPlay(2)
-}
-
 function unlaunch() {
 	setAttacking(false)
 	model.rotation = 0
@@ -234,6 +224,23 @@ function unlaunch() {
 	
 	Game.audios.unlaunch.play()
 	
+}
+
+function shootBullet(angleOffset) {
+	var bullet = new Bullet()
+	Game.level.addChild(bullet)
+	
+	bullet.x = x + aimX * 60
+	bullet.y = y + aimY * 60
+	var speed = 1500
+	bullet.init(
+			aimX * speed,
+			aimY * speed
+	)
+	velocity.x -= aimX * 150
+	velocity.y -= aimY * 60
+	bullet.rotation = aimAngle * toDegrees
+	gun.gotoAndPlay(2)
 }
 
 function rayFloor(offset) {
@@ -401,7 +408,7 @@ function rayFloor(offset) {
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_2" color="#9933CC" locked="true">
+        <DOMLayer name="Layer_2" color="#9933CC">
           <frames>
             <DOMFrame index="0" duration="3" keyMode="9728">
               <elements>

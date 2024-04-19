@@ -28,21 +28,22 @@
 		public static var bars: MovieClip
 		public static var audios: MovieClip
 		
+		public static var bullets = []
+		public static var 
 		
 		public function Game() {
 			stage.addEventListener(KeyboardEvent.KEY_DOWN, keyDown)
 			stage.addEventListener(KeyboardEvent.KEY_UP, keyUp)
-			stage.addEventListener(Event.ENTER_FRAME, onEnterFrame)
+			stage.addEventListener(Event.ENTER_FRAME, _onEnterFrame)
 			stage.addEventListener(MouseEvent.MOUSE_DOWN, onMousePressed)
 			stage.addEventListener(MouseEvent.MOUSE_UP, onMouseReleased)
 		}
 		
-		public function onEnterFrame(e: Event) {
+		
+		public function _onEnterFrame(e: Event) {
 			var delta = 1 / 60
 			sinceSpacePressed += delta
 			processCamera(delta)
-			bread.update()
-			toaster.update()
 			keySpaceJustReleased = false
 			mouseJustPressed = false
 			mouseJustReleased = false

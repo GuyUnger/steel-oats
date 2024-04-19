@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="toast/toast idle" itemID="6614259c-00000270" lastModified="1712614201" lastUniqueIdentifier="22">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="toast/toast idle" itemID="6614259c-00000270" lastModified="1712709692" lastUniqueIdentifier="22">
   <timeline>
-    <DOMTimeline name="toast idle" currentFrame="7" layerDepthEnabled="true">
+    <DOMTimeline name="toast idle" currentFrame="31" layerDepthEnabled="true">
       <layers>
         <DOMLayer name="hat" color="#4FFF4F" autoNamed="false">
           <frames>
@@ -202,7 +202,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="body" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="body" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <elements>
@@ -402,64 +402,64 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="gun" color="#4FFFFF" autoNamed="false">
+        <DOMLayer name="gun" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" loop="loop">
                   <matrix>
-                    <Matrix a="0.416641235351562" b="0.063629150390625" c="-0.063629150390625" d="0.416641235351562" tx="41.4" ty="-52.85"/>
+                    <Matrix a="0.41650390625" b="-0.0643768310546875" c="0.0643768310546875" d="0.41650390625" tx="34.65" ty="-42.2"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="82.9" y="53.1"/>
+                    <Point x="82.95" y="52.9"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
             <DOMFrame index="4" duration="4" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" centerPoint3DX="72.55" centerPoint3DY="-24.75" loop="loop">
+                <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" centerPoint3DX="70.8" centerPoint3DY="-24.8" loop="loop">
                   <matrix>
-                    <Matrix a="0.416641235351562" b="0.063568115234375" c="-0.063568115234375" d="0.416641235351562" tx="41.3" ty="-52.1"/>
+                    <Matrix a="0.413284301757812" b="-0.08251953125" c="0.08251953125" d="0.413284301757812" tx="32.05" ty="-39.8"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="83" y="53.1"/>
+                    <Point x="83.05" y="53.1"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
             <DOMFrame index="8" duration="4" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" centerPoint3DX="72.35" centerPoint3DY="-22.35" loop="loop">
+                <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" centerPoint3DX="72.4" centerPoint3DY="-22.4" loop="loop">
                   <matrix>
-                    <Matrix a="0.416641235351562" b="0.0633697509765625" c="-0.0633697509765625" d="0.416641235351562" tx="41.1" ty="-49.65"/>
+                    <Matrix a="0.418258666992188" b="-0.0513153076171875" c="0.0513153076171875" d="0.418258666992188" tx="34.9" ty="-40.15"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="82.95" y="53.05"/>
+                    <Point x="83.2" y="52.75"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
             <DOMFrame index="12" duration="4" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" centerPoint3DX="71.85" centerPoint3DY="-17.6" loop="loop">
+                <DOMSymbolInstance libraryItemName="toast/gun" selected="true" symbolType="graphic" centerPoint3DX="71.9" centerPoint3DY="-20" loop="loop">
                   <matrix>
-                    <Matrix a="0.416595458984375" b="0.06298828125" c="-0.06298828125" d="0.416595458984375" tx="40.6" ty="-44.85"/>
+                    <Matrix a="0.419815063476562" b="-0.03564453125" c="0.03564453125" d="0.419815063476562" tx="35.1" ty="-39.2"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="82.9" y="53"/>
+                    <Point x="83.15" y="52.9"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
             <DOMFrame index="16" duration="4" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" centerPoint3DX="72" centerPoint3DY="-18.35" loop="loop">
+                <DOMSymbolInstance libraryItemName="toast/gun" selected="true" symbolType="graphic" centerPoint3DX="72.1" centerPoint3DY="-18.4" loop="loop">
                   <matrix>
-                    <Matrix a="0.416595458984375" b="0.0630340576171875" c="-0.0630340576171875" d="0.416595458984375" tx="40.75" ty="-45.6"/>
+                    <Matrix a="0.420608520507812" b="-0.0244598388671875" c="0.0244598388671875" d="0.420608520507812" tx="35.8" ty="-38.55"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="82.8" y="53"/>
+                    <Point x="83" y="52.85"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
@@ -468,22 +468,22 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" centerPoint3DX="72.35" centerPoint3DY="-22.35" loop="loop">
                   <matrix>
-                    <Matrix a="0.416641235351562" b="0.0633544921875" c="-0.0633544921875" d="0.416641235351562" tx="41.15" ty="-49.6"/>
+                    <Matrix a="0.421401977539062" b="0.0015106201171875" c="-0.0015106201171875" d="0.421401977539062" tx="37.5" ty="-44.75"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="82.7" y="52.95"/>
+                    <Point x="82.75" y="53"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
             <DOMFrame index="24" duration="4" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" centerPoint3DX="72.65" centerPoint3DY="-24.65" loop="loop">
+                <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" centerPoint3DX="72.6" centerPoint3DY="-24.65" loop="loop">
                   <matrix>
-                    <Matrix a="0.416641235351562" b="0.0635528564453125" c="-0.0635528564453125" d="0.416641235351562" tx="41.4" ty="-51.95"/>
+                    <Matrix a="0.418869018554688" b="-0.0464324951171875" c="0.0464324951171875" d="0.418869018554688" tx="35.35" ty="-42.9"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="82.85" y="53"/>
+                    <Point x="83.05" y="52.9"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
@@ -492,10 +492,10 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" loop="loop">
                   <matrix>
-                    <Matrix a="0.416641235351562" b="0.063629150390625" c="-0.063629150390625" d="0.416641235351562" tx="41.4" ty="-52.85"/>
+                    <Matrix a="0.41888427734375" b="-0.046356201171875" c="0.046356201171875" d="0.41888427734375" tx="35.4" ty="-43.85"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="82.9" y="53.1"/>
+                    <Point x="82.95" y="53"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>

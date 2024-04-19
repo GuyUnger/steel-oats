@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Toaster" itemID="6600df88-00000133" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Toaster" lastModified="1712644827">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Toaster" itemID="6600df88-00000133" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Toaster" lastModified="1712717983">
   <timeline>
     <DOMTimeline name="Toaster" layerDepthEnabled="true">
       <layers>
@@ -82,6 +82,7 @@ function update() {
 	}
 	
 	if (isOnFloor) {
+		velocity.y = 0
 		y = floorY//lerp(y, floorY, 0.8)
 		
 		
@@ -151,6 +152,13 @@ function update() {
 				playAnimation("jump_down")
 			}
 		}
+	}
+	
+	if (x < Game.level.start.x) {
+		x = Game.level.start.x
+	}
+	if (x > Game.level.end.x) {
+		//x = Game.level.end.x
 	}
 }
 

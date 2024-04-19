@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Bullet" itemID="6600fbe0-0000013e" linkageExportForAS="true" linkageClassName="Bullet" lastModified="1712206167" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Bullet" itemID="6600fbe0-0000013e" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Bullet" lastModified="1713535680" lastUniqueIdentifier="1">
   <timeline>
     <DOMTimeline name="Bullet" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="Layer_3" color="#FF800A" current="true" isSelected="true">
+        <DOMLayer name="Layer_3" color="#FF800A">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -77,26 +77,9 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_1" color="#00FFFF">
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" duration="6" keyMode="9728">
-              <Actionscript>
-                <script><![CDATA[import flash.geom.Point;
-
-var velocity: Point
-
-addEventListener(Event.ENTER_FRAME, enterFrame)
-
-function init(velocityX, velocityY) {
-	velocity = new Point(velocityX, velocityY)
-}
-
-function enterFrame(e) {
-	var delta = 1 / 60
-	x += velocity.x * delta
-	y += velocity.y * delta
-}]]></script>
-              </Actionscript>
               <elements>
                 <DOMShape>
                   <fills>
@@ -105,8 +88,7 @@ function enterFrame(e) {
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="
-!-394 8[-395 -85 -387 -174!-387 -174[-381 -234 -317 -239!-317 -239|-110 -259!-110 -259[#FFFFA1.0A -260.5625 -80 -261.5!-80 -261.5|-80 -261!-80 -261[44 -265 164 -256!164 -256[310 -249 453 -259!453 -259[471 -259 491 -258!491 -258[671 -244
+                    <Edge fillStyle1="1" edges="!-394 8[-395 -85 -387 -174!-387 -174[-381 -234 -317 -239!-317 -239|-110 -259!-110 -259[#FFFFA1.0A -260.5625 -80 -261.5!-80 -261.5|-80 -261!-80 -261[44 -265 164 -256!164 -256[310 -249 453 -259!453 -259[471 -259 491 -258!491 -258[671 -244
  825 -192!825 -192[854 -183 876 -168!876 -168[972 -104 1014 -35!1014 -35[1036 4 1038 47!1038 47[1042 133 938 199!938 199[882 235 795 242!795 242[629 260 451 262!451 262[419 262 387 263!387 263|-156 263!-156 263[-227 244 -301 238!-301
  238[-328 247 -353 240!-353 240[-368 241 -380 233!-380 233[-385 231 -386 227!-386 227[-411 171 -403 108!-403 108[-396 57 -394 8"/>
                     <Edge cubics="!164 -256(;262,-251 359,-252 453,-259q164 -256Q310 -249q453 -259);"/>
