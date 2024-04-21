@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 18" itemID="66256824-0000029d" lastModified="1713727524">
+  <timeline>
+    <DOMTimeline name="Symbol 18" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-41 117S2[-82 103 -107 64!-107 64[-133 25 -126 -18!-126 -18[-121 -50 -99 -76!-99 -76[-77 -102 -46 -114!-46 -114[5 -133 54 -111!54 -111[105 -90 121 -38!121 -38[132 -5 123 30!123 30[114 65 88 89!88 89[64 113 28 120!28 120[-8 128 -41 117"/>
+                    <Edge cubics="!-41 117(;-96,99 -135,39 -126,-18q-41 117Q-82 103q-107 64Q-133 25q-126 -18);"/>
+                    <Edge cubics="!-126 -18(;-119,-61 -87,-98 -46,-114q-126 -18Q-121 -50q-99 -76Q-77 -102q-46 -114);"/>
+                    <Edge cubics="!-46 -114(;-14,-126 23,-125 54,-111q-46 -114Q5 -133q54 -111);"/>
+                    <Edge cubics="!54 -111(;85,-98 111,-70 121,-38q54 -111Q105 -90q121 -38);"/>
+                    <Edge cubics="!121 -38(;136,6 122,57 88,89q121 -38Q132 -5q123 30Q114 65q88 89);"/>
+                    <Edge cubics="!88 89(;55,121 3,131 -41,117q88 89Q64 113q28 120Q-8 128q-41 117);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -175,7 +175,7 @@
 
 			shootT -= 1 / 60
 			if (shootT <= 0 && shootPressed) {
-				shootT += 0.2
+				shootT += 0.5
 				shootBullet(0)
 				shootPressed = false
 				Game.speed = 1.0

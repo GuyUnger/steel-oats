@@ -34,7 +34,11 @@
 			var accelDuration = 0.5
 
 			var speed: Number = 800
-
+			
+			if (y > 50 && Game.hearts > 0){
+				
+						Game.removeHeart()
+			}
 			if ((Game.bread.launched && Game.bread.jumpHolding) || (Game.cameraTargetFreeze > 0)) {
 				sinceLaunched += delta
 				velocity.x -= velocity.x * 0.1
@@ -46,15 +50,15 @@
 					velocityTo.x += 1
 				}
 				if (x > Game.level.end.x - 550) {
-					if (Game.banditsKilled >= Game.banditsTotal){
+					if (Game.banditsKilled >= Game.banditsTotal) {
 						velocityTo.x = 1
-						
-			Game.bars_closed = true
-						Game.sinceSpacePressed=99
-						if (x>Game.level.end.x) {
+
+						Game.bars_closed = true
+						Game.sinceSpacePressed = 99
+						if (x > Game.level.end.x) {
 							Game.nextLevel()
 						}
-					}else{
+					} else {
 						Game.game.HUD.banditsLeft.gotoAndPlay(2)
 					}
 				}
@@ -82,7 +86,7 @@
 				floorRight = floorLeft
 			}
 			var floorY = (floorLeft + floorRight) / 2
-			shadow.y = -(y-floorY)
+			shadow.y = -(y - floorY)
 
 			if (!isOnFloor && y > floorY) {
 				isOnFloor = true
@@ -103,10 +107,6 @@
 				if (Game.sinceSpacePressed < 0.3) {
 					Game.sinceSpacePressed = 999
 					launch()
-					//isOnFloor = false
-					//y -= 10
-					//velocity.y = -1000
-					//Game.audios.jump.play()
 				}
 			} else {
 
@@ -132,7 +132,7 @@
 
 					if (Math.abs(velocity.x) > 10) {
 						playAnimation("runNude")
-}else{					
+					} else {
 						playAnimation("idle_solo")
 						var angle = pointsAngle(x, y, Game.bread.x, Game.bread.y)
 						model.eyeL.rotation = angle * toDegrees - rotation
@@ -169,15 +169,15 @@
 					}
 				}
 			}
-			if(checkCollision(-60,-70) || checkCollision(60,-70)) {
+			if (checkCollision(-60, -70) || checkCollision(60, -70)) {
 				velocity.y = 0
 				y += 15
 			}
-			if(checkCollision(70,-40)||checkCollision(70,-60)) {
+			if (checkCollision(70, -40) || checkCollision(70, -60)) {
 				velocity.x = 0
 				x -= 15
 			}
-			if(checkCollision(-70,-40)||checkCollision(-70,-60)) {
+			if (checkCollision(-70, -40) || checkCollision(-70, -60)) {
 				velocity.x = 0
 				x += 15
 			}
@@ -189,8 +189,13 @@
 				x = Game.level.end.x
 			}
 		}
+		function jump() {
+			isOnFloor = false
+			y -= 10
+			velocity.y = -2000
+			Game.audios.jump.play()
+		}
 
-		
 		function playAnimation(animation) {
 			if (model.currentLabel != animation) {
 				model.gotoAndPlay(animation)
@@ -208,7 +213,7 @@
 		}
 
 		var checking = new Point();
-		
+
 		function rayFloor(offset) {
 			checking.x = x + offset
 			checking.y = y - 20
@@ -235,7 +240,7 @@
 			}
 			return Game.level.globalToLocal(checking).y
 		}
-		
+
 		function checkCollision(offX, offY) {
 			checking.x = x + offX
 			checking.y = y + offY

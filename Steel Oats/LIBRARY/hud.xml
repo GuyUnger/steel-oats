@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="hud" itemID="6624c07e-000005ac" lastModified="1713711162" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="hud" itemID="6624c07e-000005ac" lastModified="1713726631" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="hud" layerDepthEnabled="true">
       <layers>
@@ -9,7 +9,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
+        <DOMLayer name="Layer_2" color="#9933CC">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -53,7 +53,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_1" color="#00FFFF">
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -104,7 +104,8 @@
                         </FillStyle>
                       </fills>
                       <edges>
-                        <Edge fillStyle1="1" edges="!20605 1313S2[20576 1378 20547 1430!20547 1430[20525 1465 20505 1460!20505 1460[20495 1458 20488 1448!20488 1448[20482 1439 20483 1427!20483 1427[20483 1413 20497 1387!20497 1387[20572 1247 20628 1103!20628 1103[20638 1077 20682 961!20682
+                        <Edge fillStyle1="1" edges="
+!20605 1313[20576 1378 20547 1430!20547 1430[20525 1465 20505 1460!20505 1460[20495 1458 20488 1448!20488 1448[20482 1439 20483 1427!20483 1427[20483 1413 20497 1387!20497 1387[20572 1247 20628 1103!20628 1103[20638 1077 20682 961!20682
  961|20780 694!20780 694[20795 651 20821 652!20821 652[20832 653 20840 663!20840 663[20847 673 20848 685!20848 685[20849 696 20837 729!20837 729[20807 800 20752 954!20752 954[20699 1102 20666 1178!20666 1178[20644 1231 20605 1313"/>
                         <Edge cubics="!20605 1313(;20587,1353 20568,1392 20547,1430q20605 1313Q20576 1378q20547 1430);"/>
                         <Edge cubics="!20547 1430(;20537,1446 20523,1464 20505,1460q20547 1430Q20525 1465q20505 1460);"/>
@@ -128,46 +129,6 @@
                   </matrix>
                   <transformationPoint>
                     <Point x="-0.05"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="cereal1" centerPoint3DX="-510.25" centerPoint3DY="1047.2">
-                  <matrix>
-                    <Matrix tx="-596.75" ty="979.35"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="86.5" y="67.85"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="cereal2" centerPoint3DX="-322" centerPoint3DY="1049.1">
-                  <matrix>
-                    <Matrix tx="-398.9" ty="989.15"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="76.9" y="59.95"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="cereal3" centerPoint3DX="-515.1" centerPoint3DY="1192.45">
-                  <matrix>
-                    <Matrix tx="-591.6" ty="1128.6"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="76.5" y="63.85"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="cereal4" centerPoint3DX="-325.3" centerPoint3DY="1196.9">
-                  <matrix>
-                    <Matrix tx="-413.05" ty="1128.6"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="87.75" y="68.3"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="cereal5" centerPoint3DX="-156.2" centerPoint3DY="1121.65">
-                  <matrix>
-                    <Matrix tx="-231.8" ty="1057.15"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="75.6" y="64.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="cereals" name="cereal">

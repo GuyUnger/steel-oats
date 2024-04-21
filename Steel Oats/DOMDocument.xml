@@ -6,17 +6,20 @@
           <DOMFolderItem name="toaster copy 2" itemID="66146af6-0000020e"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Font 2" itemID="66237760-000002c4" font="PeyoteHandwriteRegular" size="0" id="2" sourceLastImported="1713600352" embedRanges="3"/>
           <DOMFontItem name="Font 1" itemID="66237755-000002c2" font="Bogusflow" size="0" id="1" sourceLastImported="1713600341" embedRanges="2"/>
+          <DOMFontItem name="Font 2" itemID="66237760-000002c4" font="PeyoteHandwriteRegular" size="0" id="2" sourceLastImported="1713600352" embedRanges="3"/>
      </fonts>
      <media>
-          <DOMSoundItem name="1315978_The-Sail-Jam.mp3" itemID="66255164-000008c0" linkageExportForAS="true" linkageClassName="Intro" sourceExternalFilepath="./LIBRARY/1315978_The-Sail-Jam.mp3" sourceLastImported="1713721707" externalFileSize="2692758" href="1315978_The-Sail-Jam.mp3" soundDataHRef="M 20 1713721700.dat" format="44kHz 16bit Stereo" sampleCount="2968704" exportFormat="1" exportBits="7" dataLength="2692702" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="371088"/>
+          <DOMSoundItem name="1315978_The-Sail-Jam.mp3" itemID="66255164-000008c0" linkageExportForAS="true" linkageClassName="Intro" sourceExternalFilepath="../Steel Oats/LIBRARY/1315978_The-Sail-Jam.mp3" sourceLastImported="1713721707" externalFileSize="2692758" href="1315978_The-Sail-Jam.mp3" soundDataHRef="M 20 1713721700.dat" format="44kHz 16bit Stereo" sampleCount="2968704" exportFormat="1" exportBits="7" dataLength="2692702" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="371088"/>
+          <DOMSoundItem name="ah_yeah.wav" itemID="662565c6-0000025b" sourceExternalFilepath="../Steel Oats/LIBRARY/ah_yeah.wav" sourceLastImported="1712927577" externalFileSize="473548" href="ah_yeah.wav" soundDataHRef="M 21 1713726918.dat" format="44kHz 16bit Stereo" sampleCount="118376" dataLength="473504"/>
           <DOMSoundItem name="bleep_scan_negative_1.mp3" itemID="66237f13-000002f4" sourceExternalFilepath="../Steel Oats/LIBRARY/bleep_scan_negative_1.mp3" sourceLastImported="1712914028" externalFileSize="13842" href="bleep_scan_negative_1.mp3" soundDataHRef="M 9 1713602323.dat" format="44kHz 16bit Stereo" sampleCount="17280" exportFormat="1" exportBits="7" dataLength="12537" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="2160"/>
+          <DOMSoundItem name="boing_2.wav" itemID="66258138-00000396" sourceExternalFilepath="../Steel Oats/LIBRARY/boing_2.wav" sourceLastImported="1712913726" externalFileSize="28384" href="boing_2.wav" soundDataHRef="M 24 1713733944.dat" format="44kHz 16bit Mono" sampleCount="14112" dataLength="28224"/>
           <DOMSoundItem name="break_glass.wav" itemID="66240c85-00000417" sourceExternalFilepath="../Steel Oats/LIBRARY/break_glass.wav" sourceLastImported="1712913724" externalFileSize="78364" href="break_glass.wav" soundDataHRef="M 14 1713638533.dat" format="44kHz 16bit Stereo" sampleCount="19580" dataLength="78320"/>
-          <DOMSoundItem name="gate_open.wav" itemID="6623e422-00000332" sourceExternalFilepath="../Steel Oats/LIBRARY/gate_open.wav" sourceLastImported="1713627883" externalFileSize="577386" href="gate_open.wav" soundDataHRef="M 13 1713628194.dat" format="44kHz 16bit Stereo" sampleCount="144187" dataLength="576748"/>
-          <DOMSoundItem name="grunt1.wav" itemID="66254e63-000008a3" sourceExternalFilepath="./LIBRARY/grunt1.wav" sourceLastImported="1713720875" externalFileSize="53994" href="grunt1.wav" soundDataHRef="M 16 1713720931.dat" format="44kHz 16bit Mono" sampleCount="26945" dataLength="53890"/>
-          <DOMSoundItem name="grunt2.wav" itemID="66254e68-000008a6" sourceExternalFilepath="./LIBRARY/grunt2.wav" sourceLastImported="1713720888" externalFileSize="44856" href="grunt2.wav" soundDataHRef="M 17 1713720936.dat" format="44kHz 16bit Mono" sampleCount="22376" dataLength="44752"/>
-          <DOMSoundItem name="grunt3.wav" itemID="66254e6c-000008a9" sourceExternalFilepath="./LIBRARY/grunt3.wav" sourceLastImported="1713720906" externalFileSize="51342" href="grunt3.wav" soundDataHRef="M 18 1713720940.dat" format="44kHz 16bit Mono" sampleCount="25619" dataLength="51238"/>
+          <DOMSoundItem name="cage_hit2.wav" itemID="66255e77-000001c6" sourceExternalFilepath="../Steel Oats/LIBRARY/cage_hit2.wav" sourceLastImported="1713724629" externalFileSize="163484" href="cage_hit2.wav" soundDataHRef="M 20 1713725047.dat" format="44kHz 16bit Stereo" sampleCount="40834" dataLength="163336"/>
+          <DOMSoundItem name="gate_open.wav" itemID="6623e422-00000332" sourceExternalFilepath="../Steel Oats/LIBRARY/gate_open.wav" sourceLastImported="1713724249" externalFileSize="577386" href="gate_open.wav" soundDataHRef="M 13 1713628194.dat" format="44kHz 16bit Stereo" sampleCount="144187" dataLength="576748"/>
+          <DOMSoundItem name="grunt1.wav" itemID="66254e63-000008a3" sourceExternalFilepath="../Steel Oats/LIBRARY/grunt1.wav" sourceLastImported="1713720875" externalFileSize="53994" href="grunt1.wav" soundDataHRef="M 16 1713720931.dat" format="44kHz 16bit Mono" sampleCount="26945" dataLength="53890"/>
+          <DOMSoundItem name="grunt2.wav" itemID="66254e68-000008a6" sourceExternalFilepath="../Steel Oats/LIBRARY/grunt2.wav" sourceLastImported="1713720888" externalFileSize="44856" href="grunt2.wav" soundDataHRef="M 17 1713720936.dat" format="44kHz 16bit Mono" sampleCount="22376" dataLength="44752"/>
+          <DOMSoundItem name="grunt3.wav" itemID="66254e6c-000008a9" sourceExternalFilepath="../Steel Oats/LIBRARY/grunt3.wav" sourceLastImported="1713720906" externalFileSize="51342" href="grunt3.wav" soundDataHRef="M 18 1713720940.dat" format="44kHz 16bit Mono" sampleCount="25619" dataLength="51238"/>
           <DOMSoundItem name="Jump.wav" itemID="6614dacf-000002aa" sourceExternalFilepath="../Steel Oats/LIBRARY/Jump.wav" sourceLastImported="1713523543" externalFileSize="14844" href="Jump.wav" soundDataHRef="M 7 1712642767.dat" format="44kHz 16bit Mono" sampleCount="7312" dataLength="14624"/>
           <DOMSoundItem name="Launch.wav" itemID="6614bced-0000026e" sourceExternalFilepath="../Steel Oats/LIBRARY/Launch.wav" sourceLastImported="1713523543" externalFileSize="42432" href="Launch.wav" soundDataHRef="M 3 1712635117.dat" format="44kHz 16bit Mono" sampleCount="19426" dataLength="38852"/>
           <DOMSoundItem name="Neigh1.wav" itemID="6614e2d1-000002ae" sourceExternalFilepath="../Steel Oats/LIBRARY/Neigh1.wav" sourceLastImported="1713523543" externalFileSize="232500" href="Neigh1.wav" soundDataHRef="M 8 1712644817.dat" format="44kHz 16bit Stereo" sampleCount="58070" dataLength="232280"/>
@@ -24,9 +27,11 @@
           <DOMSoundItem name="Neigh3.wav" itemID="6614e2d1-000002b2" sourceExternalFilepath="../Steel Oats/LIBRARY/Neigh3.wav" sourceLastImported="1713523543" externalFileSize="160716" href="Neigh3.wav" soundDataHRef="M 9 1712644817.dat" format="44kHz 16bit Stereo" sampleCount="40124" dataLength="160496"/>
           <DOMSoundItem name="Shoot.wav" itemID="6614d906-00000298" sourceExternalFilepath="../Steel Oats/LIBRARY/Shoot.wav" sourceLastImported="1713523543" externalFileSize="190808" href="Shoot.wav" soundDataHRef="M 5 1712642310.dat" format="44kHz 16bit Stereo" sampleCount="47647" dataLength="190588"/>
           <DOMSoundItem name="sit.wav" itemID="66254d9d-000008a0" sourceExternalFilepath="../Steel Oats/LIBRARY/sit.wav" sourceLastImported="1713720554" externalFileSize="244876" href="sit.wav" soundDataHRef="M 15 1713720733.dat" format="44kHz 16bit Stereo" sampleCount="61208" dataLength="244832"/>
-          <DOMSoundItem name="song1.mp3" itemID="66254f35-000008b0" sourceExternalFilepath="./LIBRARY/song1.mp3" sourceLastImported="1713721128" externalFileSize="2097628" href="song1.mp3" soundDataHRef="M 19 1713721141.dat" format="44kHz 16bit Stereo" sampleCount="4074624" exportFormat="1" exportBits="7" dataLength="2097588" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="509328"/>
-          <DOMSoundItem name="swash.wav" itemID="66237f44-00000300" sourceExternalFilepath="../Steel Oats/LIBRARY/swash.wav" sourceLastImported="1713100446" externalFileSize="48510" href="swash.wav" soundDataHRef="M 10 1713602372.dat" format="44kHz 16bit Stereo" sampleCount="11121" dataLength="44484"/>
-          <DOMSoundItem name="swoosh_swish.wav" itemID="66237fb4-00000313" sourceExternalFilepath="../Steel Oats/LIBRARY/swoosh_swish.wav" sourceLastImported="1713602454" externalFileSize="19286" href="swoosh_swish.wav" soundDataHRef="M 12 1713602484.dat" format="44kHz 16bit Mono" sampleCount="9517" dataLength="19034"/>
+          <DOMSoundItem name="snog2.mp3" itemID="66256d3b-000002cd" linkageExportForAS="true" linkageClassName="Music2" sourceExternalFilepath="../Steel Oats/LIBRARY/snog2.mp3" sourceLastImported="1713728839" externalFileSize="1382007" href="snog2.mp3" soundDataHRef="M 22 1713728827.dat" format="44kHz 16bit Stereo" sampleCount="2570112" exportFormat="1" exportBits="7" dataLength="1381943" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="321264"/>
+          <DOMSoundItem name="song1.mp3" itemID="66254f35-000008b0" linkageExportForAS="true" linkageClassName="Music1" sourceExternalFilepath="../Steel Oats/LIBRARY/song1.mp3" sourceLastImported="1713728970" externalFileSize="2097628" href="song1.mp3" soundDataHRef="M 19 1713721141.dat" format="44kHz 16bit Stereo" sampleCount="4074624" exportFormat="1" exportBits="7" dataLength="2097588" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="509328"/>
+          <DOMSoundItem name="song3.mp3" itemID="66256d9d-000002d6" linkageExportForAS="true" linkageClassName="Music3" sourceExternalFilepath="../Steel Oats/LIBRARY/song3.mp3" sourceLastImported="1713728935" externalFileSize="1041144" href="song3.mp3" soundDataHRef="M 23 1713728925.dat" format="44kHz 16bit Stereo" sampleCount="2082816" exportFormat="1" exportBits="7" dataLength="1041080" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="260352"/>
+          <DOMSoundItem name="swash.wav" itemID="66237f44-00000300" sourceExternalFilepath="../Steel Oats/LIBRARY/swash.wav" sourceLastImported="1713724249" externalFileSize="48510" href="swash.wav" soundDataHRef="M 10 1713602372.dat" format="44kHz 16bit Stereo" sampleCount="11121" dataLength="44484"/>
+          <DOMSoundItem name="swoosh_swish.wav" itemID="66237fb4-00000313" sourceExternalFilepath="../Steel Oats/LIBRARY/swoosh_swish.wav" sourceLastImported="1713724249" externalFileSize="19286" href="swoosh_swish.wav" soundDataHRef="M 12 1713602484.dat" format="44kHz 16bit Mono" sampleCount="9517" dataLength="19034"/>
           <DOMSoundItem name="ToasterRun.wav" itemID="6611e192-00000143" sourceExternalFilepath="../Steel Oats/LIBRARY/ToasterRun.wav" sourceLastImported="1713523543" externalFileSize="49304" href="ToasterRun.wav" soundDataHRef="M 1 1712447890.dat" format="44kHz 16bit Stereo" sampleCount="12315" dataLength="49260"/>
           <DOMSoundItem name="Unlaunch.wav" itemID="6614bced-0000026b" sourceExternalFilepath="../Steel Oats/LIBRARY/Unlaunch.wav" sourceLastImported="1713523543" externalFileSize="118796" href="Unlaunch.wav" soundDataHRef="M 2 1712635117.dat" format="44kHz 16bit Stereo" sampleCount="27252" dataLength="109008"/>
      </media>
@@ -48,6 +53,8 @@
           <Include href="bean face 4 copy 2.xml" itemIcon="1" loadImmediate="false" itemID="66241720-00000758" lastModified="1713641261"/>
           <Include href="bean foot.xml" itemIcon="1" loadImmediate="false" itemID="6623f9b3-0000021e" lastModified="1713633715"/>
           <Include href="bean hat 3.xml" itemIcon="1" loadImmediate="false" itemID="6623fb80-00000246" lastModified="1713634176"/>
+          <Include href="big toast.xml" itemID="66241e65-000008ec" lastModified="1713727608"/>
+          <Include href="bo.xml" loadImmediate="false" itemID="66256cb0-000002c1" lastModified="1713728743"/>
           <Include href="Bread.xml" itemID="6600df7e-00000130" lastModified="1713536565"/>
           <Include href="BreadModel.xml" loadImmediate="false" itemID="660ef52f-0000026e" lastModified="1712614925"/>
           <Include href="Bullet.xml" itemID="6600fbe0-0000013e" lastModified="1713535680"/>
@@ -56,8 +63,9 @@
           <Include href="cactus 1.xml" itemIcon="1" loadImmediate="false" itemID="66143c3a-0000040c" lastModified="1712602170"/>
           <Include href="cactus 2.xml" itemIcon="1" loadImmediate="false" itemID="66143c44-00000410" lastModified="1712602180"/>
           <Include href="cactus 3.xml" itemIcon="1" loadImmediate="false" itemID="66143c4c-00000414" lastModified="1712602188"/>
-          <Include href="Cage.xml" itemID="6624d2c1-00000672" lastModified="1713702363"/>
-          <Include href="cage_open.xml" loadImmediate="false" itemID="66250559-00000683" lastModified="1713702338"/>
+          <Include href="Cage.xml" itemID="6624d2c1-00000672" lastModified="1713727351"/>
+          <Include href="cage_open.xml" loadImmediate="false" itemID="66250559-00000683" lastModified="1713726940"/>
+          <Include href="cereal.xml" loadImmediate="false" itemID="662564b1-000001e5" lastModified="1713726700"/>
           <Include href="cereal1.xml" loadImmediate="false" itemID="661fcf24-0000024b" lastModified="1713705975"/>
           <Include href="cereal1 body.xml" itemIcon="1" loadImmediate="false" itemID="661fceee-00000244" lastModified="1713360622"/>
           <Include href="cereal2.xml" loadImmediate="false" itemID="661fcf2d-00000253" lastModified="1713705980"/>
@@ -69,7 +77,9 @@
           <Include href="cereal5.xml" loadImmediate="false" itemID="661fcf48-0000026b" lastModified="1713706002"/>
           <Include href="cereal5 body.xml" itemIcon="1" loadImmediate="false" itemID="661fcf1b-00000249" lastModified="1713360667"/>
           <Include href="cereals.xml" loadImmediate="false" itemID="66252040-0000073b" lastModified="1713709780"/>
-          <Include href="Duplicate Items Folder/Tween 1.xml" itemIcon="1" loadImmediate="false" itemID="66252eec-0000079b" lastModified="1713709948"/>
+          <Include href="collect all cereal.xml" loadImmediate="false" itemID="662537e1-000001dc" lastModified="1713715169"/>
+          <Include href="collect no cereal.xml" loadImmediate="false" itemID="662537d8-000001d9" lastModified="1713715160"/>
+          <Include href="Duplicate Items Folder/Tween 1.xml" itemIcon="1" loadImmediate="false" itemID="66252eec-0000079b" lastModified="1713733198"/>
           <Include href="eye.xml" itemIcon="1" loadImmediate="false" itemID="661fcd66-00000210" lastModified="1713360230"/>
           <Include href="eyeRotating.xml" loadImmediate="false" itemID="6614b8fa-00000252" lastModified="1712634106"/>
           <Include href="FallOutWindow.xml" loadImmediate="false" itemID="66235e1c-000002b8" lastModified="1713688451"/>
@@ -85,28 +95,29 @@
           <Include href="Gun.xml" loadImmediate="false" itemID="660e2fdc-00000250" lastModified="1712642402"/>
           <Include href="hearts.xml" loadImmediate="false" itemID="6624cddc-000005f6" lastModified="1713688097"/>
           <Include href="hello.xml" loadImmediate="false" itemID="6625380e-000001dd" lastModified="1713716865"/>
-          <Include href="hud.xml" loadImmediate="false" itemID="6624c07e-000005ac" lastModified="1713711162"/>
+          <Include href="hud.xml" loadImmediate="false" itemID="6624c07e-000005ac" lastModified="1713726631"/>
           <Include href="intro 1.xml" loadImmediate="false" itemID="66252be5-00000268" lastModified="1713712793"/>
           <Include href="intro 2.xml" loadImmediate="false" itemID="66252e4e-00000271" lastModified="1713712718"/>
-          <Include href="Level1.xml" itemID="66238021-0000031a" lastModified="1713713173"/>
-          <Include href="Level2.xml" itemID="6623ecf0-00000372" lastModified="1713715257"/>
+          <Include href="Level1.xml" itemID="66238021-0000031a" lastModified="1713734437"/>
+          <Include href="Level2.xml" itemID="6623ecf0-00000372" lastModified="1713733313"/>
           <Include href="level2collision.xml" loadImmediate="false" itemID="6623ed6f-00000374" lastModified="1713713340"/>
-          <Include href="Level3.xml" itemID="66241385-0000044c" lastModified="1713713025"/>
-          <Include href="Level3Collisions.xml" loadImmediate="false" itemID="66241685-000004a6" lastModified="1713712902"/>
-          <Include href="Level4.xml" itemID="66241395-00000476" lastModified="1713722201"/>
-          <Include href="level4collisions.xml" loadImmediate="false" itemID="66241698-000004aa" lastModified="1713722204"/>
-          <Include href="Level5.xml" itemID="6624139f-000004a0" lastModified="1713713965"/>
-          <Include href="level5col.xml" loadImmediate="false" itemID="662416a4-000004ae" lastModified="1713713934"/>
+          <Include href="Level3.xml" itemID="66241385-0000044c" lastModified="1713734747"/>
+          <Include href="Level3Collisions.xml" loadImmediate="false" itemID="66241685-000004a6" lastModified="1713734484"/>
+          <Include href="Level4.xml" itemID="66241395-00000476" lastModified="1713733318"/>
+          <Include href="level4collisions.xml" loadImmediate="false" itemID="66241698-000004aa" lastModified="1713733146"/>
+          <Include href="Level5.xml" itemID="6624139f-000004a0" lastModified="1713733320"/>
+          <Include href="level5col.xml" loadImmediate="false" itemID="662416a4-000004ae" lastModified="1713727397"/>
           <Include href="LevelContainer.xml" loadImmediate="false" itemID="66237bb7-000002d0" lastModified="1713686717"/>
           <Include href="LevelWall.xml" loadImmediate="false" itemID="66160035-0000019a" lastModified="1713712966"/>
           <Include href="MaloPistol.xml" loadImmediate="false" itemID="66234ab6-00000242" lastModified="1713642139"/>
-          <Include href="music1.xml" itemID="66254ef9-000008ab" lastModified="1713721691"/>
+          <Include href="normal ending.xml" loadImmediate="false" itemID="66253349-0000027d" lastModified="1713713993"/>
           <Include href="OneWay.xml" loadImmediate="false" itemID="66237294-000002bc" lastModified="1713599128"/>
           <Include href="plank.xml" loadImmediate="false" itemID="662525d5-00000248" lastModified="1713710549"/>
           <Include href="rail.xml" loadImmediate="false" itemID="66252e2f-00000767" lastModified="1713712720"/>
           <Include href="rails.xml" loadImmediate="false" itemID="662525de-0000024c" lastModified="1713710558"/>
           <Include href="shadow.xml" loadImmediate="false" itemID="66252f80-000007bf" lastModified="1713713024"/>
-          <Include href="StageInfo.xml" loadImmediate="false" itemID="66237b9c-000002ce" lastModified="1713639693"/>
+          <Include href="Spring.xml" itemID="66257c89-0000034b" lastModified="1713733955"/>
+          <Include href="StageInfo.xml" loadImmediate="false" itemID="66237b9c-000002ce" lastModified="1713734919"/>
           <Include href="Symbol 1.xml" loadImmediate="false" itemID="660e30eb-00000254" lastModified="1713590520"/>
           <Include href="Symbol 2.xml" loadImmediate="false" itemID="6624c795-000005b9" lastModified="1713686625"/>
           <Include href="Symbol 3.xml" loadImmediate="false" itemID="6625055d-00000687" lastModified="1713702237"/>
@@ -118,12 +129,17 @@
           <Include href="Symbol 9.xml" loadImmediate="false" itemID="66250568-0000069f" lastModified="1713702248"/>
           <Include href="Symbol 10.xml" loadImmediate="false" itemID="66251449-000006d9" lastModified="1713706146"/>
           <Include href="Symbol 11.xml" loadImmediate="false" itemID="66252e35-0000076d" lastModified="1713712852"/>
-          <Include href="Symbol 12.xml" loadImmediate="false" itemID="662538c2-00000805" lastModified="1713722089"/>
+          <Include href="Symbol 12.xml" loadImmediate="false" itemID="662538c2-00000805" lastModified="1713727095"/>
           <Include href="Symbol 13.xml" loadImmediate="false" itemID="66253e18-0000087b" lastModified="1713720965"/>
           <Include href="Symbol 14.xml" loadImmediate="false" itemID="66253e1e-0000087f" lastModified="1713716766"/>
           <Include href="Symbol 15.xml" loadImmediate="false" itemID="66253e55-00000888" lastModified="1713716821"/>
           <Include href="Symbol 16.xml" loadImmediate="false" itemID="66253ece-00000891" lastModified="1713716960"/>
           <Include href="Symbol 17.xml" loadImmediate="false" itemID="66253ed1-00000895" lastModified="1713717030"/>
+          <Include href="Symbol 18.xml" loadImmediate="false" itemID="66256824-0000029d" lastModified="1713727524"/>
+          <Include href="Symbol 19.xml" loadImmediate="false" itemID="66257539-000002f5" lastModified="1713731209"/>
+          <Include href="Symbol 20.xml" itemIcon="0" loadImmediate="false" itemID="66257604-00000309" lastModified="1713731103"/>
+          <Include href="Symbol 21.xml" loadImmediate="false" itemID="66257d50-00000354" lastModified="1713733899"/>
+          <Include href="Symbol 22.xml" loadImmediate="false" itemID="66257d5c-00000358" lastModified="1713732956"/>
           <Include href="Target.xml" itemID="66224f23-0000016b" lastModified="1713604195"/>
           <Include href="textss.xml" loadImmediate="false" itemID="66237b18-000002c6" lastModified="1713709199"/>
           <Include href="toast/Animar 1.xml" itemIcon="1" loadImmediate="false" itemID="66142627-0000027b" lastModified="1712596519"/>
@@ -131,6 +147,7 @@
           <Include href="toast/face.xml" itemIcon="1" loadImmediate="false" itemID="66141e75-00000206" lastModified="1712595927"/>
           <Include href="toast/gun.xml" itemIcon="1" loadImmediate="false" itemID="66141f1c-00000211" lastModified="1712594854"/>
           <Include href="toast/hat.xml" itemIcon="1" loadImmediate="false" itemID="66141e65-00000204" lastModified="1712594539"/>
+          <Include href="toast/hat copia.xml" itemIcon="1" loadImmediate="false" itemID="6615f655-0000023e" lastModified="1712715523"/>
           <Include href="toast/leg.xml" itemIcon="1" loadImmediate="false" itemID="66141de3-000001fe" lastModified="1712594896"/>
           <Include href="toast/toast idle.xml" loadImmediate="false" itemID="6614259c-00000270" lastModified="1712709692"/>
           <Include href="toast/toast static.xml" loadImmediate="false" itemID="66142ee9-0000036c" lastModified="1712613668"/>
@@ -146,7 +163,7 @@
           <Include href="toaster copy/toaster run.xml" loadImmediate="false" itemID="66142b0a-000002fb" lastModified="1712626318"/>
           <Include href="toaster copy/toaster run nude.xml" loadImmediate="false" itemID="66229438-000001f2" lastModified="1713542247"/>
           <Include href="ToasterModel.xml" loadImmediate="false" itemID="660ef52c-0000026d" lastModified="1713543044"/>
-          <Include href="train segment.xml" loadImmediate="false" itemID="662523e8-0000023a" lastModified="1713710056"/>
+          <Include href="train segment.xml" loadImmediate="false" itemID="662523e8-0000023a" lastModified="1713734173"/>
           <Include href="Tween 1.xml" itemIcon="1" loadImmediate="false" itemID="661fd08b-000002cc" lastModified="1713361035"/>
           <Include href="Tween 2.xml" itemIcon="1" loadImmediate="false" itemID="661fd1b4-000002ed" lastModified="1713361332"/>
           <Include href="Tween 3.xml" itemIcon="1" loadImmediate="false" itemID="661fd23c-000002f4" lastModified="1713361468"/>
@@ -157,11 +174,11 @@
           <Include href="Window.xml" itemID="6623470c-0000023c" lastModified="1713722179"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="1" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="Border" color="#009999" locked="true" outline="true" useOutlineView="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="2" keyMode="9728">
+                              <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements>
                                         <DOMGroup>
                                              <members>
@@ -193,43 +210,49 @@ var centerY = 900 * 0.5
 
 Game.bars = letterbox
 
-var zoom = 1.0
+var zoom = 1.0;
 
 function processCamera(delta) {
-	if(exiting){
+	if (exiting) {
 		levelContainer.scaleX = 1
 		levelContainer.scaleY = 1
-	}else if (level) {
+	} else if (level) {
 		var targetT = bread.attacking ? 0.7 : 0.1
 		var toX = lerp(toaster.x, bread.x, targetT)
 		var toY = lerp(toaster.y, bread.y, targetT)
-		
+
 		if (Game.cameraTarget) {
 			toX = Game.cameraTarget.x
 			toY = Game.cameraTarget.y
 			Game.cameraTarget = null
 			zoom = lerp(zoom, 1.0, delta * 3.0)
 		} else {
-			
+
 			if (bread.attacking) {
 				zoom = lerp(zoom, 0.6, delta)
 			} else {
-				toY -= 200
+				if (toaster.isOnFloor){
+					toY -= 200
+					zoom = lerp(zoom, 0.8, delta)
+				} else {
+					toY += 200
+					zoom = lerp(zoom, 0.6, delta*3)
+				}
 				toX += 200
-				zoom = lerp(zoom, 0.8, delta)
+				
 			}
 		}
-		
+
 		toX = Math.max(toX, Game.level.start.x + 550 / zoom)
 		toX = Math.min(toX, Game.level.end.x - 550 / zoom)
-		
-		
+
+
 		levelContainer.scaleX = zoom
 		levelContainer.scaleY = zoom
-		
+
 		level.x = lerp(level.x, -toX, 0.1)
 		level.y = lerp(level.y, -toY, 0.1)
-	} 
+	}
 }
 
 
@@ -239,9 +262,15 @@ function loadStage(num) {
 
 var channel
 var musicIntro = new Intro()
-var music1 = new Music1()
-
+var music1 = new Music2()
+var music2 = new Music3()
+var music3 = new Music1()
+var currentMusic;
 function playSong(audio) {
+	if (audio == currentMusic)
+		return;
+	currentMusic = audio
+
 	if (channel) {
 		channel.stop()
 	}
@@ -252,7 +281,7 @@ playSong(musicIntro)]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="1" keyMode="9728">
+                              <DOMFrame index="1" duration="2" keyMode="9728">
                                    <Actionscript>
                                         <script><![CDATA[
 stop()]]></script>
@@ -261,11 +290,11 @@ stop()]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Stage_Info" color="#FF0000" autoNamed="false">
+                    <DOMLayer name="Stage_Info" color="#FF0000" current="true" isSelected="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="2" keyMode="9728">
+                              <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="StageInfo" name="stageInfo">
+                                        <DOMSymbolInstance libraryItemName="StageInfo" name="stageInfo" selected="true">
                                              <matrix>
                                                   <Matrix tx="544.25" ty="356.95"/>
                                              </matrix>
@@ -277,20 +306,20 @@ stop()]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Intro" color="#669900" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Intro" color="#669900" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="1" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[if (false) {
+                                        <script><![CDATA[if (true) {
 	intro.visible = false
-	
+	Game.game.loadStage(0)
 }]]></script>
                                    </Actionscript>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Symbol 12" name="intro" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Symbol 12" name="intro">
                                              <matrix>
                                                   <Matrix a="0.901779174804688" d="0.901779174804688" tx="554" ty="350.35"/>
                                              </matrix>
@@ -300,15 +329,35 @@ stop()]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 19" name="outro" selected="true" isVisible="false">
+                                             <matrix>
+                                                  <Matrix tx="569.15" ty="340.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="HUD" color="#009999" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="2" keyMode="9728">
+                              <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="hud" name="HUD">
                                              <matrix>
                                                   <Matrix ty="52.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="bo" name="bossHealth" isVisible="false">
+                                             <matrix>
+                                                  <Matrix tx="565.15" ty="668.2"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
@@ -320,7 +369,7 @@ stop()]]></script>
                     </DOMLayer>
                     <DOMLayer name="Bars" color="#FF800A" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="2" keyMode="9728">
+                              <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Bars" name="letterbox">
                                              <matrix>
@@ -336,9 +385,9 @@ stop()]]></script>
                     </DOMLayer>
                     <DOMLayer name="Level" color="#00FFFF" locked="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="2" keyMode="9728">
+                              <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="LevelContainer" name="levelContainer" selected="true">
+                                        <DOMSymbolInstance libraryItemName="LevelContainer" name="levelContainer">
                                              <matrix>
                                                   <Matrix tx="550" ty="350"/>
                                              </matrix>
@@ -352,7 +401,7 @@ stop()]]></script>
                     </DOMLayer>
                     <DOMLayer name="Layer_4" color="#FF4FFF">
                          <frames>
-                              <DOMFrame index="0" duration="2" keyMode="9728">
+                              <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="audio" name="audio">
                                              <matrix>
@@ -367,14 +416,14 @@ stop()]]></script>
                                                   <DOMShape>
                                                        <fills>
                                                             <FillStyle index="1">
-                                                                 <SolidColor color="#F9AB55"/>
+                                                                 <SolidColor color="#FFA645"/>
                                                             </FillStyle>
                                                             <FillStyle index="2">
-                                                                 <SolidColor color="#FFA645"/>
+                                                                 <SolidColor color="#F9AB55"/>
                                                             </FillStyle>
                                                        </fills>
                                                        <edges>
-                                                            <Edge fillStyle0="2" fillStyle1="1" edges="!-5755 8382[-5665 8390 -5562 8396!-5562 8396[-5223 8416 -4879 8416!-4879 8416[-4017 8416 -3772 8358!-3772 8358[-3674 8335 -3657 8298!-3657 8298[-3645 8276 -3670 8230!-3670 8230[-3694 8183 -3687 8162!-3687 8162[-3677 8126 -3589 8103!-3589
+                                                            <Edge fillStyle0="1" fillStyle1="2" edges="!-5755 8382[-5665 8390 -5562 8396!-5562 8396[-5223 8416 -4879 8416!-4879 8416[-4017 8416 -3772 8358!-3772 8358[-3674 8335 -3657 8298!-3657 8298[-3645 8276 -3670 8230!-3670 8230[-3694 8183 -3687 8162!-3687 8162[-3677 8126 -3589 8103!-3589
  8103[-3369 8045 -2552 8045!-2552 8045[-1854 8045 -951 8078!-951 8078[-427 8098 611 8144!611 8144[1099 8119 1641 8101!1641 8101[2383 8077 2889 8077!2889 8077[3549 8077 4125 8097!4125 8097[4442 8109 5077 8142!5077 8142[5678 8174 6087 8187
 !6087 8187[6728 8208 7501 8208!7501 8208[8151 8208 8632 8175!8632 8175[9397 8124 9397 8005!9397 8005[9397 7808 7266 7623!7266 7623[6639 7569 5733 7508!5733 7508[4943 7456 4894 7449!4894 7449[5152 7352 5878 7317!5878 7317[6093 7306 6520
  7294!6520 7294[6958 7282 7145 7273!7145 7273[7602 7252 8492 7189!8492 7189[9333 7129 9725 7113!9725 7113[9774 7111 10544 7113!10544 7113[11394 7116 11982 7103!11982 7103[13961 7061 13961 6846!13961 6846[13961 6463 10712 6256!10712 6256
@@ -383,9 +432,9 @@ stop()]]></script>
  5466!11315 5466[11375 5413 11375 5304!11375 5304[11375 5147 10865 5016!10865 5016[12944 5054 13299 5072!13299 5072|13299 5152!13299 5152[13299 5247 13049 5310!13049 5310[12899 5348 12502 5400!12502 5400[12103 5453 11953 5491!11953 5491
 [11704 5554 11704 5649!11704 5649[11704 5928 16091 6139!16091 6139[17261 6194 19374 6272!19374 6272[21124 6335 21429 6358!21429 6358|21429 6614!21429 6614[21357 6649 21311 6721!21311 6721[21265 6791 21265 6863!21265 6863[21265 7134 22913
  7241!22913 7241[23900 7305 25404 7305!25404 7305[26112 7305 26702 7286!26702 7286[26934 7279 27643 7246"/>
-                                                            <Edge fillStyle1="1" edges="
-!27643 7246|27643 14445!27643 14445|-5755 14445!-5755 14445|-5755 8382"/>
                                                             <Edge fillStyle1="2" edges="
+!27643 7246|27643 14445!27643 14445|-5755 14445!-5755 14445|-5755 8382"/>
+                                                            <Edge fillStyle1="1" edges="
 !-5755 8382|-5755 -708!-5755 -708|27643 -708!27643 -708|27643 7246"/>
                                                             <Edge cubics="!-5755 9320(;-5755,9320 -5755,8382 -5755,8382q-5755 9320 -5755 8382);"/>
                                                             <Edge cubics="!-5755 9320(;-3762,9341 2040,9474 2040,9099q-5755 9320 -4585 9335Q-2850 9360q-1764 9360Q2040 9361q2040 9099);"/>
@@ -716,7 +765,7 @@ stop()]]></script>
                     <SolidSwatchItem color="#63D2F1" hue="129" saturation="201" brightness="160"/>
                     <SolidSwatchItem color="#DBBC32" hue="33" saturation="168" brightness="127"/>
                     <SolidSwatchItem color="#D93636" saturation="163" brightness="128"/>
-                    <SolidSwatchItem color="#4FAEFF" alpha="0.698039215686274" hue="138" saturation="239" brightness="157"/>
+                    <SolidSwatchItem color="#4FAEFF" alpha="0.694117647058824" hue="138" saturation="239" brightness="157"/>
                     <SolidSwatchItem color="#9ABDDB" hue="138" saturation="113" brightness="176"/>
                     <SolidSwatchItem color="#B4D2EC" hue="138" saturation="143" brightness="196"/>
                     <SolidSwatchItem color="#5D81B6" hue="144" saturation="90" brightness="130"/>
@@ -729,31 +778,32 @@ stop()]]></script>
                     <SolidSwatchItem color="#C68D2C" hue="25" saturation="153" brightness="114"/>
                     <SolidSwatchItem color="#88D7AF" hue="100" saturation="118" brightness="165"/>
                     <SolidSwatchItem color="#8E6C24" hue="27" saturation="143" brightness="84"/>
+                    <SolidSwatchItem color="#F87132" hue="13" saturation="223" brightness="140"/>
                </swatches>
           </swatchList>
      </swatchLists>
      <PrinterSettings/>
      <publishHistory>
-          <PublishItem publishSize="4851591" publishTime="1713722001"/>
-          <PublishItem publishSize="4839845" publishTime="1713721991"/>
-          <PublishItem publishSize="4851550" publishTime="1713721852"/>
-          <PublishItem publishSize="4851548" publishTime="1713721764"/>
-          <PublishItem publishSize="4851547" publishTime="1713721756"/>
-          <PublishItem publishSize="2221096" publishTime="1713721230"/>
-          <PublishItem publishSize="2209416" publishTime="1713721219"/>
-          <PublishItem publishSize="2209416" publishTime="1713721198"/>
-          <PublishItem publishSize="369919" publishTime="1713720968"/>
-          <PublishItem publishSize="369894" publishTime="1713720952"/>
-          <PublishItem publishSize="369902" publishTime="1713720942"/>
-          <PublishItem publishSize="311658" publishTime="1713717032"/>
-          <PublishItem publishSize="311654" publishTime="1713717019"/>
-          <PublishItem publishSize="311651" publishTime="1713716990"/>
-          <PublishItem publishSize="311653" publishTime="1713716965"/>
-          <PublishItem publishSize="311465" publishTime="1713716926"/>
-          <PublishItem publishSize="310938" publishTime="1713716893"/>
-          <PublishItem publishSize="310789" publishTime="1713716866"/>
-          <PublishItem publishSize="310705" publishTime="1713716859"/>
-          <PublishItem publishSize="310473" publishTime="1713716785"/>
+          <PublishItem publishSize="7618179" publishTime="1713734749"/>
+          <PublishItem publishSize="7618128" publishTime="1713734635"/>
+          <PublishItem publishSize="7618154" publishTime="1713734568"/>
+          <PublishItem publishSize="7618173" publishTime="1713734543"/>
+          <PublishItem publishSize="7618154" publishTime="1713734488"/>
+          <PublishItem publishSize="7618166" publishTime="1713734450"/>
+          <PublishItem publishSize="7618165" publishTime="1713734366"/>
+          <PublishItem publishSize="7618167" publishTime="1713734336"/>
+          <PublishItem publishSize="7618167" publishTime="1713734321"/>
+          <PublishItem publishSize="7618131" publishTime="1713734294"/>
+          <PublishItem publishSize="7617910" publishTime="1713734154"/>
+          <PublishItem publishSize="7617910" publishTime="1713734032"/>
+          <PublishItem publishSize="7617905" publishTime="1713734018"/>
+          <PublishItem publishSize="7617914" publishTime="1713733994"/>
+          <PublishItem publishSize="7617902" publishTime="1713733960"/>
+          <PublishItem publishSize="7612527" publishTime="1713733388"/>
+          <PublishItem publishSize="7599189" publishTime="1713733381"/>
+          <PublishItem publishSize="7612514" publishTime="1713733333"/>
+          <PublishItem publishSize="7612480" publishTime="1713733301"/>
+          <PublishItem publishSize="7612369" publishTime="1713733118"/>
      </publishHistory>
      <SaveCustomEase name="My Ease 1">
           <Point/>

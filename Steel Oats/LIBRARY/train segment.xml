@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="train segment" itemID="662523e8-0000023a" lastModified="1713710056" lastUniqueIdentifier="10">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="train segment" itemID="662523e8-0000023a" lastModified="1713734173" lastUniqueIdentifier="10">
   <timeline>
     <DOMTimeline name="train segment" currentFrame="14" layerDepthEnabled="true">
       <layers>
@@ -20,10 +20,10 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Duplicate Items Folder/Tween 1" symbolType="graphic" loop="loop">
                   <matrix>
-                    <Matrix a="0.965927124023438" b="0.258804321289062" c="-0.258804321289062" d="0.965927124023438" tx="933.1" ty="104.95"/>
+                    <Matrix a="0.997848510742188" b="0.0653839111328125" c="-0.0653839111328125" d="0.997848510742188" tx="931.7" ty="90.55"/>
                   </matrix>
                   <transformationPoint>
-                    <Point/>
+                    <Point y="0.05"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
@@ -44,10 +44,10 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Duplicate Items Folder/Tween 1" symbolType="graphic" loop="loop">
                   <matrix>
-                    <Matrix a="0.993637084960938" b="-0.112548828125" c="0.112548828125" d="0.993637084960938" tx="939.1" ty="94.95"/>
+                    <Matrix a="0.9996337890625" b="-0.0264739990234375" c="0.0264739990234375" d="0.9996337890625" tx="939.1" ty="94.95"/>
                   </matrix>
                   <transformationPoint>
-                    <Point/>
+                    <Point y="0.05"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>

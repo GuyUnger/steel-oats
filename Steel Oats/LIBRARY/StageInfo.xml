@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="StageInfo" itemID="66237b9c-000002ce" lastModified="1713639693">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="StageInfo" itemID="66237b9c-000002ce" lastModified="1713734919">
   <timeline>
     <DOMTimeline name="StageInfo" layerDepthEnabled="true">
       <layers>
@@ -42,7 +42,7 @@ var levelNum
 function setup(stageNum) {
 	levelNum = stageNum
 	ext.stage_num.text = stageNum+1
-	ext.stage_name.text = ["cereals", "fruit", "dairy", "meats", "drinks"][stageNum]
+	ext.stage_name.text = ["cheese", "bread", "train", "meat", "tea", "end"][stageNum]
 	play()
 }
 ext.visible = false]]></script>

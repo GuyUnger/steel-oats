@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 22" itemID="66257d5c-00000358" lastModified="1713732956">
+  <timeline>
+    <DOMTimeline name="Symbol 22" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix tx="-698" ty="-63.6"/>
+                  </matrix>
+                  <members>
+                    <DOMShape selected="true">
+                      <matrix>
+                        <Matrix tx="-698" ty="-63.6"/>
+                      </matrix>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" weight="8">
+                            <fill>
+                              <SolidColor color="#4A4444"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!12578 1272S4|15342 1132!15342 1132|12578 923!12578 923|15342 783!15342 783|12578 574!12578 574|15342 434!15342 434|12578 225!12578 225|15342 85!15342 85|12578 -124"/>
+                        <Edge cubics="!12578 1272(;12578,1272 15342,1132 15342,1132q12578 1272 15342 1132);"/>
+                        <Edge cubics="!15342 1132(;15342,1132 12578,923 12578,923q15342 1132 12578 923);"/>
+                        <Edge cubics="!12578 923(;12578,923 15342,783 15342,783q12578 923 15342 783);"/>
+                        <Edge cubics="!15342 783(;15342,783 12578,574 12578,574q15342 783 12578 574);"/>
+                        <Edge cubics="!12578 574(;12578,574 15342,434 15342,434q12578 574 15342 434);"/>
+                        <Edge cubics="!15342 434(;15342,434 12578,225 12578,225q15342 434 12578 225);"/>
+                        <Edge cubics="!12578 225(;12578,225 15342,85 15342,85q12578 225 15342 85);"/>
+                        <Edge cubics="!15342 85(;15342,85 12578,-124 12578,-124q15342 85 12578 -124);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
