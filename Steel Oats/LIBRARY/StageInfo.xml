@@ -1,6 +1,6 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="StageInfo" itemID="66237b9c-000002ce" lastModified="1713639693">
   <timeline>
-    <DOMTimeline name="StageInfo" layerDepthEnabled="true">
+    <DOMTimeline name="StageInfo" currentFrame="13" layerDepthEnabled="true">
       <layers>
         <DOMLayer name="Layer_4" color="#FF4FFF">
           <frames>
@@ -33,7 +33,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_2" color="#9933CC">
+        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" duration="13" keyMode="9728">
               <Actionscript>
@@ -103,7 +103,7 @@ ext.stage_name.visible = false]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+        <DOMLayer name="Layer_1" color="#00FFFF">
           <frames>
             <DOMFrame index="0" duration="143" keyMode="9728">
               <elements>
@@ -193,17 +193,14 @@ ext.stage_name.visible = false]]></script>
             </DOMFrame>
             <DOMFrame index="142" keyMode="9728">
               <elements>
-                <DOMShape selected="true" isFloating="true">
-                  <matrix>
-                    <Matrix a="42.9357147216797" d="1.42860412597656" tx="23196.7"/>
-                  </matrix>
+                <DOMShape>
                   <fills>
                     <FillStyle index="1">
                       <SolidColor/>
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!-11203 -7382S2|-11063 -7382!-11063 -7382|-11063 7382!-11063 7382|-11203 7382!-11203 7382|-11203 -7382"/>
+                    <Edge fillStyle1="1" edges="!-17075 -10546|-11064 -10546!-11064 -10546|-11064 10546!-11064 10546|-17075 10546!-17075 10546|-17075 -10546"/>
                   </edges>
                 </DOMShape>
               </elements>

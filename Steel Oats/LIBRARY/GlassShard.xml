@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GlassShard" itemID="662404c7-000003ad" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="GlassShard" lastModified="1713636949">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GlassShard" itemID="662404c7-000003ad" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="GlassShard" lastModified="1713688290">
   <timeline>
-    <DOMTimeline name="GlassShard" layerDepthEnabled="true">
+    <DOMTimeline name="GlassShard" currentFrame="1" layerDepthEnabled="true">
       <layers>
         <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
@@ -17,7 +17,8 @@ function update(){
 	rotation += velocity.x * delta * 2.0
 	if (y > 2000)
 		remove()
-}]]></script>
+}
+stop()]]></script>
               </Actionscript>
               <elements>
                 <DOMShape>
@@ -27,7 +28,26 @@ function update(){
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" edges="!256 -520S1|156 -520!156 -520|-224 60!-224 60|-224 260!-224 260[-341 292 -375 314!-375 314|16 540!16 540|376 540!376 540|376 0!376 0|256 -540!256 -540|256 -520"/>
+                    <Edge fillStyle0="1" edges="!256 -520|156 -520!156 -520|-224 60!-224 60|-224 260!-224 260[-341 292 -375 314!-375 314|16 540!16 540|376 540!376 540|376 0!376 0|256 -540!256 -540|256 -520"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#666600"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!-200 -225[-80 20 -19 102!-19 102[83 240 247 240!247 240[278 240 288 228!288 228[300 204 315 180!315 180[289 157 232 137!232 137[171 115 150 100!150 100[124 81 81 43!81 43[42 8 25 -10!25 -10[-12 -49 -56 -151!-56 -151[-104 -231 -200 -225"/>
+                    <Edge cubics="!-165 -205(;-80,21 1,240 247,240q-165 -205Q-80 20q-19 102Q83 240q247 240);"/>
+                    <Edge cubics="!247 240(;296,240 285,227 315,180q247 240Q278 240q288 228Q300 204q315 180);"/>
+                    <Edge cubics="!315 180(;267,138 196,134 150,100q315 180Q289 157q232 137Q171 115q150 100);"/>
+                    <Edge cubics="!150 100(;113,73 45,11 25,-10q150 100Q124 81q81 43Q42 8q25 -10);"/>
+                    <Edge cubics="!25 -10(;-49,-89 -42,-235 -200,-225q25 -10Q-12 -49q-56 -151Q-104 -231q-200 -225);"/>
                   </edges>
                 </DOMShape>
               </elements>

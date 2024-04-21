@@ -46,10 +46,14 @@
 					velocityTo.x += 1
 				}
 				if (x > Game.level.end.x - 550) {
-					velocityTo.x = 1
-					Game.sinceSpacePressed=99
-					if (x>Game.level.end.x) {
-						Game.nextLevel()
+					if (Game.banditsKilled >= Game.banditsTotal){
+						velocityTo.x = 1
+						Game.sinceSpacePressed=99
+						if (x>Game.level.end.x) {
+							Game.nextLevel()
+						}
+					}else{
+						Game.game.HUD.banditsLeft.gotoAndPlay(2)
 					}
 				}
 				velocityTo.x *= speed
@@ -179,8 +183,8 @@
 			if (x < Game.level.start.x) {
 				x = Game.level.start.x
 			}
-			if (x > Game.level.end.x) {
-				//x = Game.level.end.x
+			if (Game.banditsKilled < Game.banditsTotal && x > Game.level.end.x) {
+				x = Game.level.end.x
 			}
 		}
 

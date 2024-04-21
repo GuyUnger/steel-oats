@@ -30,11 +30,16 @@
           <Include href="AudioUnlaunch.xml" loadImmediate="false" itemID="6614bd6d-00000287" lastModified="1712635262"/>
           <Include href="Bars.xml" loadImmediate="false" itemID="660ef682-00000272" lastModified="1712256913"/>
           <Include href="bean 2 idle.xml" loadImmediate="false" itemID="6623ff9f-000002f5" lastModified="1713681309"/>
+          <Include href="bean 4 idle.xml" loadImmediate="false" itemID="6623ffaf-00000307" lastModified="1713688467"/>
           <Include href="bean body 2.xml" itemIcon="1" loadImmediate="false" itemID="6623f81c-000001d8" lastModified="1713633308"/>
+          <Include href="bean body 4.xml" itemIcon="1" loadImmediate="false" itemID="6623f82d-000001e0" lastModified="1713633325"/>
           <Include href="bean eye.xml" itemIcon="1" loadImmediate="false" itemID="6623f85c-000001f2" lastModified="1713633372"/>
           <Include href="bean face 1 copy.xml" itemIcon="1" loadImmediate="false" itemID="6624164a-000005c6" lastModified="1713641089"/>
           <Include href="bean face 2.xml" itemIcon="1" loadImmediate="false" itemID="6623fc7f-0000025b" lastModified="1713634431"/>
+          <Include href="bean face 4.xml" itemIcon="1" loadImmediate="false" itemID="6623fc98-00000265" lastModified="1713634456"/>
+          <Include href="bean face 4 copy 2.xml" itemIcon="1" loadImmediate="false" itemID="66241720-00000758" lastModified="1713641261"/>
           <Include href="bean foot.xml" itemIcon="1" loadImmediate="false" itemID="6623f9b3-0000021e" lastModified="1713633715"/>
+          <Include href="bean hat 3.xml" itemIcon="1" loadImmediate="false" itemID="6623fb80-00000246" lastModified="1713634176"/>
           <Include href="Bread.xml" itemID="6600df7e-00000130" lastModified="1713536565"/>
           <Include href="BreadModel.xml" loadImmediate="false" itemID="660ef52f-0000026e" lastModified="1712614925"/>
           <Include href="Bullet.xml" itemID="6600fbe0-0000013e" lastModified="1713535680"/>
@@ -43,32 +48,43 @@
           <Include href="cactus 1.xml" itemIcon="1" loadImmediate="false" itemID="66143c3a-0000040c" lastModified="1712602170"/>
           <Include href="cactus 2.xml" itemIcon="1" loadImmediate="false" itemID="66143c44-00000410" lastModified="1712602180"/>
           <Include href="cactus 3.xml" itemIcon="1" loadImmediate="false" itemID="66143c4c-00000414" lastModified="1712602188"/>
+          <Include href="Cage.xml" itemID="6624d2c1-00000672" lastModified="1713702363"/>
+          <Include href="cage_open.xml" loadImmediate="false" itemID="66250559-00000683" lastModified="1713702338"/>
           <Include href="eyeRotating.xml" loadImmediate="false" itemID="6614b8fa-00000252" lastModified="1712634106"/>
-          <Include href="FallOutWindow.xml" loadImmediate="false" itemID="66235e1c-000002b8" lastModified="1713681416"/>
+          <Include href="FallOutWindow.xml" loadImmediate="false" itemID="66235e1c-000002b8" lastModified="1713688451"/>
           <Include href="Gate.xml" itemID="66228b01-00000194" lastModified="1713640925"/>
           <Include href="GateDoor.xml" loadImmediate="false" itemID="66228afd-00000191" lastModified="1713627953"/>
-          <Include href="GlassShard.xml" itemID="662404c7-000003ad" lastModified="1713636949"/>
+          <Include href="GlassShard.xml" itemID="662404c7-000003ad" lastModified="1713688290"/>
           <Include href="grass 1.xml" itemIcon="1" loadImmediate="false" itemID="6615eca2-000001f6" lastModified="1712712866"/>
           <Include href="grass 2.xml" itemIcon="1" loadImmediate="false" itemID="6615ecaa-000001f8" lastModified="1712712874"/>
           <Include href="grass 3.xml" itemIcon="1" loadImmediate="false" itemID="6615ecb1-000001fc" lastModified="1712712881"/>
           <Include href="ground.xml" loadImmediate="false" itemID="6600ebf4-00000138" lastModified="1713639095"/>
           <Include href="Gun.xml" loadImmediate="false" itemID="660e2fdc-00000250" lastModified="1712642402"/>
-          <Include href="hud.xml" loadImmediate="false" itemID="6624c07e-000005ac" lastModified="1713684606"/>
+          <Include href="hearts.xml" loadImmediate="false" itemID="6624cddc-000005f6" lastModified="1713688097"/>
+          <Include href="hud.xml" loadImmediate="false" itemID="6624c07e-000005ac" lastModified="1713688147"/>
           <Include href="Level1.xml" itemID="66238021-0000031a" lastModified="1713681826"/>
-          <Include href="Level2.xml" itemID="6623ecf0-00000372" lastModified="1713684281"/>
-          <Include href="level2collision.xml" loadImmediate="false" itemID="6623ed6f-00000374" lastModified="1713684277"/>
+          <Include href="Level2.xml" itemID="6623ecf0-00000372" lastModified="1713703633"/>
+          <Include href="level2collision.xml" loadImmediate="false" itemID="6623ed6f-00000374" lastModified="1713687669"/>
           <Include href="Level3.xml" itemID="66241385-0000044c" lastModified="1713681723"/>
           <Include href="Level3Collisions.xml" loadImmediate="false" itemID="66241685-000004a6" lastModified="1713641094"/>
           <Include href="Level4.xml" itemID="66241395-00000476" lastModified="1713681724"/>
           <Include href="level4collisions.xml" loadImmediate="false" itemID="66241698-000004aa" lastModified="1713641112"/>
           <Include href="Level5.xml" itemID="6624139f-000004a0" lastModified="1713681733"/>
           <Include href="level5col.xml" loadImmediate="false" itemID="662416a4-000004ae" lastModified="1713681703"/>
-          <Include href="LevelContainer.xml" loadImmediate="false" itemID="66237bb7-000002d0" lastModified="1713601501"/>
+          <Include href="LevelContainer.xml" loadImmediate="false" itemID="66237bb7-000002d0" lastModified="1713686717"/>
           <Include href="LevelWall.xml" loadImmediate="false" itemID="66160035-0000019a" lastModified="1713630753"/>
           <Include href="MaloPistol.xml" loadImmediate="false" itemID="66234ab6-00000242" lastModified="1713642139"/>
           <Include href="OneWay.xml" loadImmediate="false" itemID="66237294-000002bc" lastModified="1713599128"/>
           <Include href="StageInfo.xml" loadImmediate="false" itemID="66237b9c-000002ce" lastModified="1713639693"/>
           <Include href="Symbol 1.xml" loadImmediate="false" itemID="660e30eb-00000254" lastModified="1713590520"/>
+          <Include href="Symbol 2.xml" loadImmediate="false" itemID="6624c795-000005b9" lastModified="1713686625"/>
+          <Include href="Symbol 3.xml" loadImmediate="false" itemID="6625055d-00000687" lastModified="1713702237"/>
+          <Include href="Symbol 4.xml" loadImmediate="false" itemID="6625055d-0000068b" lastModified="1713702237"/>
+          <Include href="Symbol 5.xml" loadImmediate="false" itemID="6625055f-0000068f" lastModified="1713702239"/>
+          <Include href="Symbol 6.xml" loadImmediate="false" itemID="66250561-00000693" lastModified="1713702241"/>
+          <Include href="Symbol 7.xml" loadImmediate="false" itemID="66250563-00000697" lastModified="1713702243"/>
+          <Include href="Symbol 8.xml" loadImmediate="false" itemID="66250564-0000069b" lastModified="1713702244"/>
+          <Include href="Symbol 9.xml" loadImmediate="false" itemID="66250568-0000069f" lastModified="1713702248"/>
           <Include href="Target.xml" itemID="66224f23-0000016b" lastModified="1713604195"/>
           <Include href="textss.xml" loadImmediate="false" itemID="66237b18-000002c6" lastModified="1713625551"/>
           <Include href="toast/Animar 1.xml" itemIcon="1" loadImmediate="false" itemID="66142627-0000027b" lastModified="1712596519"/>
@@ -92,7 +108,7 @@
           <Include href="toaster copy/toaster run nude.xml" loadImmediate="false" itemID="66229438-000001f2" lastModified="1713542247"/>
           <Include href="ToasterModel.xml" loadImmediate="false" itemID="660ef52c-0000026d" lastModified="1713543044"/>
           <Include href="Tween 10 copy.xml" itemIcon="1" loadImmediate="false" itemID="6624169f-000005d1" lastModified="1713641139"/>
-          <Include href="Window.xml" itemID="6623470c-0000023c" lastModified="1713638547"/>
+          <Include href="Window.xml" itemID="6623470c-0000023c" lastModified="1713688566"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1" layerDepthEnabled="true">
@@ -120,7 +136,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
+                    <DOMLayer name="Layer_2" color="#9933CC">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
@@ -172,19 +188,10 @@ function processCamera(delta) {
 
 
 function loadStage(num) {
-	levelContainer.stageInfo.setup(num)
+	stageInfo.setup(num)
 }]]></script>
                                    </Actionscript>
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="hud" name="HUD" selected="true">
-                                             <matrix>
-                                                  <Matrix tx="1048.5" ty="42.75"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                               <DOMFrame index="1" keyMode="9728">
                                    <Actionscript>
@@ -211,6 +218,54 @@ stop()]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
+                    <DOMLayer name="Stage" color="#FF0000" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="StageInfo" name="stageInfo">
+                                             <matrix>
+                                                  <Matrix tx="544.25" ty="356.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="HUD" color="#009999" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="hud" name="HUD" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="1048.5" ty="52.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Level" color="#00FFFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="LevelContainer" name="levelContainer" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="550" ty="350"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
                     <DOMLayer name="Layer_4" color="#FF4FFF">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
@@ -221,22 +276,6 @@ stop()]]></script>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="-0.05"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="Layer_1" color="#00FFFF">
-                         <frames>
-                              <DOMFrame index="0" duration="2" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="LevelContainer" name="levelContainer">
-                                             <matrix>
-                                                  <Matrix tx="550" ty="350"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
                                    </elements>
@@ -523,30 +562,39 @@ stop()]]></script>
                     <SolidSwatchItem color="#F3D645" hue="33" saturation="212" brightness="147"/>
                     <SolidSwatchItem color="#63D2F1" hue="129" saturation="201" brightness="160"/>
                     <SolidSwatchItem color="#DBBC32" hue="33" saturation="168" brightness="127"/>
+                    <SolidSwatchItem color="#D93636" saturation="163" brightness="128"/>
+                    <SolidSwatchItem color="#4FAEFF" alpha="0.698039215686274" hue="138" saturation="239" brightness="157"/>
+                    <SolidSwatchItem color="#9ABDDB" hue="138" saturation="113" brightness="176"/>
+                    <SolidSwatchItem color="#B4D2EC" hue="138" saturation="143" brightness="196"/>
+                    <SolidSwatchItem color="#5D81B6" hue="144" saturation="90" brightness="130"/>
+                    <SolidSwatchItem color="#55729E" hue="144" saturation="72" brightness="115"/>
+                    <SolidSwatchItem color="#586F92" hue="145" saturation="59" brightness="110"/>
+                    <SolidSwatchItem color="#84A1CC" hue="144" saturation="100" brightness="158"/>
+                    <SolidSwatchItem color="#485E80" hue="145" saturation="66" brightness="94"/>
                </swatches>
           </swatchList>
      </swatchLists>
      <PrinterSettings/>
      <publishHistory>
-          <PublishItem publishSize="237941" publishTime="1713684282"/>
-          <PublishItem publishSize="237926" publishTime="1713681890"/>
-          <PublishItem publishSize="237923" publishTime="1713681837"/>
-          <PublishItem publishSize="237903" publishTime="1713681546"/>
-          <PublishItem publishSize="237898" publishTime="1713681511"/>
-          <PublishItem publishSize="238095" publishTime="1713680896"/>
-          <PublishItem publishSize="228506" publishTime="1713680836"/>
-          <PublishItem publishSize="228506" publishTime="1713680833"/>
-          <PublishItem publishSize="228506" publishTime="1713680801"/>
-          <PublishItem publishSize="275299" publishTime="1713640876"/>
-          <PublishItem publishSize="275324" publishTime="1713640813"/>
-          <PublishItem publishSize="275324" publishTime="1713640745"/>
-          <PublishItem publishSize="237356" publishTime="1713639701"/>
-          <PublishItem publishSize="237355" publishTime="1713639684"/>
-          <PublishItem publishSize="237355" publishTime="1713639497"/>
-          <PublishItem publishSize="237336" publishTime="1713639417"/>
-          <PublishItem publishSize="237310" publishTime="1713639306"/>
-          <PublishItem publishSize="237315" publishTime="1713639218"/>
-          <PublishItem publishSize="237293" publishTime="1713639209"/>
-          <PublishItem publishSize="237316" publishTime="1713639150"/>
+          <PublishItem publishSize="267717" publishTime="1713703528"/>
+          <PublishItem publishSize="267717" publishTime="1713702364"/>
+          <PublishItem publishSize="267695" publishTime="1713702338"/>
+          <PublishItem publishSize="267619" publishTime="1713702328"/>
+          <PublishItem publishSize="264389" publishTime="1713702192"/>
+          <PublishItem publishSize="264477" publishTime="1713699440"/>
+          <PublishItem publishSize="264477" publishTime="1713699234"/>
+          <PublishItem publishSize="264477" publishTime="1713698500"/>
+          <PublishItem publishSize="264484" publishTime="1713698473"/>
+          <PublishItem publishSize="264485" publishTime="1713698441"/>
+          <PublishItem publishSize="264494" publishTime="1713698406"/>
+          <PublishItem publishSize="264485" publishTime="1713698358"/>
+          <PublishItem publishSize="264490" publishTime="1713694003"/>
+          <PublishItem publishSize="264316" publishTime="1713689540"/>
+          <PublishItem publishSize="264535" publishTime="1713689452"/>
+          <PublishItem publishSize="264534" publishTime="1713689415"/>
+          <PublishItem publishSize="262706" publishTime="1713688568"/>
+          <PublishItem publishSize="262706" publishTime="1713688522"/>
+          <PublishItem publishSize="262700" publishTime="1713688470"/>
+          <PublishItem publishSize="262708" publishTime="1713688430"/>
      </publishHistory>
 </DOMDocument>

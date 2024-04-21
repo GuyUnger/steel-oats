@@ -59,10 +59,17 @@
 
 
 		function processAir() {
-			if (!attacking && sinceJump > 0.05 && jumpHolding) {
+			for (var i =0;i<Game.bulletsEnemy.length;i++){
+				var bullet=Game.bulletsEnemy[i]
+				if (pointsDistance(x, y, bullet.x,bullet.y)<100){
+					
+				}
+			}
+			
+			if (!attacking && jumpHolding) {
 				setAttacking(true)
 			}
-			if (attacking && !jumpHolding) {
+			if (attacking && !jumpHolding && sinceJump > 0.5) {
 				setAttacking(false)
 				
 			}
@@ -159,7 +166,7 @@
 			}
 				
 			shootT -= 1 / 60
-			if (shootT <= 0 && jumpHolding && shootPressed) {
+			if (shootT <= 0 && shootPressed) {
 				shootT += 0.2
 				shootBullet(0)
 				shootPressed = false
@@ -192,7 +199,8 @@
 			velocity.x = rotation * 20
 			bread.gotoAndStop(2)
 			bread.rotation = 0
-			shootT = 0.3
+			rotation = 0
+			shootT = 0.0
 			jumpHolding = true
 			sinceJump = 0.0
 			sinceReturning = 0.0

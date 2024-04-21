@@ -1,12 +1,45 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="hud" itemID="6624c07e-000005ac" lastModified="1713684606">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="hud" itemID="6624c07e-000005ac" lastModified="1713688147">
   <timeline>
     <DOMTimeline name="hud" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+        <DOMLayer name="Layer_5" color="#009999">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMDynamicText name="banTot" selected="true" left="66.25" width="33.75" height="43.4" isSelectable="false" lineType="multiline no wrap">
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-21588 -133|-17489 -133!-17489 -133|-18040 468!-18040 468|-21588 468!-21588 468|-21588 -133"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="hearts">
+                  <matrix>
+                    <Matrix a="0.657974243164062" d="0.657974243164062" tx="-968.25" ty="-3.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="banTot" left="66.25" width="33.75" height="43.4" isSelectable="false" lineType="multiline no wrap">
                   <matrix>
                     <Matrix tx="-58.5" ty="-7.75"/>
                   </matrix>
@@ -19,7 +52,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="banKill" selected="true" left="66.25" width="33.75" height="43.4" isSelectable="false" lineType="multiline no wrap">
+                <DOMDynamicText name="banKill" left="66.25" width="33.75" height="43.4" isSelectable="false" lineType="multiline no wrap">
                   <matrix>
                     <Matrix a="1.54232788085938" d="1.54232788085938" tx="-142.6" ty="-34.5"/>
                   </matrix>
@@ -32,12 +65,12 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix tx="-1029.45" ty="-44.4"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix tx="-1029.45" ty="-44.4"/>
                       </matrix>
@@ -65,6 +98,14 @@
                     </DOMShape>
                   </members>
                 </DOMGroup>
+                <DOMSymbolInstance libraryItemName="Symbol 2" name="banditsLeft">
+                  <matrix>
+                    <Matrix tx="-487.65" ty="10.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

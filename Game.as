@@ -75,7 +75,7 @@
 			HUD.banKill.text = banditsKilled
 		}
 		static public function showHud(value) {
-			HUD.visible = value
+			game.HUD.visible = value
 		}
 		
 		function keyDown(e: KeyboardEvent) {
@@ -176,12 +176,12 @@
 			}
 			targets[name1].push(target)
 		}
-		static var levels = [Level1, Level2, Level3, Level4, Level5]
+		static var levels = [Level2, Level2, Level3, Level4, Level5]
 		static var levelNum = 0
 		static var exiting = false
 		static public function loadLevel(num) {
 			banditsTotal = 0
-			banditsLeft = 0
+			banditsKilled = 0
 			level = new levels[num]()
 			game.levelContainer.addChild(level)
 			levelNum = num
@@ -194,7 +194,8 @@
 				bullets = []
 				bulletsEnemy = []
 			}
-			game.levelContainer.stageInfo.setup(levelNum+1)
+			game.stageInfo.setup(levelNum+1)
+trace(game.stageInfo)			
 			exiting = true
 			//loadLevel(levelNum+1)
 		}

@@ -1,0 +1,548 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="bean 4 idle" itemID="6623ffaf-00000307" lastModified="1713688467" lastUniqueIdentifier="6">
+  <timeline>
+    <DOMTimeline name="bean 4 idle" currentFrame="27" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="bean_face_4" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean face 4" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="3" ty="176"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="133.5" y="90"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean face 4" symbolType="graphic" centerPoint3DX="136.5" centerPoint3DY="269.6" loop="loop">
+                  <matrix>
+                    <Matrix tx="3" ty="178.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="133.5" y="90"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean face 4" symbolType="graphic" centerPoint3DX="136.5" centerPoint3DY="272.9" loop="loop">
+                  <matrix>
+                    <Matrix tx="3" ty="181.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="133.5" y="90"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean face 4" symbolType="graphic" centerPoint3DX="136.5" centerPoint3DY="277.35" loop="loop">
+                  <matrix>
+                    <Matrix tx="3" ty="185.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="133.5" y="90"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean face 4" symbolType="graphic" centerPoint3DX="136.5" centerPoint3DY="283.2" loop="loop">
+                  <matrix>
+                    <Matrix tx="3" ty="191.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="133.5" y="90"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean face 4" symbolType="graphic" centerPoint3DX="136.5" centerPoint3DY="291.05" loop="loop">
+                  <matrix>
+                    <Matrix tx="3" ty="199.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="133.5" y="90"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean face 4" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="3" ty="215.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="133.5" y="90"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean face 4" symbolType="graphic" centerPoint3DX="136.5" centerPoint3DY="289.9" loop="loop">
+                  <matrix>
+                    <Matrix tx="3" ty="198.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="133.5" y="90"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean face 4" symbolType="graphic" centerPoint3DX="136.5" centerPoint3DY="282.45" loop="loop">
+                  <matrix>
+                    <Matrix tx="3" ty="190.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="133.5" y="90"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean face 4" symbolType="graphic" centerPoint3DX="136.5" centerPoint3DY="276.95" loop="loop">
+                  <matrix>
+                    <Matrix tx="3" ty="185.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="133.5" y="90"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean face 4" symbolType="graphic" centerPoint3DX="136.5" centerPoint3DY="272.7" loop="loop">
+                  <matrix>
+                    <Matrix tx="3" ty="181.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="133.5" y="90"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean face 4" symbolType="graphic" centerPoint3DX="136.5" centerPoint3DY="269.55" loop="loop">
+                  <matrix>
+                    <Matrix tx="3" ty="178.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="133.5" y="90"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean face 4" symbolType="graphic" centerPoint3DX="136.5" centerPoint3DY="267.5" loop="loop">
+                  <matrix>
+                    <Matrix tx="3" ty="176"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="133.5" y="90"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="26" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean face 4" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="3" ty="175.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="133.5" y="90"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bean_hat_3" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean hat 3" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="67" ty="-20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="98.95" y="40.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean hat 3" symbolType="graphic" centerPoint3DX="165.95" centerPoint3DY="21.35" loop="loop">
+                  <matrix>
+                    <Matrix tx="67" ty="-19.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="98.95" y="40.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean hat 3" symbolType="graphic" centerPoint3DX="165.95" centerPoint3DY="23.45" loop="loop">
+                  <matrix>
+                    <Matrix tx="67" ty="-17.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="98.95" y="40.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean hat 3" symbolType="graphic" centerPoint3DX="165.95" centerPoint3DY="26.75" loop="loop">
+                  <matrix>
+                    <Matrix tx="67" ty="-13.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="98.95" y="40.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean hat 3" symbolType="graphic" centerPoint3DX="165.95" centerPoint3DY="31.2" loop="loop">
+                  <matrix>
+                    <Matrix tx="67" ty="-9.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="98.95" y="40.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean hat 3" symbolType="graphic" centerPoint3DX="165.95" centerPoint3DY="37" loop="loop">
+                  <matrix>
+                    <Matrix tx="67" ty="-3.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="98.95" y="40.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean hat 3" symbolType="graphic" centerPoint3DX="165.95" centerPoint3DY="44.85" loop="loop">
+                  <matrix>
+                    <Matrix tx="67" ty="4.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="98.95" y="40.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean hat 3" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="67" ty="19.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="98.95" y="40.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean hat 3" symbolType="graphic" centerPoint3DX="165.95" centerPoint3DY="42.6" loop="loop">
+                  <matrix>
+                    <Matrix tx="67" ty="2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="98.95" y="40.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean hat 3" symbolType="graphic" centerPoint3DX="165.95" centerPoint3DY="34.8" loop="loop">
+                  <matrix>
+                    <Matrix tx="67" ty="-5.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="98.95" y="40.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean hat 3" symbolType="graphic" centerPoint3DX="165.95" centerPoint3DY="29.15" loop="loop">
+                  <matrix>
+                    <Matrix tx="67" ty="-11.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="98.95" y="40.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean hat 3" symbolType="graphic" centerPoint3DX="165.95" centerPoint3DY="25.05" loop="loop">
+                  <matrix>
+                    <Matrix tx="67" ty="-15.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="98.95" y="40.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean hat 3" symbolType="graphic" centerPoint3DX="165.95" centerPoint3DY="22.35" loop="loop">
+                  <matrix>
+                    <Matrix tx="67" ty="-18.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="98.95" y="40.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="26" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean hat 3" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="67" ty="-19.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="98.95" y="40.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bean_body_4" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean body 4" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix ty="45.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118.65" y="171.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean body 4" symbolType="graphic" centerPoint3DX="118.65" centerPoint3DY="220.75" loop="loop">
+                  <matrix>
+                    <Matrix ty="49.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118.65" y="171.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean body 4" symbolType="graphic" centerPoint3DX="118.65" centerPoint3DY="225.2" loop="loop">
+                  <matrix>
+                    <Matrix ty="53.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118.65" y="171.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean body 4" symbolType="graphic" centerPoint3DX="118.65" centerPoint3DY="231" loop="loop">
+                  <matrix>
+                    <Matrix ty="59.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118.65" y="171.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean body 4" symbolType="graphic" centerPoint3DX="118.65" centerPoint3DY="238.85" loop="loop">
+                  <matrix>
+                    <Matrix ty="67.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118.65" y="171.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean body 4" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix ty="82.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118.65" y="171.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean body 4" symbolType="graphic" centerPoint3DX="118.65" centerPoint3DY="237.75" loop="loop">
+                  <matrix>
+                    <Matrix ty="66.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118.65" y="171.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean body 4" symbolType="graphic" centerPoint3DX="118.65" centerPoint3DY="230.35" loop="loop">
+                  <matrix>
+                    <Matrix ty="58.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118.65" y="171.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean body 4" symbolType="graphic" centerPoint3DX="118.65" centerPoint3DY="224.85" loop="loop">
+                  <matrix>
+                    <Matrix ty="53.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118.65" y="171.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean body 4" symbolType="graphic" centerPoint3DX="118.65" centerPoint3DY="220.6" loop="loop">
+                  <matrix>
+                    <Matrix ty="48.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118.65" y="171.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean body 4" symbolType="graphic" centerPoint3DX="118.65" centerPoint3DY="217.45" loop="loop">
+                  <matrix>
+                    <Matrix ty="45.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118.65" y="171.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean body 4" symbolType="graphic" centerPoint3DX="118.65" centerPoint3DY="215.4" loop="loop">
+                  <matrix>
+                    <Matrix ty="43.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118.65" y="171.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean body 4" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix ty="42.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118.65" y="171.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="26" duration="2" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean body 4" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix ty="43.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118.65" y="171.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" duration="28" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean foot" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="20.75" ty="361.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="35.5" y="45.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="bean foot" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="107.25" ty="361.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="35.5" y="45.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

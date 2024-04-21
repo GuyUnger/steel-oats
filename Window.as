@@ -58,6 +58,7 @@
 						parent.addChild(falling)
 						falling.x =x
 						falling.y =y
+						falling.nextFrame()
 						velocity.x = (Math.random()-0.5) * 300
 						velocity.y = -(Math.random()+0.7 * 200)
 						gun.visible = false
@@ -70,7 +71,7 @@
 					nextFrame()
 					revealed = true
 					gun.visible = true
-					for(var i=0;i<8;i++){
+					for( i=0;i<8;i++){
 						var shard = new GlassShard()
 						parent.addChild(shard)
 						shard.y = y

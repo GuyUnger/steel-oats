@@ -4,7 +4,7 @@
 	
 	
 	public class Bullet extends GuyClip {
-		
+		var t= 0
 
 		function Bullet() {
 			super()
@@ -20,6 +20,9 @@
 			var delta = 1 / 60
 			x += velocity.x * delta
 			y += velocity.y * delta
+			t += delta
+			if (t>1.0)
+				remove()
 		}
 		
 		override function remove() {

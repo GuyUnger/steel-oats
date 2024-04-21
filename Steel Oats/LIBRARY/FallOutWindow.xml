@@ -1,7 +1,17 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FallOutWindow" itemID="66235e1c-000002b8" lastModified="1713681416">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FallOutWindow" itemID="66235e1c-000002b8" lastModified="1713688451">
   <timeline>
-    <DOMTimeline name="FallOutWindow" layerDepthEnabled="true">
+    <DOMTimeline name="FallOutWindow" currentFrame="1" layerDepthEnabled="true">
       <layers>
+        <DOMLayer name="Layer_2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop()]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
         <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
@@ -12,6 +22,42 @@
                   </matrix>
                   <transformationPoint>
                     <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean foot" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0" b="0.244522094726562" c="-0.244522094726562" d="0" tx="-24" ty="16.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="35.8" y="46.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="bean foot" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.12225341796875" b="-0.211746215820312" c="0.211746215820312" d="0.12225341796875" tx="7.9" ty="39.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="35.4" y="46.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="bean body 4" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.244522094726562" d="0.244522094726562" tx="-29.4" ty="-39.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118.4" y="171.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="bean face 4 copy 2" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.244522094726562" d="0.244522094726562" tx="-28.7" ty="-6.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="133.1" y="90.2"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>

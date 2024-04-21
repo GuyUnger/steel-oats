@@ -71,11 +71,12 @@
 					play()
 					revealed = true
 					gun.visible = true
-					for(var i=0;i<8;i++){
+					for( i=0;i<8;i++){
 						var shard = new GlassShard()
 						parent.addChild(shard)
 						shard.y = y
 						shard.x = x
+						shard.nextFrame()
 					}
 				}
 			}
