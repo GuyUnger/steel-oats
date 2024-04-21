@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MaloPistol" itemID="66234ab6-00000242" lastModified="1713642139" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="MaloPistol" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="toast/gun" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.57452392578125" d="0.57452392578125" tx="-42.1" ty="-34.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="83.05" y="53"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

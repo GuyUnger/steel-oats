@@ -1,8 +1,8 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Bars" itemID="660ef682-00000272" lastModified="1712256913">
   <timeline>
-    <DOMTimeline name="Bars" currentFrame="6" layerDepthEnabled="true">
+    <DOMTimeline name="Bars" currentFrame="5" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
+        <DOMLayer name="Layer_2" color="#9933CC">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
@@ -24,7 +24,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_1" color="#00FFFF">
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" duration="5" tweenType="shape" keyMode="17922">
               <MorphShape>

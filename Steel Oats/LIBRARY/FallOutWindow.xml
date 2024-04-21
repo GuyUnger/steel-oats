@@ -1,12 +1,15 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LevelContainer" itemID="66237bb7-000002d0" lastModified="1713601501">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FallOutWindow" itemID="66235e1c-000002b8" lastModified="1713681416">
   <timeline>
-    <DOMTimeline name="LevelContainer" layerDepthEnabled="true">
+    <DOMTimeline name="FallOutWindow" layerDepthEnabled="true">
       <layers>
         <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="StageInfo" name="stageInfo">
+                <DOMSymbolInstance libraryItemName="Tween 10 copy" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.253585815429688" d="0.253585815429688" tx="-0.75" ty="-4.4"/>
+                  </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>

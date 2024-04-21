@@ -1,0 +1,58 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="bean face 2" itemID="6623fc7f-0000025b" symbolType="graphic" lastModified="1713634431">
+  <timeline>
+    <DOMTimeline name="bean face 2" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="6">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                    <StrokeStyle index="2">
+                      <SolidStroke scaleMode="normal" weight="5">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!0 1740S4[2492 1903 5043 1640!5043 1640[5311 1612 5580 1580"/>
+                    <Edge strokeStyle="2" edges="!3668 329S4|4120 40!1720 0|2063 444"/>
+                    <Edge cubics="!3668 329(;3668,329 4120,40 4120,40q3668 329 4120 40);"/>
+                    <Edge cubics="!1720 0(;1720,0 2063,444 2063,444q1720 0 2063 444);"/>
+                    <Edge cubics="!0 1740(0,1740;1662,1849 3344,1816 5043,1640q0 1740Q2492 1903q5043 1640);"/>
+                    <Edge cubics="!5043 1640(;5223,1622 5401,1602 5580,1580q5043 1640 5580 1580)5580,1580;"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="bean eye" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="78.65" ty="22.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.25" y="12.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="bean eye" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="179.85" ty="22.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.25" y="12.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

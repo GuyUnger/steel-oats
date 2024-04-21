@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tween 10 copy" itemID="6624169f-000005d1" symbolType="graphic" lastModified="1713641139" lastUniqueIdentifier="4">
+  <timeline>
+    <DOMTimeline name="Tween 10 copy" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bean foot" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.5" b="0.866012573242188" c="-0.866012573242188" d="0.5" tx="-141.15" ty="65.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="35.5" y="45.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="bean foot" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.500015258789062" b="-0.865997314453125" c="0.865997314453125" d="0.500015258789062" tx="105.65" ty="127.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="35.5" y="46"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="bean body 2" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-180.6" ty="-173.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="192.5" y="172.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="bean face 1 copy" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-83.5" ty="-1.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="139.5" y="45.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

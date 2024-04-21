@@ -1,0 +1,55 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="textss" itemID="66237b18-000002c6" lastModified="1713625551">
+  <timeline>
+    <DOMTimeline name="textss" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="stage_name" left="-102.05" width="497.1" height="53.2" isSelectable="false" lineType="multiline no wrap">
+                  <matrix>
+                    <Matrix tx="-146.5" ty="14.9"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>cereals</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" letterSpacing="4" lineHeight="53.2" size="49" bitmapSize="980" face="Bogusflow" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMStaticText width="155.7" height="43.4" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-94.25" ty="-52.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Stage</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="4" lineHeight="43.4" size="40" bitmapSize="800" face="Bogusflow" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMDynamicText name="stage_num" width="27.9" height="60" autoExpand="true" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="71.1" ty="-68.1"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>1</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="4" lineHeight="60" size="60" bitmapSize="1200" face="PeyoteHandwriteRegular" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

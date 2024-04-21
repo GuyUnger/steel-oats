@@ -1,40 +1,83 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Target" itemID="66224f23-0000016b" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Target" lastModified="1713536003">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Target" itemID="66224f23-0000016b" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Target" lastModified="1713604195">
   <timeline>
-    <DOMTimeline name="Target" layerDepthEnabled="true">
+    <DOMTimeline name="Target" currentFrame="1" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+        <DOMLayer name="Layer_2" color="#9933CC">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
                 <script><![CDATA[import flash.events.Event;
+import flash.geom.Point;
 
 var hit = false
+var returningT = 0.0
 
+var spawnX
+var spawnY
+var spawned = false
+
+Game.addTarget(this);
 function update() {
-	for (var i = 0; i < Game.bullets.length; i ++){
-		var bullet = Game.bullets[i]
-		var dist = pointsDistance(x, y, bullet.x, bullet.y)
-		if (dist < 30.0){
-			setHit(true)
-			bullet.remove()
+	if (!spawned)
+		return
+	if (hit) {
+		if (!Game.bread.launched && !Game.targetsDone(name, true)) {
+			setHit(false)
+		}
+	} else {
+		for (var i = 0; i < Game.bullets.length; i++) {
+			var bullet = Game.bullets[i]
+			var dist = pointsDistance(x, y, bullet.x, bullet.y)
+			if (dist < 60.0) {
+				setHit(true)
+				bullet.remove()
+				velocity.y += bullet.velocity.y / 30
+				velocity.x += bullet.velocity.x / 30
+				var delta: Point = new Point(x - bullet.x, y - bullet.y)
+				delta.normalize(1)
+
+				x += delta.x * 20
+				y += delta.y * 20
+			}
 		}
 	}
+
+	velocity.x = elasticTo(x, spawnX, velocity.x, .9, .3)
+	x += velocity.x * Game.speed
+	velocity.y = elasticTo(y, spawnY, velocity.y, .9, .3)
+	y += velocity.y * Game.speed
 }
 
-function setHit(value){
+function setHit(value) {
 	hit = value
 	alpha = value ? 0.5 : 1
 }]]></script>
               </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop()
+spawnX = x
+spawnY = y
+spawned = true]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
                 <DOMGroup>
                   <matrix>
-                    <Matrix a="1.41481018066406" d="1.41481018066406" tx="-5.8" ty="3"/>
+                    <Matrix a="1.414794921875" d="1.414794921875" tx="-5.8" ty="3"/>
                   </matrix>
                   <members>
                     <DOMShape>
                       <matrix>
-                        <Matrix a="1.41481018066406" d="1.41481018066406" tx="-5.8" ty="3"/>
+                        <Matrix a="1.414794921875" d="1.414794921875" tx="-5.8" ty="3"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -46,19 +89,19 @@ function setHit(value){
                         </StrokeStyle>
                       </strokes>
                       <edges>
-                        <Edge strokeStyle="1" edges="!776 1[776 270 585 460!585 460[395 651 126 651!126 651[-144 651 -335 460!-335 460[-525 270 -525 1!-525 1[-525 -269 -335 -460!-335 -460[-144 -650 126 -650!126 -650[395 -650 585 -460!585 -460[776 -269 776 1"/>
+                        <Edge strokeStyle="1" edges="!776 1S4[776 270 585 460!585 460[395 651 126 651!126 651[-144 651 -335 460!-335 460[-525 270 -525 1!-525 1[-525 -269 -335 -460!-335 -460[-144 -650 126 -650!126 -650[395 -650 585 -460!585 -460[776 -269 776 1"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
                 <DOMGroup>
                   <matrix>
-                    <Matrix a="1.41481018066406" d="1.41481018066406" tx="-834.85" ty="-182.3"/>
+                    <Matrix a="1.414794921875" d="1.414794921875" tx="-834.85" ty="-182.3"/>
                   </matrix>
                   <members>
                     <DOMShape>
                       <matrix>
-                        <Matrix a="1.41481018066406" d="1.41481018066406" tx="-834.85" ty="-182.3"/>
+                        <Matrix a="1.414794921875" d="1.414794921875" tx="-834.85" ty="-182.3"/>
                       </matrix>
                       <fills>
                         <FillStyle index="1">
@@ -83,12 +126,12 @@ function setHit(value){
                 </DOMGroup>
                 <DOMGroup>
                   <matrix>
-                    <Matrix a="1.41481018066406" d="1.41481018066406" tx="-834.15" ty="-182.3"/>
+                    <Matrix a="1.414794921875" d="1.414794921875" tx="-834.15" ty="-182.3"/>
                   </matrix>
                   <members>
                     <DOMShape>
                       <matrix>
-                        <Matrix a="1.41481018066406" d="1.41481018066406" tx="-834.15" ty="-182.3"/>
+                        <Matrix a="1.414794921875" d="1.414794921875" tx="-834.15" ty="-182.3"/>
                       </matrix>
                       <fills>
                         <FillStyle index="1">
@@ -106,8 +149,8 @@ function setHit(value){
                       </strokes>
                       <edges>
                         <Edge fillStyle1="1" strokeStyle="1" edges="
-!12146 2566S6[12146 #A95.9F 12042.5 2817!12042.5 2817[11939 #B6C.2 11793 2924!11793 2924[11647 2924 11544 2821!11544 2821[11440 2717 11440 2571!11440 2571[11440 2425 11544 2322!11544 2322[11647 2218 11793 2218!11793 2218[11939 #8AA.1F
- 12042.5 2320.5!12042.5 2320.5[12146 #976.A 12146 2566"/>
+!12146 2566S6[12146 2710 12043 2817!12043 2817[11939 2924 11793 2924!11793 2924[11647 2924 11544 2821!11544 2821[11440 2717 11440 2571!11440 2571[11440 2425 11544 2322!11544 2322[11647 2218 11793 2218!11793 2218[11939 2218 12043 2321
+!12043 2321[12146 2423 12146 2566"/>
                       </edges>
                     </DOMShape>
                   </members>

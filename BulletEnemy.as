@@ -1,17 +1,18 @@
-﻿package  {
-	
-	import flash.geom.Point;
-	
-	
-	public class Bullet extends GuyClip {
-		
+﻿package {
 
-		function Bullet() {
+	import flash.display.MovieClip;
+	import flash.geom.Point;
+
+
+	public class BulletEnemy extends GuyClip {
+
+
+		public function BulletEnemy() {
 			super()
-			
-			Game.bullets.push(this)
+
+			Game.bulletsEnemy.push(this)
 		}
-		
+
 		function init(velocityX, velocityY) {
 			velocity = new Point(velocityX, velocityY)
 		}
@@ -21,11 +22,10 @@
 			x += velocity.x * delta
 			y += velocity.y * delta
 		}
-		
+
 		override function remove() {
 			super.remove()
-			Game.bullets.removeAt(Game.bullets.indexOf(this))
+			Game.bulletsEnemy.removeAt(Game.bulletsEnemy.indexOf(this))
 		}
-		
 	}
 }

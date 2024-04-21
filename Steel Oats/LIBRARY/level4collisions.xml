@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="level4collisions" itemID="66241698-000004aa" lastModified="1713641112">
+  <timeline>
+    <DOMTimeline name="level4collisions" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#2D2B22"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!-62700 3205S1|62700 3205!62700 3205|62700 -3205!62700 -3205|-62700 -3205!-62700 -3205|-62700 3205"/>
+                    <Edge cubics="!-62700 3205(;-62700,3205 62700,3205 62700,3205q-62700 3205 62700 3205);"/>
+                    <Edge cubics="!62700 3205(;62700,3205 62700,-3205 62700,-3205q62700 3205 62700 -3205);"/>
+                    <Edge cubics="!-62700 -3205(;-62700,-3205 -62700,3205 -62700,3205q-62700 -3205 -62700 3205);"/>
+                    <Edge cubics="!62700 -3205(;62700,-3205 -62700,-3205 -62700,-3205q62700 -3205 -62700 -3205);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LevelWall" itemID="66160035-0000019a" lastModified="1712717877">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LevelWall" itemID="66160035-0000019a" lastModified="1713630753">
   <timeline>
     <DOMTimeline name="LevelWall" layerDepthEnabled="true">
       <layers>
@@ -12,17 +12,8 @@
                       <SolidColor color="#563A36"/>
                     </FillStyle>
                   </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal">
-                        <fill>
-                          <SolidColor/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
                   <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!-740 -3363S6|740 -3363!740 -3363|740 3363!740 3363|-740 3363!-740 3363|-740 -3363"/>
+                    <Edge fillStyle1="1" edges="!-740 -3363|740 -3363!740 -3363|740 3363!740 3363|-740 3363!-740 3363|-740 -3363"/>
                     <Edge cubics="!-740 -3363(;-740,-3363 740,-3363 740,-3363q-740 -3363 740 -3363);"/>
                     <Edge cubics="!740 3363(;740,3363 -740,3363 -740,3363q740 3363 -740 3363);"/>
                     <Edge cubics="!-740 3363(;-740,3363 -740,-3363 -740,-3363q-740 3363 -740 -3363);"/>

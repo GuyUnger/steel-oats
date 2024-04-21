@@ -1,0 +1,95 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level3" itemID="66241385-0000044c" linkageExportForAS="true" linkageClassName="Level3" lastModified="1713681723">
+  <timeline>
+    <DOMTimeline name="Level3" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[Game.level = this]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#191716"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!140155 -9358[139820 -9466 139615 -9778!139615 -9778[139408 -10094 139459 -10436!139459 -10436[139498 -10695 139678 -10908!139678 -10908[139854 -11117 140105 -11212!140105 -11212[140299 -11286 140509 -11282!140509 -11282[140722 -11278
+ 140909 -11195!140909 -11195[141099 -11111 141242 -10955!141242 -10955[141386 -10798 141450 -10603!141450 -10603[141536 -10341 141462 -10058!141462 -10058[141388 -9777 141186 -9586!141186 -9586[140986 -9397 140702 -9335!140702 -9335[140420
+ -9273 140155 -9358"/>
+                    <Edge cubics="!140155 -9358(;139712,-9500 139390,-9976 139459,-10436q140155 -9358Q139820 -9466q139615 -9778Q139408 -10094q139459 -10436);"/>
+                    <Edge cubics="!139459 -10436(;139512,-10785 139775,-11087 140105,-11212q139459 -10436Q139498 -10695q139678 -10908Q139854 -11117q140105 -11212);"/>
+                    <Edge cubics="!140105 -11212(;140362,-11310 140658,-11306 140909,-11195q140105 -11212Q140299 -11286q140509 -11282Q140722 -11278q140909 -11195);"/>
+                    <Edge cubics="!140909 -11195(;141161,-11083 141364,-10864 141450,-10603q140909 -11195Q141099 -11111q141242 -10955Q141386 -10798q141450 -10603);"/>
+                    <Edge cubics="!141450 -10603(;141565,-10252 141454,-9840 141186,-9586q141450 -10603Q141536 -10341q141462 -10058Q141388 -9777q141186 -9586);"/>
+                    <Edge cubics="!141186 -9586(;140918,-9333 140507,-9245 140155,-9358q141186 -9586Q140986 -9397q140702 -9335Q140420 -9273q140155 -9358);"/>
+                    <Edge cubics="!-62700 7824(;-62700,7824 62700,7824 62700,7824q-62700 7824 62700 7824);"/>
+                    <Edge cubics="!62700 7824(;62700,7824 62700,1414 62700,1414q62700 7824 62700 1414);"/>
+                    <Edge cubics="!-62700 1414(;-62700,1414 -62700,7824 -62700,7824q-62700 1414 -62700 7824);"/>
+                    <Edge cubics="!62700 1414(;62700,1414 -62700,1414 -62700,1414q62700 1414 -62700 1414);"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="LevelWall" name="start">
+                  <matrix>
+                    <Matrix tx="-2779.65" ty="-242.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="LevelWall" name="end">
+                  <matrix>
+                    <Matrix tx="2817.7" ty="-242.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Bread" name="bread" isVisible="false">
+                  <matrix>
+                    <Matrix tx="-2566.35" ty="-16"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Toaster" name="toaster">
+                  <matrix>
+                    <Matrix tx="-2554.6" ty="61"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Level3Collisions" name="ground">
+                  <matrix>
+                    <Matrix ty="230.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

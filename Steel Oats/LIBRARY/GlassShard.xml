@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GlassShard" itemID="662404c7-000003ad" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="GlassShard" lastModified="1713636949">
+  <timeline>
+    <DOMTimeline name="GlassShard" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[velocity.x = (Math.random()-0.5)*600
+velocity.y = (Math.random()-0.7)*700
+rotation = Math.random() * 360
+function update(){
+	var delta = 1/60*Game.speed
+	velocity.y += 1000 * delta
+	x += velocity.x * delta * 2
+	y += velocity.y * delta*2
+	rotation += velocity.x * delta * 2.0
+	if (y > 2000)
+		remove()
+}]]></script>
+              </Actionscript>
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#63D2F1"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!256 -520S1|156 -520!156 -520|-224 60!-224 60|-224 260!-224 260[-341 292 -375 314!-375 314|16 540!16 540|376 540!376 540|376 0!376 0|256 -540!256 -540|256 -520"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

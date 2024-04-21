@@ -1,0 +1,301 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level1" itemID="66238021-0000031a" linkageExportForAS="true" linkageClassName="Level1" lastModified="1713681826">
+  <timeline>
+    <DOMTimeline name="Level1" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[Game.level = this]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="grass 3" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="187.15" ty="-47.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.4" y="38.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="grass 1" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-652.85" ty="11.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="76.1" y="40"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#191716"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!140155 -9358[139820 -9466 139615 -9778!139615 -9778[139408 -10094 139459 -10436!139459 -10436[139498 -10695 139678 -10908!139678 -10908[139854 -11117 140105 -11212!140105 -11212[140299 -11286 140509 -11282!140509 -11282[140722 -11278
+ 140909 -11195!140909 -11195[141099 -11111 141242 -10955!141242 -10955[141386 -10798 141450 -10603!141450 -10603[141536 -10341 141462 -10058!141462 -10058[141388 -9777 141186 -9586!141186 -9586[140986 -9397 140702 -9335!140702 -9335[140420
+ -9273 140155 -9358"/>
+                    <Edge cubics="!140155 -9358(;139712,-9500 139390,-9976 139459,-10436q140155 -9358Q139820 -9466q139615 -9778Q139408 -10094q139459 -10436);"/>
+                    <Edge cubics="!139459 -10436(;139512,-10785 139775,-11087 140105,-11212q139459 -10436Q139498 -10695q139678 -10908Q139854 -11117q140105 -11212);"/>
+                    <Edge cubics="!140105 -11212(;140362,-11310 140658,-11306 140909,-11195q140105 -11212Q140299 -11286q140509 -11282Q140722 -11278q140909 -11195);"/>
+                    <Edge cubics="!140909 -11195(;141161,-11083 141364,-10864 141450,-10603q140909 -11195Q141099 -11111q141242 -10955Q141386 -10798q141450 -10603);"/>
+                    <Edge cubics="!141450 -10603(;141565,-10252 141454,-9840 141186,-9586q141450 -10603Q141536 -10341q141462 -10058Q141388 -9777q141186 -9586);"/>
+                    <Edge cubics="!141186 -9586(;140918,-9333 140507,-9245 140155,-9358q141186 -9586Q140986 -9397q140702 -9335Q140420 -9273q140155 -9358);"/>
+                    <Edge cubics="!-43450 -721(;-43450,-721 -43450,-2721 -43450,-2721q-43450 -721 -43450 -2721);"/>
+                    <Edge cubics="!-41450 -2721(;-41450,-2721 -41450,-721 -41450,-721q-41450 -2721 -41450 -721);"/>
+                    <Edge cubics="!-41450 -721(;-41450,-721 -43450,-721 -43450,-721q-41450 -721 -43450 -721);"/>
+                    <Edge cubics="!-43450 -2721(;-43450,-2721 -41450,-2721 -41450,-2721q-43450 -2721 -41450 -2721);"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="ground" name="ground">
+                  <matrix>
+                    <Matrix tx="432.8" ty="72.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="LevelWall" name="start">
+                  <matrix>
+                    <Matrix tx="-2856.6" ty="-164"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="LevelWall" name="end">
+                  <matrix>
+                    <Matrix tx="3250.35" ty="-164"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Target" name="pizza1">
+                  <matrix>
+                    <Matrix tx="626.5" ty="-388.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Target" name="pizza2">
+                  <matrix>
+                    <Matrix tx="527.55" ty="-684"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Target" name="pizza3">
+                  <matrix>
+                    <Matrix a="-1" tx="-103.05" ty="-388.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Target" name="pizza4">
+                  <matrix>
+                    <Matrix a="-1" tx="-29.9" ty="-705.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Bread" name="bread" isVisible="false">
+                  <matrix>
+                    <Matrix tx="288.1" ty="-101.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Toaster" name="toaster">
+                  <matrix>
+                    <Matrix tx="-2554.6" ty="61"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="OneWay">
+                  <matrix>
+                    <Matrix a="4.08099365234375" tx="-308.85" ty="569.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Target" name="cat1">
+                  <matrix>
+                    <Matrix tx="-1328.6" ty="-285.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Target" name="cat2">
+                  <matrix>
+                    <Matrix tx="-1328.6" ty="-557.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_3" color="#FF800A" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#DBBC32"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle0="1" edges="!-49002 -1768|-49002 -1782!-49002 -1782|-54196 -1782!-54196 -1782[-54672 -1783 -54971 -1776!-54971 -1776|-70792 -1776!-70792 -1776|-70792 4635!-70792 4635|69029 4635!69029 4635|69029 -1748!69029 -1748|15483.5 -1748!15483.5 -1748|14571.5
+ -1926!14571.5 -1926|11763 -3132.5!11763 -3132.5|10936 -3262!10936 -3262|2564 -3262!2564 -3262|916.5 -3057.5!916.5 -3057.5|-1354.5 -2023!-1354.5 -2023|-2463.5 -1748!-2463.5 -1748|-49002 -1768"/>
+                            <Edge cubics="!-49002 -1768(;-49002,-1768 -49002,-1782 -49002,-1782q-49002 -1768 -49002 -1782);"/>
+                            <Edge cubics="!-49002 -1782(;-49002,-1782 -54196,-1782 -54196,-1782q-49002 -1782 -54196 -1782);"/>
+                            <Edge cubics="!-54971 -1776(;-54771,-1781 -54514,-1783 -54196,-1782q-54971 -1776Q-54672 -1783q-54196 -1782);"/>
+                            <Edge cubics="!69029 4635(;69029,4635 69029,-1748 69029,-1748q69029 4635 69029 -1748);"/>
+                            <Edge cubics="!69029 -1748(;69029,-1748 15484,-1748 15484,-1748q69029 -1748 15484 -1748);"/>
+                            <Edge cubics="!15484 -1748(;15484,-1748 14986,-1748 14986,-1748q15484 -1748 14986 -1748);"/>
+                            <Edge cubics="!-70792 4635(;-70792,4635 69029,4635 69029,4635q-70792 4635 69029 4635);"/>
+                            <Edge cubics="!11462 -3262(;11462,-3262 10936,-3262 10936,-3262q11462 -3262 10936 -3262);"/>
+                            <Edge cubics="!10936 -3262(;10936,-3262 2564,-3262 2564,-3262q10936 -3262 2564 -3262);"/>
+                            <Edge cubics="!2564 -3262(;2564,-3262 1366,-3262 1366,-3262q2564 -3262 1366 -3262);"/>
+                            <Edge cubics="!-1958 -1748(;-1958,-1748 -2463,-1748 -2463,-1748q-1958 -1748 -2463 -1748);"/>
+                            <Edge cubics="!-2463 -1748(;-2463,-1748 -49002,-1768 -49002,-1768q-2463 -1748 -49002 -1768);"/>
+                            <Edge cubics="!-54971 -1776(;-54971,-1776 -70792,-1776 -70792,-1776q-54971 -1776 -70792 -1776);"/>
+                            <Edge cubics="!-70792 -1776(;-70792,-1776 -70792,4635 -70792,4635q-70792 -1776 -70792 4635);"/>
+                            <Edge cubics="!14986 -1748(;14986,-1748 11763,-3132 11763,-3132q14986 -1748 11763 -3132);"/>
+                            <Edge cubics="!11763 -3132(;11763,-3132 11462,-3262 11462,-3262q11763 -3132 11462 -3262);"/>
+                            <Edge cubics="!1366 -3262(;1366,-3262 917,-3057 917,-3057q1366 -3262 917 -3057);"/>
+                            <Edge cubics="!917 -3057(;917,-3057 -1354,-2023 -1354,-2023q917 -3057 -1354 -2023);"/>
+                            <Edge cubics="!-2463 -1748(;-2463,-1748 -1354,-2023 -1354,-2023q-2463 -1748 -1354 -2023);"/>
+                            <Edge cubics="!-1354 -2023(;-1354,-2023 -1958,-1748 -1958,-1748q-1354 -2023 -1958 -1748);"/>
+                            <Edge cubics="!917 -3057(;917,-3057 2564,-3262 2564,-3262q917 -3057 2564 -3262);"/>
+                            <Edge cubics="!10936 -3262(;10936,-3262 11763,-3132 11763,-3132q10936 -3262 11763 -3132);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup>
+                      <matrix>
+                        <Matrix ty="10"/>
+                      </matrix>
+                      <members>
+                        <DOMShape>
+                          <matrix>
+                            <Matrix ty="10"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#C88F2D"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle0="1" edges="!-51325 2876|-51325 2862!-51325 2862|-56519 2862!-56519 2862[-56995 2861 -57294 2868!-57294 2868|-73115 2868!-73115 2868|-73115 9279!-73115 9279|66706 9279!66706 9279|66706 2896!66706 2896|12663 2896!12663 2896|12019 2735!12019 2735|9139
+ 1382!9139 1382|8503 1221!8503 1221|-249 1221!-249 1221|-957 1382!-957 1382|-3599 2733!-3599 2733|-4281 2896!-4281 2896|-51325 2876"/>
+                            <Edge cubics="!-51325 2876(;-51325,2876 -51325,2862 -51325,2862q-51325 2876 -51325 2862);"/>
+                            <Edge cubics="!-51325 2862(;-51325,2862 -56519,2862 -56519,2862q-51325 2862 -56519 2862);"/>
+                            <Edge cubics="!-57294 2868(;-57094,2863 -56837,2861 -56519,2862q-57294 2868Q-56995 2861q-56519 2862);"/>
+                            <Edge cubics="!66706 9279(;66706,9279 66706,2896 66706,2896q66706 9279 66706 2896);"/>
+                            <Edge cubics="!66706 2896(;66706,2896 12663,2896 12663,2896q66706 2896 12663 2896);"/>
+                            <Edge cubics="!-73115 9279(;-73115,9279 66706,9279 66706,9279q-73115 9279 66706 9279);"/>
+                            <Edge cubics="!-4281 2896(;-4281,2896 -51325,2876 -51325,2876q-4281 2896 -51325 2876);"/>
+                            <Edge cubics="!-57294 2868(;-57294,2868 -73115,2868 -73115,2868q-57294 2868 -73115 2868);"/>
+                            <Edge cubics="!-73115 2868(;-73115,2868 -73115,9279 -73115,9279q-73115 2868 -73115 9279);"/>
+                            <Edge cubics="!12663 2896(;12663,2896 9139,1382 9139,1382q12663 2896 9139 1382);"/>
+                            <Edge cubics="!9139 1382(;9139,1382 8503,1221 8503,1221q9139 1382 8503 1221);"/>
+                            <Edge cubics="!-249 1221(;-249,1221 -957,1382 -957,1382q-249 1221 -957 1382);"/>
+                            <Edge cubics="!-3599 2733(;-3599,2733 -4281,2896 -4281,2896q-3599 2733 -4281 2896);"/>
+                            <Edge cubics="!-957 1382(;-957,1382 -3599,2733 -3599,2733q-957 1382 -3599 2733);"/>
+                            <Edge cubics="!8503 1221(;8503,1221 -249,1221 -249,1221q8503 1221 -249 1221);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="cactus 2" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-1869.65" ty="-155.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="61.55" y="93.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="cactus 1" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="642.95" ty="-236.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="107.65" y="134.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="cactus 3" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="1579.3" ty="-214.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="63.05" y="133.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="grass 3" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="820.1" ty="-85.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.4" y="38.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="grass 2" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-476.9" ty="-51.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="63" y="33.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="BushEnemy" selected="true">
+                  <matrix>
+                    <Matrix tx="1278.5" ty="-30.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

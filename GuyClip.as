@@ -2,6 +2,7 @@
 	import flash.display.MovieClip;
 	import flash.events.KeyboardEvent;
 	import flash.events.Event;
+	import flash.geom.Point;
 	
 	public class GuyClip extends MovieClip {
 		
@@ -9,13 +10,14 @@
 		var p: MovieClip = parent as MovieClip
 		
 		var updating = false
-		var groups = []
+		var velocity: Point = new Point()
 		
 		function GuyClip() {
 			if ("update" in this) {
 				updating = true
 				addEventListener(Event.ENTER_FRAME, enterFrame)
-				}
+			}
+			addEventListener(Event.REMOVED_FROM_STAGE, onRemoved)
 			
 		}
 		
@@ -55,10 +57,17 @@
 		}
 		
 		function remove() {
+			parent.removeChild(this)
+		}
+		function onRemoved(_) {
 			if (updating) {
 				removeEventListener(Event.ENTER_FRAME, enterFrame)
 			}
-			parent.removeChild(this)
+			removeEventListener(Event.REMOVED_FROM_STAGE, onRemoved)
+		}
+		
+		function elasticTo(from:Number, to:Number, elasticValue:Number, elasticity:Number = .8, friction:Number = .2):Number {
+			return (elasticValue * elasticity) + ((to - from) * friction);
 		}
 	}
 }

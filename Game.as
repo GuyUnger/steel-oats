@@ -22,14 +22,24 @@
 		public static var mouseJustPressed = false
 		public static var mouseJustReleased = false
 		
+		public static var game: MovieClip
 		public static var bread: MovieClip
 		public static var toaster: MovieClip
 		public static var level: MovieClip
 		public static var bars: MovieClip
 		public static var audios: MovieClip
+		public static var cameraTarget
+		public static var cameraTargetFreeze:Number = 0.0
 		
 		public static var bullets = []
-		public static var 
+		public static var bulletsEnemy = []
+		
+		public static var bars_closed = false
+		
+		public static var banditsTotal = 0
+		public static var banditsKilled = 0
+		
+		
 		
 		public function Game() {
 			stage.addEventListener(KeyboardEvent.KEY_DOWN, keyDown)
@@ -37,16 +47,35 @@
 			stage.addEventListener(Event.ENTER_FRAME, _onEnterFrame)
 			stage.addEventListener(MouseEvent.MOUSE_DOWN, onMousePressed)
 			stage.addEventListener(MouseEvent.MOUSE_UP, onMouseReleased)
+			game = this
 		}
-		
 		
 		public function _onEnterFrame(e: Event) {
 			var delta = 1 / 60
 			sinceSpacePressed += delta
 			processCamera(delta)
+			if (bread) {
+				bread.updated()
+			}
 			keySpaceJustReleased = false
 			mouseJustPressed = false
 			mouseJustReleased = false
+			
+			cameraTargetFreeze -= delta
+			
+			if (bars_closed) {
+				if (bars.currentFrame == 1)
+					bars.play()
+			} else {				
+				if (bars.currentFrame == 6)
+					bars.play()
+			}
+			
+			HUD.banTot.text = banditsTotal
+			HUD.banKill.text = banditsKilled
+		}
+		static public function showHud(value) {
+			HUD.visible = value
 		}
 		
 		function keyDown(e: KeyboardEvent) {
@@ -126,6 +155,48 @@
 			mousePressed = false
 			mouseJustReleased = true
 		}
-
+		static public var targets: MovieClip = new MovieClip()
+		public static function targetsDone(name, isTarget = false) {
+			if (isTarget) {
+				name = name.slice(0,name.length-1)
+			}
+			var ts = targets[name]
+			for (var i =0; i<ts.length;i++){
+				if(!ts[i].hit){
+					return false
+				}
+			}
+			return true
+		}
+		
+		static public function addTarget(target) {
+			var name1:String = target.name.slice(0,target.name.length-1)
+			if (!targets[name1]) {
+				targets[name1] = []
+			}
+			targets[name1].push(target)
+		}
+		static var levels = [Level1, Level2, Level3, Level4, Level5]
+		static var levelNum = 0
+		static var exiting = false
+		static public function loadLevel(num) {
+			banditsTotal = 0
+			banditsLeft = 0
+			level = new levels[num]()
+			game.levelContainer.addChild(level)
+			levelNum = num
+			exiting = false
+		}
+		
+		static public function nextLevel() {
+			if (level) {
+				level.parent.removeChild(level)
+				bullets = []
+				bulletsEnemy = []
+			}
+			game.levelContainer.stageInfo.setup(levelNum+1)
+			exiting = true
+			//loadLevel(levelNum+1)
+		}
 	}
 }
