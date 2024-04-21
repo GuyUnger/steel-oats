@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level3" itemID="66241385-0000044c" linkageExportForAS="true" linkageClassName="Level3" lastModified="1713681723">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level3" itemID="66241385-0000044c" linkageExportForAS="true" linkageClassName="Level3" lastModified="1713713025" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="Level3" layerDepthEnabled="true">
       <layers>
@@ -32,10 +32,6 @@
                     <Edge cubics="!140909 -11195(;141161,-11083 141364,-10864 141450,-10603q140909 -11195Q141099 -11111q141242 -10955Q141386 -10798q141450 -10603);"/>
                     <Edge cubics="!141450 -10603(;141565,-10252 141454,-9840 141186,-9586q141450 -10603Q141536 -10341q141462 -10058Q141388 -9777q141186 -9586);"/>
                     <Edge cubics="!141186 -9586(;140918,-9333 140507,-9245 140155,-9358q141186 -9586Q140986 -9397q140702 -9335Q140420 -9273q140155 -9358);"/>
-                    <Edge cubics="!-62700 7824(;-62700,7824 62700,7824 62700,7824q-62700 7824 62700 7824);"/>
-                    <Edge cubics="!62700 7824(;62700,7824 62700,1414 62700,1414q62700 7824 62700 1414);"/>
-                    <Edge cubics="!-62700 1414(;-62700,1414 -62700,7824 -62700,7824q-62700 1414 -62700 7824);"/>
-                    <Edge cubics="!62700 1414(;62700,1414 -62700,1414 -62700,1414q62700 1414 -62700 1414);"/>
                   </edges>
                 </DOMShape>
                 <DOMSymbolInstance libraryItemName="LevelWall" name="start">
@@ -62,7 +58,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Toaster" name="toaster">
+                <DOMSymbolInstance libraryItemName="Toaster" name="toaster" selected="true">
                   <matrix>
                     <Matrix tx="-2554.6" ty="61"/>
                   </matrix>
@@ -85,7 +81,136 @@
         <DOMLayer name="Layer_3" color="#FF800A">
           <frames>
             <DOMFrame index="0" keyMode="9728">
-              <elements/>
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMSymbolInstance libraryItemName="Symbol 11">
+                      <matrix>
+                        <Matrix tx="-1342.45" ty="233.05"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="-0.05"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="Symbol 11">
+                      <matrix>
+                        <Matrix tx="-3386.95" ty="233.05"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="-0.05"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="Symbol 11">
+                      <matrix>
+                        <Matrix tx="702.05" ty="233.05"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="-0.05"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="Symbol 11">
+                      <matrix>
+                        <Matrix tx="2746.55" ty="233.05"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="-0.05"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMSymbolInstance libraryItemName="train segment" selected="true" centerPoint3DX="-2823.6" centerPoint3DY="147.7">
+                      <matrix>
+                        <Matrix a="0.65411376953125" d="0.65411376953125" tx="-3124.6" ty="28.55"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="460.1" y="182.25"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="train segment" selected="true" centerPoint3DX="-2261.15" centerPoint3DY="147.7">
+                      <matrix>
+                        <Matrix a="0.65411376953125" d="0.65411376953125" tx="-2562.05" ty="28.55"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="460.1" y="182.25"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="train segment" selected="true" centerPoint3DX="-1694.55" centerPoint3DY="147.7">
+                      <matrix>
+                        <Matrix a="0.65411376953125" d="0.65411376953125" tx="-1995.55" ty="28.55"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="460.1" y="182.25"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="train segment" selected="true" centerPoint3DX="-1132" centerPoint3DY="147.7">
+                      <matrix>
+                        <Matrix a="0.65411376953125" d="0.65411376953125" tx="-1433" ty="28.55"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="460.15" y="182.25"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="train segment" selected="true" centerPoint3DX="-559.05" centerPoint3DY="147.7">
+                      <matrix>
+                        <Matrix a="0.65411376953125" d="0.65411376953125" tx="-860.05" ty="28.55"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="460.1" y="182.25"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="train segment" selected="true" centerPoint3DX="3.4" centerPoint3DY="147.7">
+                      <matrix>
+                        <Matrix a="0.65411376953125" d="0.65411376953125" tx="-297.5" ty="28.55"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="460.1" y="182.25"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="train segment" selected="true" centerPoint3DX="570" centerPoint3DY="147.7">
+                      <matrix>
+                        <Matrix a="0.65411376953125" d="0.65411376953125" tx="269" ty="28.55"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="460.1" y="182.25"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="train segment" selected="true" centerPoint3DX="1132.55" centerPoint3DY="147.7">
+                      <matrix>
+                        <Matrix a="0.65411376953125" d="0.65411376953125" tx="831.55" ty="28.55"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="460.15" y="182.25"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="train segment" selected="true" centerPoint3DX="1695.8" centerPoint3DY="147.7">
+                      <matrix>
+                        <Matrix a="0.65411376953125" d="0.65411376953125" tx="1394.9" ty="28.55"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="460.1" y="182.25"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="train segment" selected="true" centerPoint3DX="2262.4" centerPoint3DY="147.7">
+                      <matrix>
+                        <Matrix a="0.65411376953125" d="0.65411376953125" tx="1961.4" ty="28.55"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="460.1" y="182.25"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="train segment" selected="true" centerPoint3DX="2824.95" centerPoint3DY="147.7">
+                      <matrix>
+                        <Matrix a="0.65411376953125" d="0.65411376953125" tx="2523.95" ty="28.55"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="460.15" y="182.25"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>

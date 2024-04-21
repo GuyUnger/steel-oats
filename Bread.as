@@ -1,11 +1,11 @@
-﻿package  {
-	
+﻿package {
+
 	import flash.geom.Point;
 	import flash.events.MouseEvent;
 
-	
+
 	public class Bread extends GuyClip {
-		
+
 		var SPEED: Number = 400
 
 		var shootPressed = false
@@ -31,63 +31,71 @@
 		var sinceReturning = 0
 
 		var returningSpin = false
-		
+
 		public function Bread() {
 			super()
 			stop()
 			Game.bread = this
 		}
-
+		var hitT = 0
 		public function updated() {
 			if (launched)
 				processAir()
 			else {
-				
+
 				x = Game.toaster.x + Math.cos(Game.toaster.rotation / toDegrees - Math.PI * 0.5) * 70
 				y = Game.toaster.y + Math.sin(Game.toaster.rotation / toDegrees - Math.PI * 0.5) * 70
 				bread.scaleX = Game.toaster.model.scaleX
 				rotation = Game.toaster.rotation
 			}
-			
+
 			if (x < Game.level.start.x) {
 				x = Game.level.start.x
 			}
 			if (x > Game.level.end.x) {
 				x = Game.level.end.x
 			}
+			var delta=1/60*Game.speed
+			if (hitT > 0) {
+				hitT -= delta
+			} else {
+				for (var i = 0; i < Game.bulletsEnemy.length; i++) {
+					var bullet = Game.bulletsEnemy[i]
+					if (pointsDistance(x, y, bullet.x, bullet.y) < 100) {
+						hitT = 1
+						Game.removeHeart()
+						bullet.remove()
+					}
+				}
+			}
 		}
 
 
 		function processAir() {
-			for (var i =0;i<Game.bulletsEnemy.length;i++){
-				var bullet=Game.bulletsEnemy[i]
-				if (pointsDistance(x, y, bullet.x,bullet.y)<100){
-					
-				}
-			}
-			
+
 			if (!attacking && jumpHolding) {
 				setAttacking(true)
 			}
 			if (attacking && !jumpHolding && sinceJump > 0.5) {
 				setAttacking(false)
-				
+
 			}
 			if (attacking) {
 				Game.speed = moveToward(Game.speed, 0.4, 0.1)
 			} else {
 				Game.speed = moveToward(Game.speed, 1.0, 0.01)
 			}
-			
+
 			var delta = 1 / 60 * Game.speed
 			sinceJump += 1 / 60
-			
+
 			if (jumpHolding && velocity.y > 1300) {
 				jumpHolding = false
 			}
-			
+
+
 			velocityTo.x = 0
-			
+
 			var accelDuration = 2.0
 
 			if (Game.keyAPressed) {
@@ -97,13 +105,13 @@
 				velocityTo.x += 1
 			}
 			velocityTo.x *= SPEED
-			
-			if (Math.abs(velocityTo.x) > 0){
+
+			if (Math.abs(velocityTo.x) > 0) {
 				accelDuration = 0.2
 			}
-			
+
 			if (jumpHolding) {
-				if (Game.keySpaceJustReleased ) {
+				if (Game.keySpaceJustReleased) {
 					jumpHolding = false
 					if (sinceJump > 0.3) {
 						returningSpin = true
@@ -113,16 +121,16 @@
 			} else {
 				sinceReturning += delta / 0.2
 			}
-			
+
 			aimAngle = pointAngle(mouseX, mouseY)
-			
+
 			if (jumpHolding || attacking) {
 				if (Game.mouseJustPressed) {
 					shootPressed = true
 				}
 				velocity.x = moveToward(velocity.x, velocityTo.x, SPEED / accelDuration * delta)
 				velocity.y += (Math.abs(velocity.y * 3) + 600) * delta
-				
+
 			} else {
 				aimAngle = 0.5
 				if (returningSpin) {
@@ -149,7 +157,7 @@
 				var speed = 1000 * delta * Math.min(sinceReturning, 4)
 				x += Math.cos(angleToToaster) * speed
 				y += Math.sin(angleToToaster) * speed
-				
+
 				velocity.x -= velocity.x * delta * 5.0
 				velocity.y -= velocity.y * delta * 5.0
 				//velocity.y += 4000 * delta
@@ -157,14 +165,14 @@
 					unlaunch()
 				}
 			}
-			
+
 			x += velocity.x * delta
 			y += velocity.y * delta
-			
+
 			if (sinceJump > 0.3) {
 				bread.rotation += velocity.x * delta * 2.0
 			}
-				
+
 			shootT -= 1 / 60
 			if (shootT <= 0 && shootPressed) {
 				shootT += 0.2
@@ -172,10 +180,10 @@
 				shootPressed = false
 				Game.speed = 1.0
 			}
-			
+
 			aimX = Math.cos(aimAngle)
 			aimY = Math.sin(aimAngle)
-			
+
 			gun.x = aimX * 40
 			gun.y = aimY * 40
 			gun.rotation = aimAngle * toDegrees
@@ -186,8 +194,6 @@
 			if (attacking == value)
 				return
 			attacking = value
-			if (!value)
-				Game.bars_closed = true
 		}
 
 		function launch() {
@@ -205,7 +211,6 @@
 			sinceJump = 0.0
 			sinceReturning = 0.0
 			shootPressed = false
-			Game.bars_closed = false
 			visible = true
 		}
 
@@ -217,31 +222,30 @@
 			Game.speed = 1
 			//returningSpin = false
 			//gotoAndStop(2)
-			
+
 			visible = false
-			Game.bars_closed = true
-			
+
 			Game.audios.unlaunch.play()
-			
+
 		}
 
 		function shootBullet(angleOffset) {
 			var bullet = new Bullet()
 			Game.level.addChild(bullet)
-			
+
 			bullet.x = x + aimX * 60
 			bullet.y = y + aimY * 60
 			var speed = 1500
 			bullet.init(
-					aimX * speed,
-					aimY * speed
+				aimX * speed,
+				aimY * speed
 			)
 			velocity.x -= aimX * 150
 			velocity.y -= aimY * 60
 			bullet.rotation = aimAngle * toDegrees
 			gun.gotoAndPlay(2)
 		}
-
+		/*
 		function rayFloor(offset) {
 			var checkingX = x + offset
 			var checkingY = y
@@ -263,8 +267,8 @@
 				}
 			}
 			return checkingY
-		}
+		}*/
 
 	}
-	
+
 }

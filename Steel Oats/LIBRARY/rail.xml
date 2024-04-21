@@ -1,0 +1,224 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="rail" itemID="66252e2f-00000767" lastModified="1713712720">
+  <timeline>
+    <DOMTimeline name="rail" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="-553.65">
+                  <matrix>
+                    <Matrix tx="-680.4" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="-373.65">
+                  <matrix>
+                    <Matrix tx="-500.4" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="-373.65">
+                  <matrix>
+                    <Matrix tx="-500.4" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="-196.15">
+                  <matrix>
+                    <Matrix tx="-322.9" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="-16.15">
+                  <matrix>
+                    <Matrix tx="-142.9" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="-16.15">
+                  <matrix>
+                    <Matrix tx="-142.9" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="161.35">
+                  <matrix>
+                    <Matrix tx="34.6" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="341.35">
+                  <matrix>
+                    <Matrix tx="214.6" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="341.35">
+                  <matrix>
+                    <Matrix tx="214.6" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="518.85">
+                  <matrix>
+                    <Matrix tx="392.1" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="698.85">
+                  <matrix>
+                    <Matrix tx="572.1" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="-731.15">
+                  <matrix>
+                    <Matrix tx="-857.9" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="rails" centerPoint3DX="-0.05" centerPoint3DY="-10.25">
+                  <matrix>
+                    <Matrix a="0.907821655273438" tx="-886.3" ty="-102.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="976.25" y="92.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="1063.75">
+                  <matrix>
+                    <Matrix tx="937" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="1243.75">
+                  <matrix>
+                    <Matrix tx="1117" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="1243.75">
+                  <matrix>
+                    <Matrix tx="1117" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="1421.25">
+                  <matrix>
+                    <Matrix tx="1294.5" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="1601.25">
+                  <matrix>
+                    <Matrix tx="1474.5" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="1601.25">
+                  <matrix>
+                    <Matrix tx="1474.5" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="1778.75">
+                  <matrix>
+                    <Matrix tx="1652" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="1958.75">
+                  <matrix>
+                    <Matrix tx="1832" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="1958.75">
+                  <matrix>
+                    <Matrix tx="1832" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="2136.25">
+                  <matrix>
+                    <Matrix tx="2009.5" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="2316.25">
+                  <matrix>
+                    <Matrix tx="2189.5" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="plank" centerPoint3DX="886.25">
+                  <matrix>
+                    <Matrix tx="759.5" ty="-123.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.75" y="123.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="rails" centerPoint3DX="1617.35" centerPoint3DY="-10.25">
+                  <matrix>
+                    <Matrix a="0.907821655273438" tx="731.1" ty="-102.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="976.25" y="92.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

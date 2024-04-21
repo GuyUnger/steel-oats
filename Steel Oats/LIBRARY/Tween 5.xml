@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tween 5" itemID="661fd2a5-00000301" symbolType="graphic" lastModified="1713361573">
+  <timeline>
+    <DOMTimeline name="Tween 5" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="cereal2 body" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-69.55" ty="-59.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="69.55" y="59.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="eye" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="35.95" ty="-2.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.25" y="7.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="eye" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-53.55" ty="-31.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.25" y="7.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

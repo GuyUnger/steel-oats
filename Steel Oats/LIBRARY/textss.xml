@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="textss" itemID="66237b18-000002c6" lastModified="1713625551">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="textss" itemID="66237b18-000002c6" lastModified="1713709199">
   <timeline>
     <DOMTimeline name="textss" layerDepthEnabled="true">
       <layers>
@@ -18,6 +18,9 @@
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
+                  <filters>
+                    <DropShadowFilter blurX="0" blurY="0" distance="4"/>
+                  </filters>
                 </DOMDynamicText>
                 <DOMStaticText width="155.7" height="43.4" autoExpand="true" isSelectable="false">
                   <matrix>
@@ -31,6 +34,9 @@
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
+                  <filters>
+                    <DropShadowFilter blurX="0" blurY="0" distance="4"/>
+                  </filters>
                 </DOMStaticText>
                 <DOMDynamicText name="stage_num" width="27.9" height="60" autoExpand="true" isSelectable="false" lineType="multiline">
                   <matrix>
@@ -44,6 +50,9 @@
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
+                  <filters>
+                    <DropShadowFilter blurX="0" blurY="0" distance="4"/>
+                  </filters>
                 </DOMDynamicText>
               </elements>
             </DOMFrame>

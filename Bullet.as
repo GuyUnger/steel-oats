@@ -23,12 +23,26 @@
 			t += delta
 			if (t>1.0)
 				remove()
+			col()
 		}
 		
 		override function remove() {
 			super.remove()
 			Game.bullets.removeAt(Game.bullets.indexOf(this))
 		}
+		
+		function col() {
+			checking.x = x
+			checking.y = y
+
+			checking = Game.level.localToGlobal(checking)
+			
+			if(Game.level.ground.hitTestPoint(checking.x, checking.y, true)){
+				remove()
+			} 
+		}
+		var checking = new Point();
+		
 		
 	}
 }

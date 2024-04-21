@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="feet" itemID="661fccaf-000001fd" symbolType="graphic" lastModified="1713360047">
+  <timeline>
+    <DOMTimeline name="feet" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!550 164S2[550 234 565 314!565 314[580 394 580 442!580 442[580 474 591 537!591 537[595 591 568 622!568 622[492 707 90 707!90 707[32 707 10 670!10 670|0 632!0 632[0 588 40 570!40 570[86 549 225 537!225 537[379 524 417 482!417 482[430 469
+ 430 418!430 418[430 366 405 219!405 219[380 75 380 91!380 91[380 -42 465 19!465 19[498 43 523 85!523 85[550 129 550 164"/>
+                    <Edge cubics="!580 442(;580,568 710,707 90,707q580 442Q580 474q591 537Q595 591q568 622Q492 707q90 707)90,707;"/>
+                    <Edge cubics="!90 707(90,707;-3,707 0,632 0,632q90 707Q32 707q10 670Q0 632q0 632);"/>
+                    <Edge cubics="!0 632(;0,577 32,553 225,537q0 632Q0 588q40 570Q86 549q225 537);"/>
+                    <Edge cubics="!225 537(225,537;464,516 430,452 430,418q225 537Q379 524q417 482Q430 469q430 418);"/>
+                    <Edge cubics="!550 164(550,164;550,296 580,338 580,442q550 164Q550 234q565 314Q580 394q580 442);"/>
+                    <Edge cubics="!523 85(;541,114 550,141 550,164q523 85Q550 129q550 164);"/>
+                    <Edge cubics="!465 19(;487,35 506,57 523,85q465 19Q498 43q523 85);"/>
+                    <Edge cubics="!380 91(;380,2 408,-22 465,19q380 91Q380 -42q465 19);"/>
+                    <Edge cubics="!405 219(;388,123 380,80 380,91q405 219Q380 75q380 91);"/>
+                    <Edge cubics="!430 418(;430,383 422,317 405,219q430 418Q430 366q405 219);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

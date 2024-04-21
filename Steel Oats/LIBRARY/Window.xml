@@ -1,39 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Window" itemID="6623470c-0000023c" linkageExportForAS="true" linkageClassName="Window" lastModified="1713688566">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Window" itemID="6623470c-0000023c" linkageExportForAS="true" linkageClassName="Window" lastModified="1713722179">
   <timeline>
-    <DOMTimeline name="Window" currentFrame="1" layerDepthEnabled="true">
+    <DOMTimeline name="Window" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="Layer_4" color="#FF4FFF" locked="true" layerType="guide">
-          <frames>
-            <DOMFrame index="0" duration="4" keyMode="9728">
-              <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#191716"/>
-                    </FillStyle>
-                  </fills>
-                  <edges>
-                    <Edge fillStyle1="1" edges="!48227 -33763[48112 -33831 48044 -33950!48044 -33950[47975 -34070 47979 -34200!47979 -34200[47983 -34332 48063 -34448!48063 -34448[48141 -34563 48263 -34622!48263 -34622[48390 -34683 48535 -34672!48535 -34672[48681 -34661 48794 -34580
-!48794 -34580[48908 -34499 48964 -34364!48964 -34364[49020 -34227 48995 -34091!48995 -34091[48973 -33971 48892 -33872!48892 -33872[48811 -33775 48698 -33727!48698 -33727[48585 -33680 48458 -33690!48458 -33690[48332 -33700 48227 -33763"/>
-                    <Edge cubics="!48227 -33763(;48076,-33853 47973,-34025 47979,-34200q48227 -33763Q48112 -33831q48044 -33950Q47975 -34070q47979 -34200);"/>
-                    <Edge cubics="!47979 -34200(;47985,-34378 48103,-34544 48263,-34622q47979 -34200Q47983 -34332q48063 -34448Q48141 -34563q48263 -34622);"/>
-                    <Edge cubics="!48263 -34622(;48431,-34703 48642,-34688 48794,-34580q48263 -34622Q48390 -34683q48535 -34672Q48681 -34661q48794 -34580);"/>
-                    <Edge cubics="!48794 -34580(;48945,-34472 49029,-34274 48995,-34091q48794 -34580Q48908 -34499q48964 -34364Q49020 -34227q48995 -34091);"/>
-                    <Edge cubics="!48995 -34091(;48965,-33930 48848,-33790 48698,-33727q48995 -34091Q48973 -33971q48892 -33872Q48811 -33775q48698 -33727);"/>
-                    <Edge cubics="!48698 -33727(;48547,-33664 48367,-33679 48227,-33763q48698 -33727Q48585 -33680q48458 -33690Q48332 -33700q48227 -33763);"/>
-                    <Edge cubics="!48227 -33763(;48076,-33853 47973,-34025 47979,-34200q48227 -33763Q48112 -33831q48044 -33950Q47975 -34070q47979 -34200);"/>
-                    <Edge cubics="!47979 -34200(;47985,-34378 48103,-34544 48263,-34622q47979 -34200Q47983 -34332q48063 -34448Q48141 -34563q48263 -34622);"/>
-                    <Edge cubics="!48263 -34622(;48431,-34703 48642,-34688 48794,-34580q48263 -34622Q48390 -34683q48535 -34672Q48681 -34661q48794 -34580);"/>
-                    <Edge cubics="!48794 -34580(;48945,-34472 49029,-34274 48995,-34091q48794 -34580Q48908 -34499q48964 -34364Q49020 -34227q48995 -34091);"/>
-                    <Edge cubics="!48995 -34091(;48965,-33930 48848,-33790 48698,-33727q48995 -34091Q48973 -33971q48892 -33872Q48811 -33775q48698 -33727);"/>
-                    <Edge cubics="!48698 -33727(;48547,-33664 48367,-33679 48227,-33763q48698 -33727Q48585 -33680q48458 -33690Q48332 -33700q48227 -33763);"/>
-                  </edges>
-                </DOMShape>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer_3" color="#FF800A">
+        <DOMLayer name="Layer_3" color="#FF800A" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>
@@ -177,7 +146,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_1" color="#00FFFF" locked="true">
+        <DOMLayer name="Layer_1" color="#00FFFF">
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
@@ -188,7 +157,8 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!2447 -4047S2|2447 1831!2447 1831|-2428 1831!-2428 1831|-2428 -4047!-2428 -4047|2447 -4047"/>
+                    <Edge fillStyle1="1" edges="
+!2447 -4047|2447 1831!2447 1831|-2428 1831!-2428 1831|-2428 -4047!-2428 -4047|2447 -4047"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -278,7 +248,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_8" color="#FF4F4F" current="true" isSelected="true">
+        <DOMLayer name="Layer_8" color="#FF4F4F">
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>

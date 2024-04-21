@@ -1,0 +1,72 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 10" itemID="66251449-000006d9" lastModified="1713706146">
+  <timeline>
+    <DOMTimeline name="Symbol 10" currentFrame="39" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="8" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="cereal1" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-85.6" ty="-62.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="86.5" y="67.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="8" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="cereal2" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix a="1.09538269042969" d="1.09538269042969" tx="-82.9" ty="-68.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="76.9" y="59.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="8" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="cereal3" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-75.6" ty="-62.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="76.5" y="63.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="8" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="cereal4" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.972259521484375" d="0.972259521484375" tx="-85.6" ty="-62.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="87.65" y="68.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="32" duration="8" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="cereal5" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-75.6" ty="-62.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75.6" y="64.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

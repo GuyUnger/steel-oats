@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level3Collisions" itemID="66241685-000004a6" lastModified="1713641094">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level3Collisions" itemID="66241685-000004a6" lastModified="1713712902">
   <timeline>
     <DOMTimeline name="Level3Collisions" layerDepthEnabled="true">
       <layers>
@@ -9,7 +9,7 @@
                 <DOMShape>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor color="#2D2B22"/>
+                      <SolidColor color="#2D2B22" alpha="0.00784313725490196"/>
                     </FillStyle>
                   </fills>
                   <edges>

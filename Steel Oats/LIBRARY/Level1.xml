@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level1" itemID="66238021-0000031a" linkageExportForAS="true" linkageClassName="Level1" lastModified="1713681826">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level1" itemID="66238021-0000031a" linkageExportForAS="true" linkageClassName="Level1" lastModified="1713713173">
   <timeline>
     <DOMTimeline name="Level1" layerDepthEnabled="true">
       <layers>
@@ -283,7 +283,7 @@
                     <Point x="63" y="33.05"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="BushEnemy" selected="true">
+                <DOMSymbolInstance libraryItemName="BushEnemy">
                   <matrix>
                     <Matrix tx="1278.5" ty="-30.75"/>
                   </matrix>

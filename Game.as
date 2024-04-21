@@ -39,7 +39,8 @@
 		public static var banditsTotal = 0
 		public static var banditsKilled = 0
 		
-		
+		public static var show_cereal_t = 0
+		public static var cereals: Array = []
 		
 		public function Game() {
 			stage.addEventListener(KeyboardEvent.KEY_DOWN, keyDown)
@@ -73,7 +74,27 @@
 			
 			HUD.banTot.text = banditsTotal
 			HUD.banKill.text = banditsKilled
+			
+			if (show_cereal_t > 0) {
+				show_cereal_t -= delta
+				HUD.cereal.x = lerp(HUD.cereal.x, 0, delta *10)
+			} else {
+				if (HUD.cereal.x > -200) {
+					HUD.cereal.x -= delta * 200.0
+				}
+			}
+			HUD.hearts.gotoAndStop(4-hearts)
 		}
+		
+		static public function addCereal(name) {
+			if (cereals.indexOf(name) == -1){
+				cereals.push(name)
+			}
+			var count = cereals.length
+			show_cereal_t = 3
+			game.HUD.cereal.counter.text = count
+		}
+		
 		static public function showHud(value) {
 			game.HUD.visible = value
 		}
@@ -182,22 +203,33 @@
 		static public function loadLevel(num) {
 			banditsTotal = 0
 			banditsKilled = 0
-			level = new levels[num]()
-			game.levelContainer.addChild(level)
-			levelNum = num
-			exiting = false
-		}
-		
-		static public function nextLevel() {
 			if (level) {
 				level.parent.removeChild(level)
 				bullets = []
 				bulletsEnemy = []
 			}
+			level = new levels[num]()
+			game.levelContainer.addChild(level)
+			levelNum = num
+			exiting = false
+			hearts =3
+			bars_closed = false
+			
+		}
+		
+		static public var hearts = 3
+		
+		static public function removeHeart() {
+			hearts -= 1
+			if (hearts<=0){
+				game.stageInfo.setup(levelNum)
+			}
+		}
+		
+		static public function nextLevel() {
+			
 			game.stageInfo.setup(levelNum+1)
-trace(game.stageInfo)			
 			exiting = true
-			//loadLevel(levelNum+1)
 		}
 	}
 }

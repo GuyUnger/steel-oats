@@ -21,6 +21,7 @@
 					hit  = true
 					bullet.remove()
 					gotoAndPlay("opened")
+				Game.addCereal(name)
 				}
 			}
 		}

@@ -1,0 +1,62 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="hello" itemID="6625380e-000001dd" lastModified="1713716865" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="hello" currentFrame="14" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <tweens>
+                <Ease target="all" intensity="-100"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 15">
+                  <matrix>
+                    <Matrix a="0.882232666015625" d="0.882232666015625" tx="680.1" ty="527.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="10" tweenType="motion" motionTweenSnap="true" hasCustomEase="true" keyMode="22017">
+              <tweens>
+                <CustomEase target="all" name="My Ease 1">
+                  <Point/>
+                  <Point x="0.3577"/>
+                  <Point x="0.6667" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 15" centerPoint3DX="680.15" centerPoint3DY="527.15">
+                  <matrix>
+                    <Matrix a="1.09371948242188" b="0.104995727539062" c="-0.104995727539062" d="1.09371948242188" tx="680.1" ty="527.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.05" y="0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop()]]></script>
+              </Actionscript>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 15" centerPoint3DX="680.1" centerPoint3DY="527.1">
+                  <matrix>
+                    <Matrix tx="680.1" ty="527.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

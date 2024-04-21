@@ -1,0 +1,34 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="eye" itemID="661fcd66-00000210" symbolType="graphic" lastModified="1713360230">
+  <timeline>
+    <DOMTimeline name="eye" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!247 247S2[205 290 145 290!145 290[85 290 42 247!42 247[0 205 0 145!0 145[0 85 42 42!42 42[85 0 145 0!145 0[205 0 247 42!247 42[290 85 290 145!290 145[290 205 247 247"/>
+                    <Edge cubics="!247 42(;276,71 290,105 290,145q247 42Q290 85q290 145);"/>
+                    <Edge cubics="!145 0(;185,0 219,14 247,42q145 0Q205 0q247 42);"/>
+                    <Edge cubics="!42 42(;71,14 105,0 145,0q42 42Q85 0q145 0);"/>
+                    <Edge cubics="!0 145(0,145;0,105 14,71 42,42q0 145Q0 85q42 42);"/>
+                    <Edge cubics="!42 247(;14,219 0,185 0,145q42 247Q0 205q0 145);"/>
+                    <Edge cubics="!145 290(;105,290 71,276 42,247q145 290Q85 290q42 247);"/>
+                    <Edge cubics="!247 247(;219,276 185,290 145,290q247 247Q205 290q145 290);"/>
+                    <Edge cubics="!290 145(;290,185 276,219 247,247q290 145Q290 205q247 247)247,247;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

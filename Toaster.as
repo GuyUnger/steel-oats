@@ -48,6 +48,8 @@
 				if (x > Game.level.end.x - 550) {
 					if (Game.banditsKilled >= Game.banditsTotal){
 						velocityTo.x = 1
+						
+			Game.bars_closed = true
 						Game.sinceSpacePressed=99
 						if (x>Game.level.end.x) {
 							Game.nextLevel()
@@ -80,7 +82,7 @@
 				floorRight = floorLeft
 			}
 			var floorY = (floorLeft + floorRight) / 2
-
+			shadow.y = -(y-floorY)
 
 			if (!isOnFloor && y > floorY) {
 				isOnFloor = true

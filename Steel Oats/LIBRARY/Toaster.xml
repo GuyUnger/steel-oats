@@ -1,15 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Toaster" itemID="6600df88-00000133" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Toaster" lastModified="1713541622">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Toaster" itemID="6600df88-00000133" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Toaster" lastModified="1713713147">
   <timeline>
     <DOMTimeline name="Toaster" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="Layer_2" color="#9933CC">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements/>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+        <DOMLayer name="Layer_1" color="#00FFFF">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -19,6 +12,22 @@
                   </matrix>
                   <transformationPoint>
                     <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="shadow" name="shadow" selected="true">
+                  <matrix>
+                    <Matrix ty="-0.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>

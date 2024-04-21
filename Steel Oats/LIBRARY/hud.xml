@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="hud" itemID="6624c07e-000005ac" lastModified="1713688147">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="hud" itemID="6624c07e-000005ac" lastModified="1713711162" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="hud" layerDepthEnabled="true">
       <layers>
@@ -13,19 +13,37 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor/>
-                    </FillStyle>
-                  </fills>
-                  <edges>
-                    <Edge fillStyle1="1" edges="!-21588 -133|-17489 -133!-17489 -133|-18040 468!-18040 468|-21588 468!-21588 468|-21588 -133"/>
-                  </edges>
-                </DOMShape>
-                <DOMSymbolInstance libraryItemName="hearts">
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!95 -75[146 -65 238 -39!238 -39[323 -18 395 -18!395 -18[1235 -95 1511 -95!1511 -95[1647 -95 2015 -66!2015 -66[2384 -37 2461 -37!2461 -37[2685 -37 2809 -94!2809 -94[2932 -152 3070 -152!3070 -152[3123 -152 3224 -133!3224 -133[3312 -117
+ 3376 -123!3376 -123[3352 11 3173 171!3173 171[2959 339 2880 410!2880 410[2796 485 2031 485!2031 485[1483 485 1182 471!1182 471[881 457 0 457!0 457[-147 457 -175 450!-175 450[-256 430 -256 342!-256 342[-256 337 -284 210!-284 210[-313
+ 82 -313 42!-313 42[#FFFEC9.F3 #FFFFEB.33 -308 -75!-308 -75|95 -75"/>
+                        <Edge cubics="!-341 -75(;-341,-75 95,-75 95,-75q-341 -75 95 -75);"/>
+                        <Edge cubics="!95 -75(;196,-55 275,-18 395,-18q95 -75Q146 -65q238 -39Q323 -18q395 -18);"/>
+                        <Edge cubics="!395 -18(;398,-18 1235,-95 1511,-95q395 -18Q1235 -95q1511 -95);"/>
+                        <Edge cubics="!1511 -95(;1763,-95 2287,-37 2461,-37q1511 -95Q1647 -95q2015 -66Q2384 -37q2461 -37);"/>
+                        <Edge cubics="!2461 -37(;2880,-37 2766,-152 3070,-152q2461 -37Q2685 -37q2809 -94Q2932 -152q3070 -152);"/>
+                        <Edge cubics="!3070 -152(;3190,-152 3258,-112 3376,-123q3070 -152Q3123 -152q3224 -133Q3312 -117q3376 -123);"/>
+                        <Edge cubics="!3376 -123(;3337,92 3038,268 2880,410q3376 -123Q3352 11q3173 171Q2959 339q2880 410);"/>
+                        <Edge cubics="!2880 410(;2795,486 2183,485 2031,485q2880 410Q2796 485q2031 485);"/>
+                        <Edge cubics="!2031 485(;823,485 1652,457 0,457q2031 485Q1483 485q1182 471Q881 457q0 457);"/>
+                        <Edge cubics="!0 457(;-125,457 -256,477 -256,342q0 457Q-147 457q-175 450Q-256 430q-256 342);"/>
+                        <Edge cubics="!-256 342(;-256,321 -313,110 -313,42q-256 342Q-256 337q-284 210Q-313 82q-313 42);"/>
+                        <Edge cubics="!-313 42(;-313,17 -303,-171 -303,-285q-313 42Q-303 -171q-303 -285);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="hearts" name="hearts">
                   <matrix>
-                    <Matrix a="0.657974243164062" d="0.657974243164062" tx="-968.25" ty="-3.5"/>
+                    <Matrix a="0.657974243164062" d="0.657974243164062" tx="80.2" ty="-3.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point y="-0.1"/>
@@ -41,38 +59,44 @@
               <elements>
                 <DOMDynamicText name="banTot" left="66.25" width="33.75" height="43.4" isSelectable="false" lineType="multiline no wrap">
                   <matrix>
-                    <Matrix tx="-58.5" ty="-7.75"/>
+                    <Matrix tx="988.05" ty="-8.7"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>5</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" letterSpacing="4" lineHeight="40" size="40" bitmapSize="800" face="PeyoteHandwriteRegular" fillColor="#2D2B22"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" letterSpacing="4" lineHeight="40" size="40" bitmapSize="800" face="PeyoteHandwriteRegular" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
+                  <filters>
+                    <DropShadowFilter blurX="0" blurY="0" distance="4"/>
+                  </filters>
                 </DOMDynamicText>
                 <DOMDynamicText name="banKill" left="66.25" width="33.75" height="43.4" isSelectable="false" lineType="multiline no wrap">
                   <matrix>
-                    <Matrix a="1.54232788085938" d="1.54232788085938" tx="-142.6" ty="-34.5"/>
+                    <Matrix a="1.54232788085938" d="1.54232788085938" tx="903.95" ty="-35.45"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
-                      <characters>5</characters>
+                      <characters>0</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" letterSpacing="4" lineHeight="40" size="40" bitmapSize="800" face="PeyoteHandwriteRegular" fillColor="#2D2B22"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" letterSpacing="4" lineHeight="40" size="40" bitmapSize="800" face="PeyoteHandwriteRegular" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
+                  <filters>
+                    <DropShadowFilter blurX="0" blurY="0" distance="4"/>
+                  </filters>
                 </DOMDynamicText>
                 <DOMGroup>
                   <matrix>
-                    <Matrix tx="-1029.45" ty="-44.4"/>
+                    <Matrix tx="19" ty="-44.4"/>
                   </matrix>
                   <members>
                     <DOMShape>
                       <matrix>
-                        <Matrix tx="-1029.45" ty="-44.4"/>
+                        <Matrix tx="19" ty="-44.4"/>
                       </matrix>
                       <fills>
                         <FillStyle index="1">
@@ -100,10 +124,58 @@
                 </DOMGroup>
                 <DOMSymbolInstance libraryItemName="Symbol 2" name="banditsLeft">
                   <matrix>
-                    <Matrix tx="-487.65" ty="10.2"/>
+                    <Matrix tx="560.8" ty="10.2"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="cereal1" centerPoint3DX="-510.25" centerPoint3DY="1047.2">
+                  <matrix>
+                    <Matrix tx="-596.75" ty="979.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="86.5" y="67.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="cereal2" centerPoint3DX="-322" centerPoint3DY="1049.1">
+                  <matrix>
+                    <Matrix tx="-398.9" ty="989.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="76.9" y="59.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="cereal3" centerPoint3DX="-515.1" centerPoint3DY="1192.45">
+                  <matrix>
+                    <Matrix tx="-591.6" ty="1128.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="76.5" y="63.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="cereal4" centerPoint3DX="-325.3" centerPoint3DY="1196.9">
+                  <matrix>
+                    <Matrix tx="-413.05" ty="1128.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="87.75" y="68.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="cereal5" centerPoint3DX="-156.2" centerPoint3DY="1121.65">
+                  <matrix>
+                    <Matrix tx="-231.8" ty="1057.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75.6" y="64.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="cereals" name="cereal">
+                  <matrix>
+                    <Matrix tx="0.75" ty="599.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
