@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level1" itemID="66238021-0000031a" linkageExportForAS="true" linkageClassName="Level1" lastModified="1713734437">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level1" itemID="66238021-0000031a" linkageExportForAS="true" linkageClassName="Level1" lastModified="1713784064">
   <timeline>
     <DOMTimeline name="Level1" layerDepthEnabled="true">
       <layers>
@@ -58,7 +58,7 @@
                     <Edge cubics="!141186 -14386(;140918,-14133 140507,-14045 140155,-14158q141186 -14386Q140986 -14197q140702 -14135Q140420 -14073q140155 -14158);"/>
                   </edges>
                 </DOMShape>
-                <DOMSymbolInstance libraryItemName="ground" name="ground" selected="true">
+                <DOMSymbolInstance libraryItemName="ground" name="ground">
                   <matrix>
                     <Matrix tx="432.8" ty="-167.95"/>
                   </matrix>
@@ -68,7 +68,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="LevelWall" name="start">
                   <matrix>
-                    <Matrix tx="-2856.6" ty="-404"/>
+                    <Matrix tx="-3216.6" ty="-404"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
@@ -124,7 +124,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Toaster" name="toaster">
                   <matrix>
-                    <Matrix tx="-2554.6" ty="-179"/>
+                    <Matrix tx="-2698.6" ty="-179"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
@@ -154,6 +154,71 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
+                <DOMStaticText left="-139.95" width="423.9" height="36.9" autoExpand="true">
+                  <matrix>
+                    <Matrix tx="-2748.4" ty="-500.65"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>use a and d to walk</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" letterSpacing="2" lineHeight="36.9" size="34" bitmapSize="680" face="Font 1*"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText left="-132.35" width="408.7" height="36.9" autoExpand="true">
+                  <matrix>
+                    <Matrix tx="-1777" ty="-533.55"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>hold space to jump</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" letterSpacing="2" lineHeight="36.9" size="34" bitmapSize="680" face="Font 1*"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText left="-134.75" width="413.5" height="36.9" autoExpand="true">
+                  <matrix>
+                    <Matrix tx="-1771.4" ty="-914.9"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>use mouse to shoot</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" letterSpacing="2" lineHeight="36.9" size="34" bitmapSize="680" face="Font 1*"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText left="-124.4" width="392.8" height="36.9" autoExpand="true">
+                  <matrix>
+                    <Matrix tx="177.55" ty="-1062.3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>shoot all targets</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" letterSpacing="2" lineHeight="36.9" size="34" bitmapSize="680" face="Font 1*"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText left="-167.8" width="479.6" height="36.9" autoExpand="true">
+                  <matrix>
+                    <Matrix tx="2643.55" ty="-618.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>shoot all bandits too</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" letterSpacing="2" lineHeight="36.9" size="34" bitmapSize="680" face="Font 1*"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
               </elements>
             </DOMFrame>
           </frames>
@@ -163,16 +228,32 @@
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMGroup>
-                  <matrix>
-                    <Matrix ty="-240"/>
-                  </matrix>
                   <members>
-                    <DOMGroup>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!1121 -21525|8783 -21525!8783 -21525[9183 -21525 9183 -21125!9183 -21125|9183 -20604!9183 -20604[9183 -20204 8783 -20204!8783 -20204|1121 -20204!1121 -20204[721 -20204 721 -20604!721 -20604|721 -21125!721 -21125[721 -21525 1121 -21525
+!49712 -12683|58934 -12683!58934 -12683[59334 -12683 59334 -12283!59334 -12283|59334 -11722!59334 -11722[59334 -11322 58934 -11322!58934 -11322|49712 -11322!49712 -11322[49312 -11322 49312 -11722!49312 -11722|49312 -12283!49312 -12283
+[49312 -12683 49712 -12683!-38028 -18644|-30086 -18644!-30086 -18644[-29686 -18644 -29686 -18244!-29686 -18244|-29686 -17744!-29686 -17744[-29686 -17344 -30086 -17344!-30086 -17344|-38028 -17344!-38028 -17344[-38428 -17344 -38428 -17744
+!-38428 -17744|-38428 -18244!-38428 -18244[-38428 -18644 -38028 -18644!-38028 -11062|-30106 -11062!-30106 -11062[-29706 -11062 -29706 -10662!-29706 -10662|-29706 -10001!-29706 -10001[-29706 -9601 -30106 -9601!-30106 -9601|-38028 -9601
+!-38028 -9601[-38428 -9601 -38428 -10001!-38428 -10001|-38428 -10662!-38428 -10662[-38428 -11062 -38028 -11062!-57594 -10302|-49212 -10302!-49212 -10302[-48812 -10302 -48812 -9902!-48812 -9902|-48812 -9481!-48812 -9481[-48812 -9081 -49212
+ -9081!-49212 -9081|-57594 -9081!-57594 -9081[-57994 -9081 -57994 -9481!-57994 -9481|-57994 -9902!-57994 -9902[-57994 -10302 -57594 -10302"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup selected="true">
                       <matrix>
                         <Matrix ty="-240"/>
                       </matrix>
                       <members>
-                        <DOMShape>
+                        <DOMShape selected="true">
                           <matrix>
                             <Matrix ty="-240"/>
                           </matrix>
@@ -211,12 +292,12 @@
                         </DOMShape>
                       </members>
                     </DOMGroup>
-                    <DOMGroup>
+                    <DOMGroup selected="true">
                       <matrix>
                         <Matrix ty="-230"/>
                       </matrix>
                       <members>
-                        <DOMShape>
+                        <DOMShape selected="true">
                           <matrix>
                             <Matrix ty="-230"/>
                           </matrix>
@@ -292,7 +373,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="BushEnemy">
                   <matrix>
-                    <Matrix tx="1278.5" ty="-270.75"/>
+                    <Matrix tx="2737" ty="-270.75"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>

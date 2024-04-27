@@ -31,6 +31,7 @@
 		var sinceReturning = 0
 
 		var returningSpin = false
+		var inv  = 0
 
 		public function Bread() {
 			super()
@@ -59,6 +60,9 @@
 			if (hitT > 0) {
 				hitT -= delta
 			} else {
+				if (inv > 0){
+					inv -= 1/60
+				} else {
 				for (var i = 0; i < Game.bulletsEnemy.length; i++) {
 					var bullet = Game.bulletsEnemy[i]
 					if (pointsDistance(x, y, bullet.x, bullet.y) < 100) {
@@ -67,6 +71,7 @@
 						bullet.remove()
 					}
 				}
+			}
 			}
 		}
 
@@ -113,6 +118,7 @@
 			if (jumpHolding) {
 				if (Game.keySpaceJustReleased) {
 					jumpHolding = false
+					inv = 1.0
 					if (sinceJump > 0.3) {
 						returningSpin = true
 						gotoAndStop(3)
@@ -175,7 +181,7 @@
 
 			shootT -= 1 / 60
 			if (shootT <= 0 && shootPressed) {
-				shootT += 0.5
+				shootT += 0.4
 				shootBullet(0)
 				shootPressed = false
 				Game.speed = 1.0

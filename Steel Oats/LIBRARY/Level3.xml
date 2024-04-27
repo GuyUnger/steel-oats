@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level3" itemID="66241385-0000044c" linkageExportForAS="true" linkageClassName="Level3" lastModified="1713734747" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level3" itemID="66241385-0000044c" linkageExportForAS="true" linkageClassName="Level3" lastModified="1713735733" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="Level3" layerDepthEnabled="true">
       <layers>
@@ -91,7 +91,7 @@ Game.game.playSong(Game.game.music2)]]></script>
                     <Point x="-0.2" y="-0.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Cage" name="lepel" selected="true">
+                <DOMSymbolInstance libraryItemName="Cage" name="lepel">
                   <matrix>
                     <Matrix tx="2952.95" ty="-1529.05"/>
                   </matrix>

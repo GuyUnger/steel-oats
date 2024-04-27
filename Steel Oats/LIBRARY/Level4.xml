@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level4" itemID="66241395-00000476" linkageExportForAS="true" linkageClassName="Level4" lastModified="1713733318">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level4" itemID="66241395-00000476" linkageExportForAS="true" linkageClassName="Level4" lastModified="1713780411">
   <timeline>
     <DOMTimeline name="Level4" layerDepthEnabled="true">
       <layers>
@@ -12,36 +12,39 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+        <DOMLayer name="Layer_1" color="#00FFFF">
           <frames>
             <DOMFrame index="0" keyMode="9728">
-              <Actionscript>
-                <script><![CDATA[
-Game.game.playSong(Game.game.music1)]]></script>
-              </Actionscript>
               <elements>
-                <DOMShape selected="true" isFloating="true">
-                  <matrix>
-                    <Matrix ty="-144"/>
-                  </matrix>
+                <DOMShape>
                   <fills>
                     <FillStyle index="1">
                       <SolidColor color="#191716"/>
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!140155 -9358S2[139820 -9466 139615 -9778!139615 -9778[139408 -10094 139459 -10436!139459 -10436[139498 -10695 139678 -10908!139678 -10908[139854 -11117 140105 -11212!140105 -11212[140299 -11286 140509 -11282!140509 -11282[140722 -11278
- 140909 -11195!140909 -11195[141099 -11111 141242 -10955!141242 -10955[141386 -10798 141450 -10603!141450 -10603[141536 -10341 141462 -10058!141462 -10058[141388 -9777 141186 -9586!141186 -9586[140986 -9397 140702 -9335!140702 -9335[140420
- -9273 140155 -9358"/>
-                    <Edge cubics="!140155 -9358(;139712,-9500 139390,-9976 139459,-10436q140155 -9358Q139820 -9466q139615 -9778Q139408 -10094q139459 -10436);"/>
-                    <Edge cubics="!139459 -10436(;139512,-10785 139775,-11087 140105,-11212q139459 -10436Q139498 -10695q139678 -10908Q139854 -11117q140105 -11212);"/>
-                    <Edge cubics="!140105 -11212(;140362,-11310 140658,-11306 140909,-11195q140105 -11212Q140299 -11286q140509 -11282Q140722 -11278q140909 -11195);"/>
-                    <Edge cubics="!140909 -11195(;141161,-11083 141364,-10864 141450,-10603q140909 -11195Q141099 -11111q141242 -10955Q141386 -10798q141450 -10603);"/>
-                    <Edge cubics="!141450 -10603(;141565,-10252 141454,-9840 141186,-9586q141450 -10603Q141536 -10341q141462 -10058Q141388 -9777q141186 -9586);"/>
-                    <Edge cubics="!141186 -9586(;140918,-9333 140507,-9245 140155,-9358q141186 -9586Q140986 -9397q140702 -9335Q140420 -9273q140155 -9358);"/>
+                    <Edge fillStyle1="1" edges="!140155 -12238[139820 -12346 139615 -12658!139615 -12658[139408 -12974 139459 -13316!139459 -13316[139498 -13575 139678 -13788!139678 -13788[139854 -13997 140105 -14092!140105 -14092[140299 -14166 140509 -14162!140509 -14162[140722 -14158
+ 140909 -14075!140909 -14075[141099 -13991 141242 -13835!141242 -13835[141386 -13678 141450 -13483!141450 -13483[141536 -13221 141462 -12938!141462 -12938[141388 -12657 141186 -12466!141186 -12466[140986 -12277 140702 -12215!140702 -12215
+[140420 -12153 140155 -12238"/>
+                    <Edge cubics="!140155 -12238(;139712,-12380 139390,-12856 139459,-13316q140155 -12238Q139820 -12346q139615 -12658Q139408 -12974q139459 -13316);"/>
+                    <Edge cubics="!139459 -13316(;139512,-13665 139775,-13967 140105,-14092q139459 -13316Q139498 -13575q139678 -13788Q139854 -13997q140105 -14092);"/>
+                    <Edge cubics="!140105 -14092(;140362,-14190 140658,-14186 140909,-14075q140105 -14092Q140299 -14166q140509 -14162Q140722 -14158q140909 -14075);"/>
+                    <Edge cubics="!140909 -14075(;141161,-13963 141364,-13744 141450,-13483q140909 -14075Q141099 -13991q141242 -13835Q141386 -13678q141450 -13483);"/>
+                    <Edge cubics="!141450 -13483(;141565,-13132 141454,-12720 141186,-12466q141450 -13483Q141536 -13221q141462 -12938Q141388 -12657q141186 -12466);"/>
+                    <Edge cubics="!141186 -12466(;140918,-12213 140507,-12125 140155,-12238q141186 -12466Q140986 -12277q140702 -12215Q140420 -12153q140155 -12238);"/>
+                    <Edge cubics="!38179 317(;38179,317 38179,-9823 38179,-9823q38179 317 38179 -9823);"/>
+                    <Edge cubics="!25107 -9823(;25107,-9823 25107,-6376 25107,-6376q25107 -9823 25107 -6376);"/>
+                    <Edge cubics="!25107 -6376(;25107,-6376 11694,-6376 11694,-6376q25107 -6376 11694 -6376);"/>
+                    <Edge cubics="!38179 -9823(;38179,-9823 25107,-9823 25107,-9823q38179 -9823 25107 -9823);"/>
+                    <Edge cubics="!-92567 317(;-92567,317 -92567,6727 -92567,6727q-92567 317 -92567 6727);"/>
+                    <Edge cubics="!-92567 6727(;-92567,6727 79231,6727 79231,6727q-92567 6727 79231 6727);"/>
+                    <Edge cubics="!11694 -16994(;11694,-16994 79231,-16994 79231,-16994q11694 -16994 79231 -16994);"/>
+                    <Edge cubics="!79231 6727(;79231,6727 79231,-16994 79231,-16994q79231 6727 79231 -16994);"/>
+                    <Edge cubics="!11694 -6376(;11694,-6376 11694,-16994 11694,-16994q11694 -6376 11694 -16994);"/>
+                    <Edge cubics="!38179 317(;38179,317 -92567,317 -92567,317q38179 317 -92567 317);"/>
                   </edges>
                 </DOMShape>
-                <DOMSymbolInstance libraryItemName="LevelWall" name="start" selected="true">
+                <DOMSymbolInstance libraryItemName="LevelWall" name="start">
                   <matrix>
                     <Matrix tx="-2967.05" ty="-305.6"/>
                   </matrix>
@@ -49,7 +52,7 @@ Game.game.playSong(Game.game.music1)]]></script>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="LevelWall" name="end" selected="true">
+                <DOMSymbolInstance libraryItemName="LevelWall" name="end">
                   <matrix>
                     <Matrix tx="2185.65" ty="-1222.2"/>
                   </matrix>
@@ -57,7 +60,7 @@ Game.game.playSong(Game.game.music1)]]></script>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Bread" name="bread" selected="true" isVisible="false">
+                <DOMSymbolInstance libraryItemName="Bread" name="bread" isVisible="false">
                   <matrix>
                     <Matrix tx="-2566.35" ty="-160"/>
                   </matrix>
@@ -65,7 +68,7 @@ Game.game.playSong(Game.game.music1)]]></script>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Toaster" name="toaster" selected="true">
+                <DOMSymbolInstance libraryItemName="Toaster" name="toaster">
                   <matrix>
                     <Matrix tx="-2554.6" ty="-83"/>
                   </matrix>
@@ -73,7 +76,7 @@ Game.game.playSong(Game.game.music1)]]></script>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="level4collisions" name="ground" selected="true">
+                <DOMSymbolInstance libraryItemName="level4collisions" name="ground">
                   <matrix>
                     <Matrix ty="86.95"/>
                   </matrix>
@@ -89,19 +92,19 @@ Game.game.playSong(Game.game.music1)]]></script>
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
-                    <Matrix tx="48.05" ty="18.9"/>
+                    <Matrix d="0.970108032226562" tx="20.05" ty="17.5"/>
                   </matrix>
                   <members>
                     <DOMGroup selected="true">
                       <matrix>
-                        <Matrix tx="-448.55" ty="-51.75"/>
+                        <Matrix d="0.970108032226562" tx="-476.55" ty="-50.95"/>
                       </matrix>
                       <members>
                         <DOMShape selected="true">
                           <matrix>
-                            <Matrix tx="-448.55" ty="-51.75"/>
+                            <Matrix d="0.970108032226562" tx="-476.55" ty="-50.95"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -1712,7 +1715,7 @@ Game.game.playSong(Game.game.music1)]]></script>
                     </DOMGroup>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix tx="-1412.6" ty="-994.45"/>
                   </matrix>
@@ -3590,14 +3593,14 @@ Game.game.playSong(Game.game.music1)]]></script>
                     </DOMGroup>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
-                    <Matrix tx="-2539.35" ty="-2336.85"/>
+                    <Matrix tx="-2539.35" ty="-2376.85"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
-                        <Matrix tx="-2539.35" ty="-2336.85"/>
+                        <Matrix tx="-2539.35" ty="-2376.85"/>
                       </matrix>
                       <fills>
                         <FillStyle index="1">
@@ -3662,10 +3665,8 @@ Game.game.playSong(Game.game.music1)]]></script>
                         </StrokeStyle>
                       </strokes>
                       <edges>
-                        <Edge fillStyle1="1" edges="
-!3140 31183S2[2931 29971 2870 29612!2870 29612|2977 29594!2977 29594[3036 29549 3099 29504"/>
-                        <Edge fillStyle1="2" edges="
-!3559 45670S2|3424 45660!3424 45660[3324 45626 3268 45604!3268 45604[3166 45564 3111 45481!3111 45481[2876 45326 2610 44208!2610 44208[2583 44097 2431 43404!2431 43404[2344 43008 2306 42931!2306 42931|2306 42349!2306 42349|2530 42349
+                        <Edge fillStyle1="1" edges="!3140 31183S2[2931 29971 2870 29612!2870 29612|2977 29594!2977 29594[3036 29549 3099 29504"/>
+                        <Edge fillStyle1="2" edges="!3559 45670S2|3424 45660!3424 45660[3324 45626 3268 45604!3268 45604[3166 45564 3111 45481!3111 45481[2876 45326 2610 44208!2610 44208[2583 44097 2431 43404!2431 43404[2344 43008 2306 42931!2306 42931|2306 42349!2306 42349|2530 42349
 !2530 42349[2539 42253 2725 40851!2725 40851[2776 40471 2839 39997!2839 39997[2895 39578 2940 39240!2940 39240[3037 38497 3080 38144!3080 38144[3115 37850 3111 37825!3111 37825[3044 37343 3106 36804!3106 36804[3150 36406 3284 35860!3284
  35860[3438 35270 3499 34993!3499 34993[3603 34524 3603 34202!3603 34202[3603 34037 3519 33468!3519 33468[3465 33095 3374 32551!3374 32551[3313 32182 3235 31734!3235 31734[3200 31529 3168 31342!3168 31342[3154 31260 3140 31183!3099 29504
 [3231 29408 3377 29306!3377 29306[3895 28946 4578 28529!4578 28529[4628 28498 4680 28466!4680 28466[4702 28453 4723 28439!4723 28439[4982 28282 5221 28143!5221 28143[5910 27742 6422 27491!6422 27491|7853 27491!7853 27491[8549 27730 9641
@@ -4917,12 +4918,28 @@ Game.game.playSong(Game.game.music1)]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMSymbolInstance libraryItemName="Spring" selected="true">
+                <DOMSymbolInstance libraryItemName="Spring">
                   <matrix>
-                    <Matrix tx="-298.35" ty="-939.15"/>
+                    <Matrix tx="-326.35" ty="-873.15"/>
                   </matrix>
                   <transformationPoint>
                     <Point y="2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cage" name="baby">
+                  <matrix>
+                    <Matrix tx="1563.25" ty="-246.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.2" y="-0.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cage" name="muur">
+                  <matrix>
+                    <Matrix tx="-623.7" ty="-907.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.2" y="-0.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
@@ -4933,7 +4950,7 @@ Game.game.playSong(Game.game.music1)]]></script>
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Spring" selected="true">
+                <DOMSymbolInstance libraryItemName="Spring">
                   <matrix>
                     <Matrix tx="412.7" ty="-130.1"/>
                   </matrix>
@@ -4941,14 +4958,14 @@ Game.game.playSong(Game.game.music1)]]></script>
                     <Point y="2"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
-                    <Matrix tx="48.05" ty="18.9"/>
+                    <Matrix tx="18.05" ty="26.9"/>
                   </matrix>
                   <members>
                     <DOMSymbolInstance libraryItemName="Window" selected="true">
                       <matrix>
-                        <Matrix a="0.73193359375" d="0.73193359375" tx="-348.55" ty="-573.7"/>
+                        <Matrix a="0.73193359375" d="0.73193359375" tx="-378.55" ty="-565.7"/>
                       </matrix>
                       <transformationPoint>
                         <Point x="-0.05" y="-0.05"/>
@@ -4956,7 +4973,7 @@ Game.game.playSong(Game.game.music1)]]></script>
                     </DOMSymbolInstance>
                     <DOMSymbolInstance libraryItemName="Window" selected="true">
                       <matrix>
-                        <Matrix a="0.685577392578125" d="0.685577392578125" tx="-157.55" ty="-216.2"/>
+                        <Matrix a="0.685577392578125" d="0.685577392578125" tx="-187.55" ty="-208.2"/>
                       </matrix>
                       <transformationPoint>
                         <Point/>
@@ -4964,6 +4981,110 @@ Game.game.playSong(Game.game.music1)]]></script>
                     </DOMSymbolInstance>
                   </members>
                 </DOMGroup>
+                <DOMSymbolInstance libraryItemName="BushEnemy">
+                  <matrix>
+                    <Matrix tx="-1408.3" ty="-152.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cage" name="paal">
+                  <matrix>
+                    <Matrix tx="-1056.25" ty="-147.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.2" y="-0.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_5" color="#009999" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMShape selected="true">
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#DBBC32"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle0="1" edges="
+!-90967 1927|80831 1927!80831 1927|80831 -21794!80831 -21794|13294 -21794!13294 -21794|10810 -17305!10810 -17305|13294 -11176!13294 -11176|26707 -11176!26707 -11176|26707 -14623!26707 -14623|39779 -14623!39779 -14623|39779 -4483!39779
+ -4483|-23633 -5524!-23633 -5524|-90967 -4483!-90967 -4483|-90967 1927"/>
+                            <Edge cubics="!39779 -4483(;39779,-4483 39779,-14623 39779,-14623q39779 -4483 39779 -14623);"/>
+                            <Edge cubics="!26707 -14623(;26707,-14623 26707,-11176 26707,-11176q26707 -14623 26707 -11176);"/>
+                            <Edge cubics="!26707 -11176(;26707,-11176 13294,-11176 13294,-11176q26707 -11176 13294 -11176);"/>
+                            <Edge cubics="!39779 -14623(;39779,-14623 26707,-14623 26707,-14623q39779 -14623 26707 -14623);"/>
+                            <Edge cubics="!-90967 -4483(;-90967,-4483 -90967,1927 -90967,1927q-90967 -4483 -90967 1927);"/>
+                            <Edge cubics="!-90967 1927(;-90967,1927 80831,1927 80831,1927q-90967 1927 80831 1927);"/>
+                            <Edge cubics="!13294 -21794(;13294,-21794 80831,-21794 80831,-21794q13294 -21794 80831 -21794);"/>
+                            <Edge cubics="!80831 1927(;80831,1927 80831,-21794 80831,-21794q80831 1927 80831 -21794);"/>
+                            <Edge cubics="!13294 -11176(;13294,-11176 13294,-21794 13294,-21794q13294 -11176 13294 -21794);"/>
+                            <Edge cubics="!39779 -4483(;39779,-4483 -90967,-4483 -90967,-4483q39779 -4483 -90967 -4483);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMShape selected="true">
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#C88F2D"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle0="1" edges="
+!-93558 6438|78240 6438!78240 6438|78240 -17283!78240 -17283|10703 -17283!10703 -17283|10703 -6665!10703 -6665|24116 -6665!24116 -6665|24116 -10112!24116 -10112|37188 -10112!37188 -10112|37188 28!37188 28|2003 28!2003 28|-7610 1070!-7610
+ 1070|-93558 28!-93558 28|-93558 6438"/>
+                            <Edge cubics="!37188 28(;37188,28 37188,-10112 37188,-10112q37188 28 37188 -10112);"/>
+                            <Edge cubics="!24116 -10112(;24116,-10112 24116,-6665 24116,-6665q24116 -10112 24116 -6665);"/>
+                            <Edge cubics="!24116 -6665(;24116,-6665 10703,-6665 10703,-6665q24116 -6665 10703 -6665);"/>
+                            <Edge cubics="!37188 -10112(;37188,-10112 24116,-10112 24116,-10112q37188 -10112 24116 -10112);"/>
+                            <Edge cubics="!-93558 28(;-93558,28 -93558,6438 -93558,6438q-93558 28 -93558 6438);"/>
+                            <Edge cubics="!-93558 6438(;-93558,6438 78240,6438 78240,6438q-93558 6438 78240 6438);"/>
+                            <Edge cubics="!10703 -17283(;10703,-17283 78240,-17283 78240,-17283q10703 -17283 78240 -17283);"/>
+                            <Edge cubics="!78240 6438(;78240,6438 78240,-17283 78240,-17283q78240 6438 78240 -17283);"/>
+                            <Edge cubics="!10703 -6665(;10703,-6665 10703,-17283 10703,-17283q10703 -6665 10703 -17283);"/>
+                            <Edge cubics="!37188 28(;37188,28 -93558,28 -93558,28q37188 28 -93558 28);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="cactus 2" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="1856" ty="-1212.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="61.55" y="93.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="cactus 3" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-2930.05" ty="-328.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="63.05" y="133.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="cactus 1" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-993.8" ty="-387.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="107.65" y="134.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

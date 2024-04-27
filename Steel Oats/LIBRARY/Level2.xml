@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level2" itemID="6623ecf0-00000372" linkageExportForAS="true" linkageClassName="Level2" lastModified="1713733313">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level2" itemID="6623ecf0-00000372" linkageExportForAS="true" linkageClassName="Level2" lastModified="1713784391">
   <timeline>
     <DOMTimeline name="Level2" layerDepthEnabled="true">
       <layers>
@@ -16,28 +16,25 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape selected="true" isFloating="true">
-                  <matrix>
-                    <Matrix ty="-480"/>
-                  </matrix>
+                <DOMShape>
                   <fills>
                     <FillStyle index="1">
                       <SolidColor color="#191716"/>
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!140155 -9358S2[139820 -9466 139615 -9778!139615 -9778[139408 -10094 139459 -10436!139459 -10436[139498 -10695 139678 -10908!139678 -10908[139854 -11117 140105 -11212!140105 -11212[140299 -11286 140509 -11282!140509 -11282[140722 -11278
- 140909 -11195!140909 -11195[141099 -11111 141242 -10955!141242 -10955[141386 -10798 141450 -10603!141450 -10603[141536 -10341 141462 -10058!141462 -10058[141388 -9777 141186 -9586!141186 -9586[140986 -9397 140702 -9335!140702 -9335[140420
- -9273 140155 -9358"/>
-                    <Edge cubics="!140155 -9358(;139712,-9500 139390,-9976 139459,-10436q140155 -9358Q139820 -9466q139615 -9778Q139408 -10094q139459 -10436);"/>
-                    <Edge cubics="!139459 -10436(;139512,-10785 139775,-11087 140105,-11212q139459 -10436Q139498 -10695q139678 -10908Q139854 -11117q140105 -11212);"/>
-                    <Edge cubics="!140105 -11212(;140362,-11310 140658,-11306 140909,-11195q140105 -11212Q140299 -11286q140509 -11282Q140722 -11278q140909 -11195);"/>
-                    <Edge cubics="!140909 -11195(;141161,-11083 141364,-10864 141450,-10603q140909 -11195Q141099 -11111q141242 -10955Q141386 -10798q141450 -10603);"/>
-                    <Edge cubics="!141450 -10603(;141565,-10252 141454,-9840 141186,-9586q141450 -10603Q141536 -10341q141462 -10058Q141388 -9777q141186 -9586);"/>
-                    <Edge cubics="!141186 -9586(;140918,-9333 140507,-9245 140155,-9358q141186 -9586Q140986 -9397q140702 -9335Q140420 -9273q140155 -9358);"/>
+                    <Edge fillStyle1="1" edges="!140155 -18958[139820 -19066 139615 -19378!139615 -19378[139408 -19694 139459 -20036!139459 -20036[139498 -20295 139678 -20508!139678 -20508[139854 -20717 140105 -20812!140105 -20812[140299 -20886 140509 -20882!140509 -20882[140722 -20878
+ 140909 -20795!140909 -20795[141099 -20711 141242 -20555!141242 -20555[141386 -20398 141450 -20203!141450 -20203[141536 -19941 141462 -19658!141462 -19658[141388 -19377 141186 -19186!141186 -19186[140986 -18997 140702 -18935!140702 -18935
+[140420 -18873 140155 -18958"/>
+                    <Edge cubics="!140155 -18958(;139712,-19100 139390,-19576 139459,-20036q140155 -18958Q139820 -19066q139615 -19378Q139408 -19694q139459 -20036);"/>
+                    <Edge cubics="!139459 -20036(;139512,-20385 139775,-20687 140105,-20812q139459 -20036Q139498 -20295q139678 -20508Q139854 -20717q140105 -20812);"/>
+                    <Edge cubics="!140105 -20812(;140362,-20910 140658,-20906 140909,-20795q140105 -20812Q140299 -20886q140509 -20882Q140722 -20878q140909 -20795);"/>
+                    <Edge cubics="!140909 -20795(;141161,-20683 141364,-20464 141450,-20203q140909 -20795Q141099 -20711q141242 -20555Q141386 -20398q141450 -20203);"/>
+                    <Edge cubics="!141450 -20203(;141565,-19852 141454,-19440 141186,-19186q141450 -20203Q141536 -19941q141462 -19658Q141388 -19377q141186 -19186);"/>
+                    <Edge cubics="!141186 -19186(;140918,-18933 140507,-18845 140155,-18958q141186 -19186Q140986 -18997q140702 -18935Q140420 -18873q140155 -18958);"/>
                   </edges>
                 </DOMShape>
-                <DOMSymbolInstance libraryItemName="LevelWall" name="start" selected="true">
+                <DOMSymbolInstance libraryItemName="LevelWall" name="start">
                   <matrix>
                     <Matrix tx="-2983.7" ty="-1181.15"/>
                   </matrix>
@@ -45,7 +42,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="LevelWall" name="end" selected="true">
+                <DOMSymbolInstance libraryItemName="LevelWall" name="end">
                   <matrix>
                     <Matrix tx="2817.7" ty="-722.2"/>
                   </matrix>
@@ -53,7 +50,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Bread" name="bread" selected="true" isVisible="false">
+                <DOMSymbolInstance libraryItemName="Bread" name="bread" isVisible="false">
                   <matrix>
                     <Matrix tx="-2770.4" ty="-1112.6"/>
                   </matrix>
@@ -61,7 +58,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Toaster" name="toaster" selected="true">
+                <DOMSymbolInstance libraryItemName="Toaster" name="toaster">
                   <matrix>
                     <Matrix tx="-2758.65" ty="-1035.6"/>
                   </matrix>
@@ -69,12 +66,28 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="level2collision" name="ground" selected="true">
+                <DOMSymbolInstance libraryItemName="level2collision" name="ground">
                   <matrix>
                     <Matrix ty="-301.15"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="cactus 1" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="748.15" ty="-664.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="107.65" y="134.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="grass 3" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-1047.3" ty="-446.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.4" y="38.1"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
@@ -85,7 +98,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix ty="-516"/>
                   </matrix>
@@ -1977,18 +1990,32 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMGroup selected="true">
-                  <matrix>
-                    <Matrix ty="-480"/>
-                  </matrix>
+                <DOMGroup>
                   <members>
-                    <DOMShape selected="true">
-                      <matrix>
-                        <Matrix ty="-480"/>
-                      </matrix>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#996D22"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!-52852 -14123|-25766 -14123!-25766 -14123|-25766 -360!-25766 -360|-52852 -360!-52852 -360|-52852 -14123"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
                       <fills>
                         <FillStyle index="1">
                           <SolidColor color="#DBBC32"/>
+                        </FillStyle>
+                        <FillStyle index="2">
+                          <SolidColor color="#C5A723"/>
+                        </FillStyle>
+                        <FillStyle index="3">
+                          <SolidColor color="#C3A522"/>
                         </FillStyle>
                       </fills>
                       <strokes>
@@ -2001,38 +2028,70 @@
                         </StrokeStyle>
                       </strokes>
                       <edges>
+                        <Edge fillStyle0="1" edges="!-52690 -12977|-27086 -12977!-27086 -12977|-25798 -13657!-25798 -13657|-25798 -14798!-25798 -14798|-38189 -14798!-38189 -14798|-51907 -20880!-51907 -20880|-62103 -20880!-62103 -20880|-62103 -3058!-62103 -3058|-61223 -3058!-61223 -3058
+|-61223 6583!-61223 6583|64177 6583!64177 6583|64177 -11990!64177 -11990|47373 -12499"/>
+                        <Edge fillStyle0="3" fillStyle1="1" edges="
+!42251 -12499|41851 -9922!41851 -9922|47373 -12499"/>
+                        <Edge fillStyle0="3" edges="
+!47373 -12499|42251 -12499"/>
                         <Edge fillStyle0="1" edges="
-!-52690 4461|-52690 -3377!-52690 -3377|-25798 -3377!-25798 -3377|-25798 -5198!-25798 -5198|-38189 -5198!-38189 -5198|-51907 -11280!-51907 -11280|-62103 -11280!-62103 -11280|-62103 6542!-62103 6542|-61223 6542!-61223 6542|-61223 16183
-!-61223 16183|64177 16183!64177 16183|64177 -2390!64177 -2390|-18206 -870!-18206 -870|-23965 -870!-23965 -870|-27486.5 -289.5!-27486.5 -289.5|-40927 4461!-40927 4461|-51810 4461"/>
-                        <Edge fillStyle0="1" strokeStyle="1" edges="
-!-51810 4461|-52690 4461"/>
-                        <Edge cubics="!64177 16183(;64177,16183 64177,-2390 64177,-2390q64177 16183 64177 -2390);"/>
-                        <Edge cubics="!-61223 6542(;-61223,6542 -61223,16183 -61223,16183q-61223 6542 -61223 16183);"/>
-                        <Edge cubics="!-61223 16183(;-61223,16183 64177,16183 64177,16183q-61223 16183 64177 16183);"/>
-                        <Edge cubics="!64177 -2390(;64177,-2390 -18206,-870 -18206,-870q64177 -2390 -18206 -870);"/>
-                        <Edge cubics="!-27486 -289(;-27486,-289 -40927,4461 -40927,4461q-27486 -289 -40927 4461);"/>
-                        <Edge cubics="!-18206 -870(;-18206,-870 -23965,-870 -23965,-870q-18206 -870 -23965 -870);"/>
-                        <Edge cubics="!-40927 4461(;-40927,4461 -51810,4461 -51810,4461q-40927 4461 -51810 4461);"/>
-                        <Edge cubics="!-25798 -3377(;-25798,-3377 -25798,-5198 -25798,-5198q-25798 -3377 -25798 -5198);"/>
-                        <Edge cubics="!-25798 -5198(;-25798,-5198 -38189,-5198 -38189,-5198q-25798 -5198 -38189 -5198);"/>
-                        <Edge cubics="!-51907 -11280(;-51907,-11280 -62103,-11280 -62103,-11280q-51907 -11280 -62103 -11280);"/>
-                        <Edge cubics="!-52690 4461(;-52690,4461 -52690,-3377 -52690,-3377q-52690 4461 -52690 -3377);"/>
-                        <Edge cubics="!-38189 -5198(;-38189,-5198 -51907,-11280 -51907,-11280q-38189 -5198 -51907 -11280);"/>
-                        <Edge cubics="!-52690 -3377(;-52690,-3377 -25798,-3377 -25798,-3377q-52690 -3377 -25798 -3377);"/>
-                        <Edge cubics="!-61223 6542(;-61223,6542 -62103,6542 -62103,6542q-61223 6542 -62103 6542);"/>
-                        <Edge cubics="!-51810 4461(;-51810,4461 -52690,4461 -52690,4461q-51810 4461 -52690 4461);"/>
-                        <Edge cubics="!-62103 -11280(;-62103,-11280 -62103,6542 -62103,6542q-62103 -11280 -62103 6542);"/>
-                        <Edge cubics="!-27486 -289(;-27486,-289 -23965,-870 -23965,-870q-27486 -289 -23965 -870);"/>
+!42251 -12499|28929 -11752!28929 -11752|3360.5 -10868"/>
+                        <Edge fillStyle0="3" fillStyle1="1" edges="
+!-4320.5 -10726|-4320 -8522!-4320 -8522|3360.5 -10868"/>
+                        <Edge fillStyle0="1" edges="
+!-4320.5 -10726|-18206 -10470!-18206 -10470|-23965 -10470!-23965 -10470|-25725 -10179.5"/>
+                        <Edge fillStyle0="2" edges="
+!-25725 -10179.5|-27486 -9889!-27486 -9889|-40927 -5139!-40927 -5139|-51810 -5139"/>
+                        <Edge fillStyle0="1" fillStyle1="2" edges="
+!-25725 -10179.5|-28006 -2680!-28006 -2680|-54733 -760!-54733 -760|-55140 -14262!-55140 -14262|-52690 -12977"/>
+                        <Edge fillStyle0="2" edges="
+!-52690 -5139|-52690 -12977"/>
+                        <Edge fillStyle0="2" strokeStyle="1" edges="
+!-51810 -5139|-52690 -5139"/>
+                        <Edge fillStyle0="3" edges="
+!3360.5 -10868|-4320.5 -10726"/>
+                        <Edge cubics="!64177 6583(;64177,6583 64177,-11990 64177,-11990q64177 6583 64177 -11990);"/>
+                        <Edge cubics="!-61223 -3058(;-61223,-3058 -61223,6583 -61223,6583q-61223 -3058 -61223 6583);"/>
+                        <Edge cubics="!-61223 6583(;-61223,6583 64177,6583 64177,6583q-61223 6583 64177 6583);"/>
+                        <Edge cubics="!-27486 -9889(;-27486,-9889 -40927,-5139 -40927,-5139q-27486 -9889 -40927 -5139);"/>
+                        <Edge cubics="!-18206 -10470(;-18206,-10470 -23965,-10470 -23965,-10470q-18206 -10470 -23965 -10470);"/>
+                        <Edge cubics="!-40927 -5139(;-40927,-5139 -51810,-5139 -51810,-5139q-40927 -5139 -51810 -5139);"/>
+                        <Edge cubics="!-25798 -14798(;-25798,-14798 -38189,-14798 -38189,-14798q-25798 -14798 -38189 -14798);"/>
+                        <Edge cubics="!-51907 -20880(;-51907,-20880 -62103,-20880 -62103,-20880q-51907 -20880 -62103 -20880);"/>
+                        <Edge cubics="!-38189 -14798(;-38189,-14798 -51907,-20880 -51907,-20880q-38189 -14798 -51907 -20880);"/>
+                        <Edge cubics="!-61223 -3058(;-61223,-3058 -62103,-3058 -62103,-3058q-61223 -3058 -62103 -3058);"/>
+                        <Edge cubics="!-51810 -5139(;-51810,-5139 -52690,-5139 -52690,-5139q-51810 -5139 -52690 -5139);"/>
+                        <Edge cubics="!-62103 -20880(;-62103,-20880 -62103,-3058 -62103,-3058q-62103 -20880 -62103 -3058);"/>
+                        <Edge cubics="!-25798 -13657(;-25798,-13657 -25798,-14798 -25798,-14798q-25798 -13657 -25798 -14798);"/>
+                        <Edge cubics="!-23965 -10470(;-23965,-10470 -25725,-10179 -25725,-10179q-23965 -10470 -25725 -10179);"/>
+                        <Edge cubics="!-25725 -10179(;-25725,-10179 -28006,-2680 -28006,-2680q-25725 -10179 -28006 -2680);"/>
+                        <Edge cubics="!-25725 -10179(;-25725,-10179 -27486,-9889 -27486,-9889q-25725 -10179 -27486 -9889);"/>
+                        <Edge cubics="!-27086 -12977(;-27086,-12977 -25798,-13657 -25798,-13657q-27086 -12977 -25798 -13657);"/>
+                        <Edge cubics="!-55140 -14262(;-55140,-14262 -52690,-12977 -52690,-12977q-55140 -14262 -52690 -12977);"/>
+                        <Edge cubics="!-52690 -5139(;-52690,-5139 -52690,-12977 -52690,-12977q-52690 -5139 -52690 -12977);"/>
+                        <Edge cubics="!-54733 -760(;-54733,-760 -55140,-14262 -55140,-14262q-54733 -760 -55140 -14262);"/>
+                        <Edge cubics="!-52690 -12977(;-52690,-12977 -27086,-12977 -27086,-12977q-52690 -12977 -27086 -12977);"/>
+                        <Edge cubics="!-28006 -2680(;-28006,-2680 -54733,-760 -54733,-760q-28006 -2680 -54733 -760);"/>
+                        <Edge cubics="!-4320 -10726(;-4320,-10726 -18206,-10470 -18206,-10470q-4320 -10726 -18206 -10470);"/>
+                        <Edge cubics="!64177 -11990(;64177,-11990 46133,-11657 46133,-11657q64177 -11990 46133 -11657);"/>
+                        <Edge cubics="!46133 -11657(;46133,-11657 41851,-11578 41851,-11578q46133 -11657 41851 -11578);"/>
+                        <Edge cubics="!41851 -11578(;41851,-11578 3361,-10868 3361,-10868q41851 -11578 3361 -10868);"/>
+                        <Edge cubics="!3361 -10868(;3361,-10868 -4320,-10726 -4320,-10726q3361 -10868 -4320 -10726);"/>
+                        <Edge cubics="!-4320 -10726(;-4320,-10726 -4320,-8522 -4320,-8522q-4320 -10726 -4320 -8522);"/>
+                        <Edge cubics="!-4320 -8522(;-4320,-8522 3361,-10868 3361,-10868q-4320 -8522 3361 -10868);"/>
+                        <Edge cubics="!41851 -9962(;41851,-9962 46133,-11657 46133,-11657q41851 -9962 46133 -11657);"/>
+                        <Edge cubics="!41851 -9962(;41851,-9962 41851,-11578 41851,-11578q41851 -9962 41851 -11578);"/>
+                        <Edge cubics="!41851 -11578(;41851,-11578 41851,-12163 41851,-12163q41851 -11578 41851 -12163);"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix ty="-480"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix ty="-480"/>
                       </matrix>
@@ -2148,7 +2207,7 @@
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMSymbolInstance libraryItemName="BushEnemy" selected="true">
+                <DOMSymbolInstance libraryItemName="BushEnemy">
                   <matrix>
                     <Matrix tx="-1482.45" ty="-782.75"/>
                   </matrix>
@@ -2156,7 +2215,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Cage" name="aaa" selected="true">
+                <DOMSymbolInstance libraryItemName="Cage" name="aaa">
                   <matrix>
                     <Matrix tx="-2557.95" ty="-215.8"/>
                   </matrix>
@@ -2164,7 +2223,7 @@
                     <Point y="-0.05"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix ty="-480"/>
                   </matrix>
@@ -4081,12 +4140,52 @@
                     </DOMGroup>
                   </members>
                 </DOMGroup>
-                <DOMSymbolInstance libraryItemName="BushEnemy" selected="true">
+                <DOMSymbolInstance libraryItemName="BushEnemy">
                   <matrix>
                     <Matrix tx="494.05" ty="-545.4"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="cactus 2" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="1336.3" ty="-702.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="61.55" y="93.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="cactus 3" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-48.9" ty="-783.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="63.05" y="133.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="grass 3" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="676.75" ty="-591.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.4" y="38.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="grass 2" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="152.3" ty="-581.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="63" y="33.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="grass 1" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-2460.25" ty="-296.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="76.1" y="40"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>

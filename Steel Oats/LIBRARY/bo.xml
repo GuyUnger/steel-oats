@@ -1,19 +1,19 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="bo" itemID="66256cb0-000002c1" lastModified="1713728743">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="bo" itemID="66256cb0-000002c1" lastModified="1713780315">
   <timeline>
-    <DOMTimeline name="bo" currentFrame="8" layerDepthEnabled="true">
+    <DOMTimeline name="bo" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="Layer_3" color="#FF800A">
+        <DOMLayer name="Layer_3" color="#FF800A" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" duration="19" keyMode="9728">
               <elements>
                 <DOMShape>
                   <strokes>
                     <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal">
+                      <RaggedStroke scaleMode="normal" weight="3" sharpCorners="true" pattern="solid">
                         <fill>
                           <SolidColor/>
                         </fill>
-                      </SolidStroke>
+                      </RaggedStroke>
                     </StrokeStyle>
                   </strokes>
                   <edges>
@@ -42,7 +42,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
+        <DOMLayer name="Layer_2" color="#9933CC">
           <frames>
             <DOMFrame index="0" duration="19" tweenType="shape" keyMode="17922">
               <MorphShape>

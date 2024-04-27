@@ -1,0 +1,41 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 23" itemID="66259d2b-000005c5" lastModified="1713741099">
+  <timeline>
+    <DOMTimeline name="Symbol 23" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix tx="3.4" ty="131.5"/>
+                  </matrix>
+                  <members>
+                    <DOMShape selected="true">
+                      <matrix>
+                        <Matrix tx="3.4" ty="131.5"/>
+                      </matrix>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <RaggedStroke scaleMode="normal" weight="8" pattern="solid" waveHeight="flat">
+                            <fill>
+                              <SolidColor color="#CCCCCC"/>
+                            </fill>
+                          </RaggedStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!-417 -2630S4[-418 -2640 -418 -2650!-418 -2650[-419 -2662 -419 -2675!-419 -2675[-419 -2863 -316 -2996!-316 -2996[-213 -3128 -68 -3128!-68 -3128[78 -3128 180 -2996!180 -2996[283 -2863 283 -2675!283 -2675[283 -2662 283 -2650!283 -2650[282
+ -2640 282 -2630"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

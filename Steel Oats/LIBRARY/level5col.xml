@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="level5col" itemID="662416a4-000004ae" lastModified="1713727397">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="level5col" itemID="662416a4-000004ae" lastModified="1713780219">
   <timeline>
     <DOMTimeline name="level5col" layerDepthEnabled="true">
       <layers>
@@ -9,7 +9,7 @@
                 <DOMShape>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor color="#2D2B22"/>
+                      <SolidColor color="#2D2B22" alpha="0.00784313725490196"/>
                     </FillStyle>
                   </fills>
                   <edges>

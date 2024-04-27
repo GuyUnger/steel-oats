@@ -1,8 +1,15 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 19" itemID="66257539-000002f5" lastModified="1713731209" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 19" itemID="66257539-000002f5" lastModified="1713735329" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="Symbol 19" currentFrame="1" layerDepthEnabled="true">
+    <DOMTimeline name="Symbol 19" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="Layer_4" color="#FF4FFF">
+        <DOMLayer name="Layer_5" color="#009999">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_4" color="#FF4FFF" current="true" isSelected="true" visible="false" layerType="guide">
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <Actionscript>
@@ -25,7 +32,7 @@ function click(_) {
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_3" color="#FF800A" current="true" isSelected="true">
+        <DOMLayer name="Layer_3" color="#FF800A">
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>

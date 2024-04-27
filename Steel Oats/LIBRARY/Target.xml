@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Target" itemID="66224f23-0000016b" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Target" lastModified="1713604195">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Target" itemID="66224f23-0000016b" linkageExportForAS="true" linkageBaseClass="GuyClip" linkageClassName="Target" lastModified="1713783838">
   <timeline>
     <DOMTimeline name="Target" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="Layer_2" color="#9933CC">
+        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
@@ -38,6 +38,7 @@ function update() {
 
 				x += delta.x * 20
 				y += delta.y * 20
+				
 			}
 		}
 	}
@@ -50,12 +51,13 @@ function update() {
 
 function setHit(value) {
 	hit = value
-	alpha = value ? 0.5 : 1
+	//alpha = value ? 0.5 : 1
+	gotoAndStop(value ? 4 : 3)
 }]]></script>
               </Actionscript>
               <elements/>
             </DOMFrame>
-            <DOMFrame index="1" keyMode="9728">
+            <DOMFrame index="1" duration="2" keyMode="9728">
               <Actionscript>
                 <script><![CDATA[stop()
 spawnX = x
@@ -64,9 +66,15 @@ spawned = true]]></script>
               </Actionscript>
               <elements/>
             </DOMFrame>
+            <DOMFrame index="3" keyMode="9728" soundName="bullet_ricochet_3.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+        <DOMLayer name="Layer_1" color="#00FFFF">
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
@@ -173,6 +181,199 @@ spawned = true]]></script>
                         <Edge fillStyle1="1" edges="
 !11906 2571[11906 2616 11874 2647!11874 2647[11843 2679 11798 2679!11798 2679[11753 2679 11722 2647!11722 2647[11690 2616 11690 2571!11690 2571[11690 2526 11722 2494!11722 2494[11753 2463 11798 2463!11798 2463[11843 2463 11874 2494!11874
  2494[11906 2526 11906 2571"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="1.414794921875" d="1.414794921875" tx="-5.8" ty="3"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="1.414794921875" d="1.414794921875" tx="-5.8" ty="3"/>
+                      </matrix>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <RaggedStroke scaleMode="normal" weight="8" pattern="solid" waveHeight="flat">
+                            <fill>
+                              <SolidColor color="#8D0C2A"/>
+                            </fill>
+                          </RaggedStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!776 1[776 270 585 460!585 460[395 651 126 651!126 651[-144 651 -335 460!-335 460[-525 270 -525 1!-525 1[-525 -269 -335 -460!-335 -460[-144 -650 126 -650!126 -650[395 -650 585 -460!585 -460[776 -269 776 1"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="1.414794921875" d="1.414794921875" tx="-834.85" ty="-182.3"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="1.414794921875" d="1.414794921875" tx="-834.85" ty="-182.3"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <RaggedStroke scaleMode="normal" weight="8" pattern="solid" waveHeight="flat">
+                            <fill>
+                              <SolidColor color="#E71B1B"/>
+                            </fill>
+                          </RaggedStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle1="1" strokeStyle="1" edges="!12446 2571[12446 2840 12255 3030!12255 3030[12065 3221 11796 3221!11796 3221[11526 3221 11335 3030!11335 3030[11145 2840 11145 2571!11145 2571[11145 2301 11335 2110!11335 2110[11526 1920 11796 1920!11796 1920[12065 1920 12255 2110!12255
+ 2110[12446 2301 12446 2571"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="1.414794921875" d="1.414794921875" tx="-834.15" ty="-182.3"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="1.414794921875" d="1.414794921875" tx="-834.15" ty="-182.3"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <RaggedStroke scaleMode="normal" weight="8" pattern="solid" waveHeight="flat">
+                            <fill>
+                              <SolidColor color="#E71B1B"/>
+                            </fill>
+                          </RaggedStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle1="1" strokeStyle="1" edges="
+!12146 2566[12146 2710 12043 2817!12043 2817[11939 2924 11793 2924!11793 2924[11647 2924 11544 2821!11544 2821[11440 2717 11440 2571!11440 2571[11440 2425 11544 2322!11544 2322[11647 2218 11793 2218!11793 2218[11939 2218 12043 2321!12043
+ 2321[12146 2423 12146 2566"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="1.2005615234375" d="1.2005615234375" tx="-708.25" ty="-155.1"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="1.2005615234375" d="1.2005615234375" tx="-708.25" ty="-155.1"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#E71B1B"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="
+!11906 2571[11906 2616 11874 2647!11874 2647[11843 2679 11798 2679!11798 2679[11753 2679 11722 2647!11722 2647[11690 2616 11690 2571!11690 2571[11690 2526 11722 2494!11722 2494[11753 2463 11798 2463!11798 2463[11843 2463 11874 2494!11874
+ 2494[11906 2526 11906 2571"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <RaggedStroke scaleMode="normal" weight="8" pattern="solid" waveHeight="flat">
+                            <fill>
+                              <SolidColor color="#0C528D"/>
+                            </fill>
+                          </RaggedStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!982 61[982 442 712 711!712 711[443 981 62 981!62 981[-320 981 -590 711!-590 711[-859 442 -859 61!-859 61[-859 -321 -590 -591!-590 -591[-320 -860 62 -860!62 -860[443 -860 712 -591!712 -591[982 -321 982 61"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <RaggedStroke scaleMode="normal" weight="8" pattern="solid" waveHeight="flat">
+                            <fill>
+                              <SolidColor color="#2FB0FF"/>
+                            </fill>
+                          </RaggedStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle1="1" strokeStyle="1" edges="!912 -9[912 372 641 641!641 641[373 911 -8 911!-8 911[-390 911 -660 641!-660 641[-929 372 -929 -9!-929 -9[-929 -391 -660 -661!-660 -661[-390 -930 -8 -930!-8 -930[373 -930 641 -661!641 -661[912 -391 912 -9"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <RaggedStroke scaleMode="normal" weight="8" pattern="solid" waveHeight="flat">
+                            <fill>
+                              <SolidColor color="#2FB0FF"/>
+                            </fill>
+                          </RaggedStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle1="1" strokeStyle="1" edges="!501 -16[501 188 355 339!355 339[208 491 2 491!2 491[-205 491 -351 345!-351 345[-498 198 -498 -9!-498 -9[-498 -215 -351 -361!-351 -361[-205 -508 2 -508!2 -508[208 -508 355 -362!355 -362[501 -218 501 -16"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#2FB0FF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!129 -15[129 39 90 76!90 76[53 114 -1 114!-1 114[-55 114 -92 76!-92 76[-130 39 -130 -15!-130 -15[-130 -69 -92 -108!-92 -108[-55 -145 -1 -145!-1 -145[53 -145 90 -108!90 -108[129 -69 129 -15"/>
                       </edges>
                     </DOMShape>
                   </members>

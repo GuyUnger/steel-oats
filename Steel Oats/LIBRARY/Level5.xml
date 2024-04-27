@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level5" itemID="6624139f-000004a0" linkageExportForAS="true" linkageClassName="Level5" lastModified="1713733320">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Level5" itemID="6624139f-000004a0" linkageExportForAS="true" linkageClassName="Level5" lastModified="1713780434">
   <timeline>
     <DOMTimeline name="Level5" layerDepthEnabled="true">
       <layers>
@@ -44,7 +44,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="LevelWall" name="end">
                   <matrix>
-                    <Matrix tx="1063" ty="-277.9"/>
+                    <Matrix tx="570.9" ty="-281.45"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
@@ -1451,6 +1451,14 @@ Game.game.playSong(Game.game.music3)]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
+                <DOMSymbolInstance libraryItemName="cactus 3" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="407.8" ty="-454.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="63.05" y="133.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
@@ -1495,6 +1503,64 @@ Game.game.playSong(Game.game.music3)]]></script>
 !-7363 -16461|6169 -16461!6169 -16461|6169 -6723!6169 -6723|-7363 -6723!-7363 -6723|-7363 -16461"/>
                   </edges>
                 </DOMShape>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix tx="-2403.55" ty="-2046.05"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix tx="-2403.55" ty="-2046.05"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#DBBC32"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!77582 35638S1|7687 35638!7687 35638|7687 47109!7687 47109|77582 47109!77582 47109|77582 35638"/>
+                        <Edge cubics="!77582 47109(;77582,47109 77582,35638 77582,35638q77582 47109 77582 35638);"/>
+                        <Edge cubics="!7687 35638(;7687,35638 7687,47109 7687,47109q7687 35638 7687 47109);"/>
+                        <Edge cubics="!77582 35638(;77582,35638 7687,35638 7687,35638q77582 35638 7687 35638);"/>
+                        <Edge cubics="!7687 47109(;7687,47109 77582,47109 77582,47109q7687 47109 77582 47109);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="1.03834533691406" d="1.10125732421875" tx="-2417.8" ty="-2249.3"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="1.03834533691406" d="1.10125732421875" tx="-2417.8" ty="-2249.3"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#C88F2D"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!74990 40148S1|7454 40148!7454 40148|7454 46468!7454 46468|74990 46468!74990 46468|74990 40148"/>
+                        <Edge cubics="!7454 40148(;7454,40148 74990,40148 74990,40148q7454 40148 74990 40148);"/>
+                        <Edge cubics="!74990 46468(;74990,46468 74990,40148 74990,40148q74990 46468 74990 40148);"/>
+                        <Edge cubics="!7454 46468(;7454,46468 7454,40148 7454,40148q7454 46468 7454 40148);"/>
+                        <Edge cubics="!7454 46468(;7454,46468 74990,46468 74990,46468q7454 46468 74990 46468);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="cactus 1" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-1229.4" ty="-412.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="107.65" y="134.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
